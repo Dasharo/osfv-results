@@ -1,0 +1,181 @@
+Test name,Test ID,MS7D25 MSI PRO Z690-A WiFi DDR4 #1 v1.1.3,MS7D25 MSI PRO Z690-A WiFi DDR4 #2 v1.1.3,MS7D25 MSI PRO Z690-A DDR5 #1 v1.1.3
+TPM Support (Ubuntu 22.04),TPM001.002,PASS,PASS,PASS
+TPM Support (WIndows 11),TPM001.003,PASS,PASS,PASS
+Verify TPM version (firmware),TPM002.001,PASS,PASS,PASS
+Verify TPM version (Ubuntu 22.04),TPM002.002,PASS,PASS,PASS
+Verify TPM version (Windows 11),TPM002.003,PASS,PASS,PASS
+Check TPM Physical Presence Interface (firmware),TPM003.001,PASS,PASS,PASS
+Check TPM Physical Presence Interface (Ubuntu 22.04),TPM003.002,PASS,PASS,PASS
+Check TPM Physical Presence Interface (Windows 11),TPM003.003,PASS,PASS,PASS
+Change active PCR banks with TPM PPI (firmware),TPM003.004,FAIL,FAIL,FAIL
+Verified boot support (Ubuntu 22.04),VBO006.002,PASS,PASS,PASS
+Booting from Slot A (Ubuntu 22.04),VBO007.002,PASS,PASS,PASS
+Booting from Recovery (Ubuntu 22.04),VBO008.001,PASS,PASS,PASS
+Recovery boot popup (firmware),VBO009.001,PASS,PASS,PASS
+Recovery boot popup confirmation (firmware),VBO010.001,PASS,PASS,PASS
+Recovery popup is not displayed when correctly signed firmware is flashed in RW_A,VBO011.001,PASS,PASS,PASS
+BIOS lock support (Ubuntu 22.04),BLS001.001,PASS,PASS,PASS
+BIOS lock support deactivation (Ubuntu 22.04),BLS002.001,PASS,PASS,PASS
+Measured Boot support (Ubuntu 22.04),MBO001.001,PASS,PASS,PASS
+Check Secure Boot default state (firmware),SBO001.001,PASS,PASS,PASS
+UEFI Secure Boot (Ubuntu 22.04),SBO002.001,PASS,PASS,PASS
+UEFI Secure Boot (Windows 11),SBO002.002,PASS,PASS,PASS
+Attempt to boot file with the correct key from Shell (firmware),SBO003.001,PASS,PASS,PASS
+Attempt to boot file without the key from Shell (firmware),SBO004.001,PASS,PASS,PASS
+Attempt to boot file with the wrong-signed key from Shell (firmware),SBO005.001,PASS,PASS,PASS
+Reset Secure Boot Keys option availability (firmware),SBO006.001,PASS,PASS,PASS
+Attempt to boot the file after restoring keys to default (firmware),SBO007.001,PASS,PASS,PASS
+Attempt to enroll the key in the incorrect format (firmware),SBO008.001,PASS,PASS,PASS
+Check Password Setup option availability and default state,PSW001.001,PASS,PASS,PASS
+Password setting mechanism correctness checking,PSW002.001,PASS,PASS,PASS
+Attempt to log in with a correct password,PSW003.001,PASS,PASS,PASS
+Attempt to log in with an incorrect password,PSW004.001,PASS,PASS,PASS
+Attempt to log in with an incorrect password 3 times,PSW005.001,PASS,PASS,PASS
+Attempt to turn off setup password functionality,PSW006.001,PASS,PASS,PASS
+Attempt to set non-compilant password,PSW007.001,PASS,PASS,PASS
+Attempt to set old password,PSW008.001,PASS,PASS,PASS
+TCG OPAL disk password set and check,DMP001.001,PASS,PASS,PASS
+ME disable option is available and has the correct default state,MNE001.001,PASS,PASS,PASS
+ME disable option off works correctly (Ubuntu 22.04),MNE002.001,PASS,PASS,PASS
+ME disable option soft disable works correctly (Ubuntu 22.04),MNE003.001,PASS,PASS,PASS
+ME disable HAP bit option works correctly (Ubuntu 22.04),MNE004.001,PASS,PASS,PASS
+Check Intel ME version,MNE006.001,PASS,PASS,PASS
+Enable early boot DMA protection support,EDP001.001,PASS,PASS,PASS
+Disable early boot DMA protection support,EDP002.001,PASS,PASS,PASS
+Enable USB Mass Storage (firmware),USS003.001,PASS,PASS,PASS
+Disable USB Mass Storage (firmware),USS004.001,PASS,PASS,PASS
+Enable Network Boot (firmware),NBA001.001,PASS,PASS,PASS
+Disable Network Boot (firmware),NBA002.001,PASS,PASS,PASS
+SMM BIOS write protection enabling (Ubuntu 22.04),BLS001.001,PASS,PASS,PASS
+SMM BIOS write protection disabling (Ubuntu 22.04),BLS002.001,PASS,PASS,PASS
+Custom boot menu key,CBK001.001,PASS,PASS,PASS
+Custom BIOS Menu Key,CBK002.001,PASS,PASS,PASS
+Custom boot logo,CLG001.001,PASS,PASS,PASS
+USB devices detected in FW,USB001.001,PASS,PASS,PASS
+USB devices detected by OS (Ubuntu 22.04),USB001.002,PASS,PASS,PASS
+USB devices detected by OS (Windows 11),USB001.003,PASS,PASS,PASS
+USB keyboard detected in FW,USB002.001,PASS,PASS,PASS
+USB keyboard in OS (Ubuntu 22.04),USB002.002,PASS,PASS,PASS
+USB keyboard in OS (Windows 11),USB002.003,PASS,PASS,PASS
+Boot into UEFI OS (Ubuntu 22.04),EFI001.001,PASS,PASS,PASS
+Boot into UEFI OS (Windows 11),EFI001.002,PASS,PASS,PASS
+UEFI Shell,USH001.001,PASS,PASS,PASS
+NVMe support in firmware,NVM001.001 ,PASS,PASS,PASS
+NVMe support in OS (Ubuntu 20.04),NVM001.002 ,PASS,PASS,PASS
+NVMe support in OS (Windows 10),NVM001.003,PASS,PASS,PASS
+Dasharo Network Boot is available,PXE001.001,PASS,PASS,PASS
+Dasharo network boot menu boot options order is correct,PXE002.001,PASS,PASS,PASS
+Autoboot option is available and works correctly,PXE003.001,PASS,PASS,PASS
+DTS option is available and works correctly,PXE004.001,PASS,PASS,PASS
+OS installation option is available and works correctly,PXE005.001,PASS,PASS,PASS
+iPXE shell option is available and works correctly,PXE006.001,PASS,PASS,PASS
+SD Card reader detection (Ubuntu 22.04),SDC001.001,PASS,PASS,PASS
+SD Card reader detection (Windows 11),SDC001.002,PASS,PASS,PASS
+SD Card read/write (Ubuntu 22.04),SDC002.001,PASS,PASS,PASS
+SD Card read/write (Windows 11),SDC002.002,PASS,PASS,PASS
+Wireless card detection (Ubuntu 22.04),WLE001.001,PASS,PASS,SKIP
+Wireless card detection (Windows 11),WLE001.002,PASS,PASS,SKIP
+Wi-Fi scanning (Ubuntu 22.04),WLE002.001,PASS,PASS,SKIP
+Wi-Fi scanning (Windows 11),WLE002.002,PASS,PASS,SKIP
+Bluetooth scanning (Ubuntu 22.04),WLE003.001,PASS,PASS,SKIP
+Bluetooth scanning (Windows 11),WLE003.002,PASS,PASS,SKIP
+External HDMI display in OS (Ubuntu 22.04),DSP002.001,PASS,PASS,PASS
+External HDMI display in OS (Windows 11),DSP002.002,PASS,PASS,PASS
+External HDMI display in firmware,DSP002.003,PASS,PASS,PASS
+External DP display in OS (Ubuntu 22.04),DSP003.001,PASS,PASS,PASS
+External DP display in OS (Windows 11),DSP003.002,PASS,PASS,PASS
+External DP display in firmware,DSP003.003,PASS,PASS,PASS
+Audio subsystem detection (Ubuntu 22.04),AUD001.001,PASS,PASS,PASS
+Audio subsystem detection (Windows 11),AUD001.002,PASS,PASS,PASS
+External headset recognition (Ubuntu 22.04),AUD004.001,PASS,PASS,PASS
+External headset recognition (Windows 11),AUD004.002,PASS,PASS,PASS
+External headset audio playback (Ubuntu 22.04),AUD005.001,PASS,PASS,PASS
+External headset audio playback (Windows 11),AUD005.002,PASS,PASS,PASS
+External headset audio capture (Ubuntu 22.04),AUD006.001,PASS,PASS,PASS
+External headset audio capture (Windows 11),AUD006.002,PASS,PASS,PASS
+Reset button (QubesOS),DPC001.001,PASS,SKIP,SKIP
+Changing the display resolution,DSR001.001,PASS,SKIP,SKIP
+"Platform suspend and resume (Ubuntu 22.04, wakeup flag)",SUSP001.001,PASS,PASS,PASS
+"Platform suspend and resume (QubesOS, wakeup flag)",SUSP001.003,FAIL,SKIP,SKIP
+"Platform suspend and resume (Ubuntu 22.04, press key)",SUSP002.001,PASS,PASS,PASS
+"Platform suspend and resume (QubesOS, press key)",SUSP002.003,PASS,SKIP,SKIP
+"Platform suspend and resume (Ubuntu 22.04, power button)",SUSP003.001,PASS,PASS,PASS
+"Platform suspend and resume (QubesOS, power button)",SUSP003.003,PASS,SKIP,SKIP
+Cyclic platform suspend and resume (Ubuntu 22.04),SUSP005.001,PASS,PASS,PASS
+Verify the firmware version,DMI002.001,PASS,PASS,PASS
+Verify the firmware product name,DMI003.001 ,PASS,PASS,PASS
+Verify the firmware release date,DMI004.001,PASS,PASS,PASS
+Verify the firmware manufacturer,DMI005.001,PASS,PASS,PASS
+Verify the firmware vendor,DMI006.001 ,PASS,PASS,PASS
+Verify the firmware type,DMI008.001 ,PASS,PASS,PASS
+Replace logo in existing image and flashing firmware,LCM001.001,PASS,PASS,PASS
+Check replaced logo in existing firmware image,LCM001.002,PASS,PASS,PASS
+Windows 11 installation and boot,WBT001.001,PASS,PASS,PASS
+Ubuntu LTS installation on Hard Disk,LBT004.001,PASS,PASS,PASS
+Boot Ubuntu From Hard Disk,LBT004.002,PASS,PASS,PASS
+QubesOS installation,QBS001.001,PASS,SKIP,SKIP
+Boot QubesOS,QBS001.002,PASS,SKIP,SKIP
+Check Power State After Power Failure default state (firmware),PSF001.001,PASS,PASS,PASS
+Powered Off State Restoration Test,PSF002.001,PASS,PASS,PASS
+Powered On State Restoration Test,PSF003.001,PASS,PASS,PASS
+Previous Power State Restoration Test - Powered Off,PSF004.001,PASS,PASS,PASS
+Previous Power State Restoration Test - Powered On,PSF004.002,PASS,PASS,PASS
+DTS option Creating Dasharo HCL report works correctly,DTS002.001,PASS,PASS,PASS
+DTS option reboot DUT works correctly,DTS003.001,PASS,PASS,PASS
+DTS accessing shell works correctly,DTS004.001,PASS,PASS,PASS
+DTS option power-off DUT works correctly,DTS008.001,PASS,PASS,PASS
+Boot Fedora,FED001.002,PASS,PASS,PASS
+F9 resets Enable USB stack option to default,RTD001.001,PASS,PASS,PASS
+F9 resets Enable USB Mass Storage driver option to default,RTD002.001,PASS,PASS,PASS
+F9 resets Lock the BIOS boot medium option to default,RTD003.001,PASS,PASS,PASS
+F9 resets Enable SMM BIOS write protection to default,RTD004.001,PASS,PASS,PASS
+F9 resets Early boot DMA Protection to default,RTD005.001,PASS,PASS,PASS
+F9 resets Enable network boot to default,RTD006.001,PASS,PASS,PASS
+F9 resets Intel ME mode to default,RTD007.001,PASS,PASS,PASS
+F9 resets Enable PS2 Controller to default,RTD008.001,PASS,PASS,PASS
+F9 resets Enable watchdog to default,RTD009.001,PASS,PASS,PASS
+F9 resets Enable watchdog to default,RTD010.001,PASS,PASS,PASS
+NET controller after suspend (Ubuntu 22.04),NET004.001,PASS,PASS,PASS
+Serial boot measure: coreboot booting time after cold boot,CBMEM001.001,PASS,PASS,PASS
+Serial boot measure: coreboot booting time after warm boot,CBMEM002.001,PASS,PASS,PASS
+Serial boot measure: coreboot booting time after system reboot,CBMEM003.001,PASS,PASS,PASS
+CPU temperature after stress test (Ubuntu 22.04),CPT002.001,PASS,PASS,PASS
+CPU not stuck on initial frequency (Ubuntu 22.04),CPF001.001,PASS,PASS,PASS
+CPU not stuck on initial frequency (Windows 11),CPF001.002,PASS,PASS,PASS
+CPU runs on expected frequency (Ubuntu 22.04),CPF002.001,PASS,PASS,PASS
+CPU runs on expected frequency (Windows 11),CPF002.002,PASS,PASS,PASS
+CPU with load runs on expected frequency (Ubuntu 22.04),CPF004.001,PASS,PASS,PASS
+CPU with load runs on expected frequency (Windows 11),CPF004.002,PASS,PASS,PASS
+Firmware Update Mode,,PASS,PASS,PASS
+Verify SMMSTORE changes,DCU004.001,PASS,PASS,PASS
+ESP Scan with OS-specific .efi files added,ESP001.001,PASS,PASS,PASS
+ESP Scan after deleting additional .efi files,ESP002.001,PASS,PASS,PASS
+ESP Scan ignores OSes on removable media,ESP003.001,PASS,PASS,PASS
+ESP Scan does not create duplicate entries,ESP004.001,PASS,PASS,PASS
+ESP Scan detects Dasharo Tools Suite,ESP005.001,FAIL,FAIL,FAIL
+Switching to XMP profile,MPS001.001,PASS,PASS,PASS
+Switching back to JEDEC profile,MPS002.001,PASS,PASS,PASS
+Booting at XMP profile 1,MPS003.001,PASS,PASS,FAIL
+Check that all options in OptionROMs are available,SOR001.001,PASS,PASS,PASS
+Check if Resizeable BARs option is present,RBE001.001,PASS,PASS,PASS
+2x warmboot cycle (AC) (Windows 11),SPM006.002,PASS,PASS,PASS
+Advanced option is available,NBT001.006,SKIP,SKIP,SKIP
+Change netboot URL works correctly,NBT001.007,SKIP,SKIP,SKIP
+USB detection after coldboot,UDT001.001,SKIP,SKIP,SKIP
+USB detection after warmboot,UDT001.002,SKIP,SKIP,SKIP
+USB detection after system reboot,UDT001.003,SKIP,SKIP,SKIP
+USB detect and boot after coldboot,UBT001.001,SKIP,SKIP,SKIP
+USB detect and boot after warmboot,UBT002.001,SKIP,SKIP,SKIP
+USB detect and boot after system reboot,UBT003.001,SKIP,SKIP,SKIP
+Verify if no reboot occurs in the firmware,STB001.001,SKIP,SKIP,SKIP
+Verify if no reboot occurs in the OS (Ubuntu 22.04),STB001.002,SKIP,SKIP,SKIP
+Verify if no reboot occurs in the OS (Windows 11),STB001.003,SKIP,SKIP,SKIP
+Verify if no unexpected boot errors appear in Linux logs,STB002.001,SKIP,SKIP,SKIP
+SATA LED and PC speaker error indication support (firmware),ERR001.001,NOT TESTED,NOT TESTED,NOT TESTED
+PC speaker beep during boot (firmware),ERR002.001,NOT TESTED,NOT TESTED,NOT TESTED
+CPU clock speed displayed in setup menu,SET001.001,NOT TESTED,SKIP,SKIP
+RAM speed displayed in setup menu,SET002.001,NOT TESTED,SKIP,SKIP
+RAM size displayed in setup menu,SET003.001,NOT TESTED,SKIP,SKIP
+Expected CPU clock speed displayed in setup menu,SET004.001,NOT TESTED,SKIP,SKIP
+Expected RAM speed displayed in setup menu,SET005.001,NOT TESTED,SKIP,SKIP
+Expected RAM size displayed in setup menu,SET006.001,NOT TESTED,SKIP,SKIP
