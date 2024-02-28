@@ -1,0 +1,159 @@
+Dasharo compatibility module,Test ID,Test name,Automation state,v0.9.0
+Dasharo: flash coreboot,,Firmware building,MANUAL,PASS
+,,Firmware flashing - external programmer,MANUAL,PASS
+,,Firmware flashing - internal programmer (Ubuntu 22.04),MANUAL,PASS
+Dasharo compatibility: UEFI compatible interface,EFI001.001,Boot into UEFI OS (Ubuntu 22.04),AUTOMATED,PASS
+,EFI001.002,EFI001.002 Boot into UEFI OS (Windows 11),AUTOMATED,PASS
+Dasharo compatibility: Display ports and LCD support,DSP002.001,External HDMI display in OS (Ubuntu 22.04),AUTOMATED,PASS
+,DSP002.002 ,External HDMI display in OS (Windows 11),AUTOMATED,PASS
+,DSP002.003,External HDMI display in firmware,MANUAL,PASS
+,DSP003.001,External DP display in OS (Ubuntu 22.04),AUTOMATED,PASS
+,DSP003.002,External DP display in OS (Windows 11),AUTOMATED,PASS
+,DSP003.003,External DP display in firmware,MANUAL,PASS
+Dasharo Security: USB stack,USS001.001,Enable USB stack (firmware),AUTOMATED,NOT TESTED
+,USS002.001,Disable USB stack (firmware),AUTOMATED,NOT TESTED
+,USS003.001,Enable USB Mass Storage (firmware),AUTOMATED,PASS
+,USS004.001,Disable USB Mass Storage (firmware),AUTOMATED,PASS
+Dasharo compatibility: USB HID and MSC Support,USB001.001,USB devices detection (firmware),MANUAL,PASS
+,USB001.002,USB devices detection in OS (Ubuntu 22.04),AUTOMATED,PASS
+,USB001.003,USB devices detection in OS (Windows 11),AUTOMATED,PASS
+,USB002.001,USB keyboard detection (firmware),MANUAL,PASS
+,USB002.002,USB keyboard detection (Ubuntu 22.04),AUTOMATED,PASS
+,USB002.003,USB keyboard detection (Windows 11),AUTOMATED,PASS
+,USB003.001,Upload 1GB file on USB storage (Ubuntu 22.04),AUTOMATED,NOT TESTED
+,USB003.002,Upload 1GB file on USB storage (Windows 11),AUTOMATED,NOT TESTED
+Dasharo compatibility: UEFI Shell,USH001.001,UEFI Shell,MANUAL,PASS
+Dasharo compatibility: SMBIOS,DMI001.001,Verify the serial number,AUTOMATED,PASS
+,DMI002.001,Verify the firmware version,AUTOMATED,PASS
+,DMI003.001,Verify the firmware product name,AUTOMATED,PASS
+,DMI004.001,Verify the firmware release date,AUTOMATED,PASS
+,DMI005.001,Verify the firmware manufacturer,AUTOMATED,PASS
+,DMI006.001,Verify the firmware vendor,AUTOMATED,PASS
+,DMI007.001,Verify the firmware family,AUTOMATED,PASS
+,DMI008.001,Verify the firmware type,AUTOMATED,PASS
+Dasharo compatibility: Custom Logo,CLG001.001,Custom boot logo,MANUAL,PASS
+Dasharo compatibility: Custom Boot Keys,CBK001.001,Custom boot menu key,AUTOMATED,PASS
+,CBK002.001,Custom setup key,AUTOMATED,PASS
+Dasharo compatibility: M.2 WiFi/Bluetooth,WLE001.001,Wireless card detection (Ubuntu 22.04),AUTOMATED,PASS
+,WLE001.002,Wireless card detection (Windows 11),AUTOMATED,PASS
+,WLE002.001,Wi-Fi scanning (Ubuntu 22.04),AUTOMATED,PASS
+,WLE002.002,Wi-Fi scanning (Windows 11),AUTOMATED,PASS
+,WLE003.001,Bluetooth scanning (Ubuntu 22.04),AUTOMATED,PASS
+,WLE003.002 ,Bluetooth scanning (Windows 11),MANUAL,PASS
+Dasharo compatibility: Audio subsystem,AUD001.001,Audio subsystem detection (Ubuntu 22.04),AUTOMATED,PASS
+,AUD001.002,Audio subsystem detection (Windows 11),MANUAL,PASS
+,AUD004.001,External headset recognition (Ubuntu 22.04),AUTOMATED,PASS
+,AUD004.002,External headset recognition (Windows 11),MANUAL,PASS
+,AUD005.001,External headset audio playback (Ubuntu 22.04),MANUAL,PASS
+,AUD005.002,External headset audio playback (Windows 11),MANUAL,PASS
+,AUD006.001,External headset audio capture (Ubuntu 22.04),MANUAL,PASS
+,AUD006.002,External headset audio capture (Windows 11),MANUAL,PASS
+Dasharo compatibility: NVMe support,NVM001.001,NVMe support (firmware),MANUAL,PASS
+,NVM001.002,NVMe support (Ubuntu 22.04),AUTOMATED,PASS
+,NVM001.003,NVMe support in OS (Windows 11),AUTOMATED,PASS
+Dasharo Security: Network Boot availability,NBA001.001,Enable Network Boot (firmware),MANUAL,PASS
+,NBA002.001,Disable Network Boot (firmware),MANUAL,PASS
+Dasharo compatibility: Network Boot,PXE001.001,Dasharo Network Boot is available,AUTOMATED,PASS
+,PXE002.001,Dasharo network boot menu boot options order is correct,AUTOMATED,PASS
+,PXE003.001,Autoboot option is available and works correctly,AUTOMATED,PASS
+,PXE004.001,DTS option is available and works correctly,AUTOMATED,PASS
+,PXE005.001,OS installation option is available and works correctly,AUTOMATED,PASS
+,PXE006.001,iPXE shell option is available and works correctly,AUTOMATED,PASS
+Dasharo compatibility: Debian Stable and Ubuntu LTS support,LBT004.001,Ubuntu LTS installation on Hard Disk,MANUAL,PASS
+,LBT004.002,Boot Ubuntu From Hard Disk,MANUAL,PASS
+Dasharo compatibility: Windows booting,WBT001.001,Windows 11 installation and boot,MANUAL,PASS
+Dasharo compatibility: Memory HCL,HCL001.001,Memory HCL - boot into OS (Ubuntu 22.04),MANUAL,PASS
+Dasharo security: TPM Support,TPM001.001,TPM Support (firmware),AUTOMATED,NOT TESTED
+,TPM001.002,TPM Support (Ubuntu 22.04),AUTOMATED,PASS
+,TPM001.003,TPM Support (Windows 11),AUTOMATED,PASS
+,TPM002.002,Verify TPM version (Ubuntu 22.04),AUTOMATED,PASS
+,TPM002.003,Verify TPM version (Windows 11),AUTOMATED,PASS
+,TPM003.001,Check TPM Physical Presence Interface (firmware),AUTOMATED,PASS
+,TPM003.002,Check TPM Physical Presence Interface (Ubuntu 22.04),AUTOMATED,PASS
+,TPM003.003,Check TPM Physical Presence Interface (Windows 11),AUTOMATED,PASS
+,TPM003.004,Change active PCR banks with TPM PPI (firmware),MANUAL,PASS
+Dasharo security: UEFI Secure Boot,SBO001.001,Check Secure Boot default state (firmware),MANUAL,PASS
+,SBO002.001,UEFI Secure Boot (Ubuntu 22.04),MANUAL,PASS
+,SBO002.002,UEFI Secure Boot (Windows 11),MANUAL,PASS
+,SBO003.001,Attempt to boot file with the correct key from Shell (firmware),MANUAL,PASS
+,SBO004.001,Attempt to boot file without the key from Shell (firmware),MANUAL,PASS
+,SBO005.001,Attempt to boot file with the wrong-signed key from Shell (firmware),MANUAL,PASS
+,SBO006.001,Reset Secure Boot Keys option availability (firmware),MANUAL,PASS
+,SBO007.001,Attempt to boot the file after restoring keys to default (firmware),MANUAL,PASS
+,SBO008.001,Attempt to enroll the key in the incorrect format (firmware),MANUAL,PASS
+Dasharo security: Measured Boot,MBO001.001,Measured Boot support (Ubuntu 22.04),AUTOMATED,PASS
+Dasharo security: Verified Boot,VBO006.002,Verified boot support (Ubuntu 22.04),AUTOMATED,PASS
+,VBO007.002,Booting from Slot A (Ubuntu 22.04),AUTOMATED,PASS
+,VBO009.001,Recovery boot popup is displayed when incorrectly signed firmware is flashed in RW_A,AUTOMATED,PASS
+,VBO010.001,Recovery boot popup can be skipped,AUTOMATED,PASS
+,VBO011.001,Recovery popup is not displayed when correctly signed firmware is flashed in RW_A,AUTOMATED,PASS
+Dasharo Performance: coreboot boot measure,CBMEM001.001,Serial boot measure: coreboot booting time after coldboot,MANUAL,PASS
+,CBMEM002.001,Serial boot measure: coreboot booting time after warmboot,MANUAL,PASS
+,CBMEM003.001,Serial boot measure: coreboot booting time after system reboot,MANUAL,PASS
+Dasharo compatibility: Dasharo Tools Suite,DTS001.001,Booting DTS from USB works correctly,MANUAL,PASS
+,DTS002.001,DTS option Creating Dasharo HCL report works correctly,MANUAL,PASS
+,DTS003.001,DTS option power-off DUT works correctly,MANUAL,PASS
+,DTS004.001,DTS option reboot DUT works correctly,MANUAL,PASS
+,DTS005.001,DTS drop-to-shell option works correctly,MANUAL,PASS
+,DTS006.001,Flash device from DTS shell by using flashrom works correctly,MANUAL,NOT TESTED
+Dasharo Security: ME neuter,MNE001.001,ME disable option is available and has the correct default state,AUTOMATED,PASS
+,MNE002.001,Intel ME mode option Enabled works correctly (Ubuntu 22.04),AUTOMATED,PASS
+,MNE003.001,Intel ME mode option Disable (Soft) works correctly (Ubuntu 22.04),AUTOMATED,PASS
+,MNE004.001,Intel ME mode option Disable (HAP) works correctly (Ubuntu 22.04),AUTOMATED,PASS
+,MNE005.001,PCI Express 5.0 port is functional when ME disabled (Ubuntu 22.04),MANUAL,NOT TESTED
+,MNE006.001,Check Intel ME version (Ubuntu 22.04),AUTOMATED,PASS
+Dasharo Security: BIOS Setup password,PSW001.001,Check Password Setup option availability and default state,AUTOMATED,PASS
+,PSW002.001,Password setting mechanism correctness checking,AUTOMATED,PASS
+,PSW003.001,Attempt to log in with a correct password,AUTOMATED,PASS
+,PSW004.001,Attempt to log in with an incorrect password,AUTOMATED,PASS
+,PSW005.001,Attempt to log in with an incorrect password 3 times,AUTOMATED,PASS
+,PSW006.001,Attempt to turn off setup password functionality,AUTOMATED,PASS
+,PSW007.001,Attempt to set non-compilant password,AUTOMATED,PASS
+,PSW008.001,Attempt to set old password,AUTOMATED,PASS
+Dasharo Compatibility: CPU Status,CPU001.001,CPU works (Ubuntu 22.04),AUTOMATED,PASS
+,CPU001.002,CPU works (Windows 11),AUTOMATED,PASS
+,CPU002.001,CPU cache enabled (Ubuntu 22.04),AUTOMATED,NOT TESTED
+,CPU002.002,CPU cache enabled (Windows 11),AUTOMATED,NOT TESTED
+,CPU003.001,Multiple CPU support (Ubuntu 22.04),AUTOMATED,NOT TESTED
+,CPU003.002,Multiple CPU support (Windows 11),AUTOMATED,NOT TESTED
+,CPU004.001,Multiple-core support (Ubuntu 22.04),AUTOMATED,NOT TESTED
+,CPU004.002,Multiple-core support (Windows 11),AUTOMATED,NOT TESTED
+Dasharo Performance: CPU temperature measure,CPT001.001,CPU temperature without load (Ubuntu 22.04),AUTOMATED,NOT TESTED
+,CPT002.001,CPU temperature after stress test (Ubuntu 22.04),AUTOMATED,NOT TESTED
+Dasharo Performance: CPU frequency measure,CPF001.001,CPU not stuck on initial frequency (Ubuntu 22.04),AUTOMATED,NOT TESTED
+,CPF001.002,CPU not stuck on initial frequency (Windows 11),AUTOMATED,NOT TESTED
+,CPF002.001,CPU runs on expected frequency (Ubuntu 22.04),AUTOMATED,NOT TESTED
+,CPF002.002,CPU runs on expected frequency (Windows 11),AUTOMATED,NOT TESTED
+,CPF004.001,CPU with load runs on expected frequency (Ubuntu 22.04),AUTOMATED,NOT TESTED
+,CPF004.002,CPU with load runs on expected frequency (Windows 11),AUTOMATED,NOT TESTED
+Dasharo Security: BIOS lock support,BLS001.001,BIOS lock support (Ubuntu 22.04),AUTOMATED,PASS
+,BLS002.001,BIOS lock support deactivation (Ubuntu 22.04),AUTOMATED,PASS
+Dasharo Security: SMM BIOS write protection,BLS001.001,SMM BIOS write protection enabling (Ubuntu 22.04),AUTOMATED,PASS
+,BLS002.001,SMM BIOS write protection disabling (Ubuntu 22.04),AUTOMATED,PASS
+Dasharo Security: Early Boot DMA protection,EDP001.001,Enable early boot DMA protection support,AUTOMATED,PASS
+,EDP002.001,Disable early boot DMA protection support,AUTOMATED,FAIL
+Dasharo Security: TCG OPAL disk password support,DMP001.001,TCG OPAL disk password set and check,AUTOMATED,PASS
+Dasharo Compatibility: Super I/O initialization - QubesOS,PPS001.001,PS/2 keyboard detection,MANUAL,NOT TESTED
+Dasharo Compatibility: Device power control operations,DPC001.001,Reset button (QubesOS),MANUAL,NOT TESTED
+Dasharo Compatibility: Display resolution - QubesOS,DSR001.001,Changing the display resolution,MANUAL,NOT TESTED
+Dasharo Compatibility: SATA hot plug,SHT001.001,SATA hot plug (firmware),MANUAL,NOT TESTED
+,SHT001.002,SATA hot plug (Ubuntu 22.04),MANUAL,NOT TESTED
+,SHT001.003,SATA hot plug (Windows 11),MANUAL,NOT TESTED
+Dasharo Compatibility: Platform suspend and resume,SUSP001.001,"Platform suspend and resume (Ubuntu 22.04, wakeup flag)",MANUAL,PASS
+,SUSP001.003,"Platform suspend and resume (QubesOS, wakeup flag)",MANUAL,NOT TESTED
+,SUSP002.001,"Platform suspend and resume (Ubuntu 22.04, press key)",MANUAL,PASS
+,SUSP002.003,"Platform suspend and resume (QubesOS, press key)",MANUAL,NOT TESTED
+,SUSP003.001,"Platform suspend and resume (Ubuntu 22.04, push power button)",MANUAL,PASS
+,SUSP003.003,"Platform suspend and resume (QubesOS, push power button)",MANUAL,NOT TESTED
+,SUSP005.001,Cyclic platform suspend and resume (Ubuntu 22.04),AUTOMATED,PASS
+Dasharo Compatibility: Reset to Defaults,RTD001.001,F9 resets Enable USB stack option to true,AUTOMATED,PASS
+,RTD002.001,F9 resets Enable USB Mass Storage driver option to true,AUTOMATED,PASS
+,RTD003.001,F9 resets Lock the BIOS boot medium option to true,AUTOMATED,PASS
+,RTD004.001,F9 resets Enable SMM BIOS write protection to false,AUTOMATED,PASS
+,RTD005.001,F9 resets Early boot DMA Protection to true,AUTOMATED,PASS
+,RTD006.001,F9 resets Enable network boot to false,AUTOMATED,PASS
+,RTD007.001,F9 resets Intel ME mode to enabled,AUTOMATED,PASS
+,RTD008.001,F9 resets Enable PS2 Controller to enabled,AUTOMATED,PASS
+,RTD009.001,F9 resets Enable watchdog to enabled,AUTOMATED,PASS
+,RTD010.001,F9 resets Enable watchdog to enabled,AUTOMATED,PASS
+,RTD011.001,F9 resets Watchdog timeout value to 500,AUTOMATED,PASS
