@@ -1,6 +1,10 @@
 # osfv-results
 
-Results of Open Source Firmware Validation tests
+This repository contains test results for Dasharo firmware for the following
+mainboards:
+
+- [MSI Z690-A PRO](./boards/msi/ms7d25)
+- [MSI Z790-P PRO](./boards/msi/ms7e06)
 
 ## Funding
 
