@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: 2024 3mdeb Sp. z o. o.
+
+SPDX-License-Identifier: CC-BY-SA-4.0
+-->
+
 # osfv-results
 
 This repository contains test results for Dasharo firmware for the following
