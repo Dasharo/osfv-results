@@ -6,6 +6,10 @@ mainboards:
 - [MSI Z690-A PRO](./boards/msi/ms7d25)
 - [MSI Z790-P PRO](./boards/msi/ms7e06)
 
+## Links
+
+- [Dasharo Test Specification](https://docs.dasharo.com/unified-test-documentation/overview/)
+
 ## Funding
 
 This project is funded through [NGI0 Entrust](https://nlnet.nl/entrust), a fund
