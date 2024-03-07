@@ -25,17 +25,13 @@ iterations of the test sheets and is preserved here for historical purposes.
 
 ## Funding
 
-This project was partially funded through the
-[NGI Assure](https://nlnet.nl/assure) Fund, a fund established by
-[NLnet](https://nlnet.nl/) with financial support from the European
-Commission's [Next Generation Internet](https://ngi.eu/) programme, under the
-aegis of DG Communications Networks, Content and Technology under grant
-agreement No 101069594.
+This project is partially funded through
+[NGI0 Entrust](https://nlnet.nl/entrust), a fund established by
+[NLnet](https://nlnet.nl) with financial support from the European Commission's
+[Next Generation Internet](https://ngi.eu) program. Learn more at the
+[NLnet project page](https://nlnet.nl/project/RaptorLakeDesktop).
 
-<!-- markdownlint-disable-next-line MD033 -->
-<p align="center">
-<img src="https://nlnet.nl/logo/banner.svg" height="75">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img src="https://nlnet.nl/image/logos/NGIAssure_tag.svg" height="75">
+<p align=center>
+    <a href="https://nlnet.nl"><img src="https://nlnet.nl/logo/banner.png" alt="NLnet foundation logo" height="75" /></a>
+    <a href="https://nlnet.nl/entrust"><img src="https://nlnet.nl/image/logos/NGI0_tag.svg" alt="NGI Zero logo" height="75" /></a>
 </p>
-<!-- markdownlint-enable-next-line MD033 -->
