@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: osfv-results
+Upstream-Contact: 3mdeb Sp. z o. o. <contact@dasharo.com>
+Source: https://github.com/Dasharo/osfv-results
+
+# Sample paragraph, commented out:
+#
+# Files: src/*
+# Copyright: $YEAR $NAME <$CONTACT>
+# License: ...
