@@ -18,6 +18,9 @@ The `boards` directory contains the current test results retrieved from the
 [Dasharo Test & Feature Matrix](https://docs.google.com/spreadsheets/d/1wSE6xA3K3nXewwLn5lV39_2wZL1kg5AkGb4mvmG3bwE/edit#gid=736501945)
 sheet.
 
+Tests which were not performed (`NOT TESTED`, `SKIP`, `BLANK`) are
+not included in the repository.
+
 The `archive` section contains archival test results retrieved from previous
 iterations of the test sheets and is preserved here for historical purposes.
 
