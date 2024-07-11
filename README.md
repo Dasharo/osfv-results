@@ -24,6 +24,18 @@ not included in the repository.
 The `archive` section contains archival test results retrieved from previous
 iterations of the test sheets and is preserved here for historical purposes.
 
+## Updating
+
+The results can be updated manually or using a script `update_results.py`. To use it simply launch it using python.
+
+### New boards
+
+When adding a new board family, for which a seperate `results.csv` file should be kept, like `V54x_MTL`
+additional step is required to make the script work. A `update_results_here.py` script from another
+already existing board family needs to be copied to the new directory. The script then needs
+to be modified by giving the exact board names in `models` list. The names should be the same
+as a column name in the `results` sheet of the test matrix.
+
 ## Links
 
 - [Dasharo Test Specification](https://docs.dasharo.com/unified-test-documentation/overview/)
