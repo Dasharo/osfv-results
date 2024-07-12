@@ -9,8 +9,20 @@ import os.path
 BOARDS_PATH = os.path.abspath(os.path.dirname(__file__)) + "/boards/"
 MATRIX_URL = r"https://docs.google.com/spreadsheets/d/1wSE6xA3K3nXewwLn5lV39_2wZL1kg5AkGb4mvmG3bwE/export?format=csv&gid=736501945#gid=736501945"
 RESULTS_FILENAME = "results.csv"
-EMPTY_RESULT_VALUES = ["Not Tested", "NOT TESTED", "Skip", "SKIP", "BLANK", "NaN", ""]
+EMPTY_RESULT_VALUES = [
+    "Not Tested",
+    "NOT TESTED",
+    "Skip",
+    "SKIP", 
+    "BLANK",
+    "NaN",
+    ""
+]
 IGNORE_FLAG_FILENAME = "manual_update"
+IGNORE_BOARDS = [
+    "ms7d25",
+    "ms7e06"
+]
 
 
 def should_be_dropped(row):
@@ -18,7 +30,7 @@ def should_be_dropped(row):
 
 
 def update_results_there(filename: str):
-    data: pd.DataFrame = pd.read_csv(filename, sep=",")
+    data: pd.DataFrame = pd.read_csv(filename)
     # Update only the columns which already exist in the results.csv file
     columns = data.columns
     selected = data_from_matrix[columns]
@@ -30,7 +42,7 @@ def update_results_there(filename: str):
     # Filter using the mask
     selected = selected[~mask]
 
-    selected.to_csv(filename, sep=',', index=0)
+    selected.to_csv(filename, index=0)
 
 
 # Download the Matrix
@@ -46,9 +58,14 @@ for v in vendors:
     models.append([os.path.join(v, m) for m in os.listdir(v)])
 models = sum(models, [])
 
-# Skip directories containing IGNORE_FLAG_FILENAME file which is a flag to 
-# ignore the directory if such behaviour is needed
-models = [m for m in models if not os.path.isfile(os.path.join(m, IGNORE_FLAG_FILENAME))]
+# Skip directories containing IGNORE_FLAG_FILENAME file or
+# included in IGNORE_BOARDS list
+# if such behaviour is needed
+models = [m for m in models if 
+            (not os.path.isfile(os.path.join(m, IGNORE_FLAG_FILENAME))) 
+            and 
+            (not os.path.basename(m) in IGNORE_BOARDS)
+        ]
 
 # Find results.csv files in model family directories
 tables = [os.path.join(m, RESULTS_FILENAME) for m in models]
