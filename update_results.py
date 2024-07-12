@@ -10,6 +10,7 @@ BOARDS_PATH = os.path.abspath(os.path.dirname(__file__)) + "/boards/"
 MATRIX_URL = r"https://docs.google.com/spreadsheets/d/1wSE6xA3K3nXewwLn5lV39_2wZL1kg5AkGb4mvmG3bwE/export?format=csv&gid=736501945#gid=736501945"
 RESULTS_FILENAME = "results.csv"
 EMPTY_RESULT_VALUES = ["Not Tested", "NOT TESTED", "Skip", "SKIP", "BLANK", "NaN", ""]
+IGNORE_FLAG_FILENAME = "manual_update"
 
 
 def should_be_dropped(row):
@@ -44,6 +45,10 @@ models = []
 for v in vendors:
     models.append([os.path.join(v, m) for m in os.listdir(v)])
 models = sum(models, [])
+
+# Skip directories containing IGNORE_FLAG_FILENAME file which is a flag to 
+# ignore the directory if such behaviour is needed
+models = [m for m in models if not os.path.isfile(os.path.join(m, IGNORE_FLAG_FILENAME))]
 
 # Find results.csv files in model family directories
 tables = [os.path.join(m, RESULTS_FILENAME) for m in models]
