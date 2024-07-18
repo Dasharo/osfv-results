@@ -1,0 +1,377 @@
+NovaCustom V540TU v0.9.0 Test results,
+Test,Result
+TPM Support (Ubuntu),PASS
+TPM Support (WIndows),PASS
+Verify TPM version (firmware),PASS
+Verify TPM version (Ubuntu),PASS
+Verify TPM version (Windows),PASS
+Check TPM Physical Presence Interface (firmware),PASS
+Check TPM Physical Presence Interface (Ubuntu),PASS
+Check TPM Physical Presence Interface (Windows),PASS
+Detect TPM after platform reboot (Ubuntu),PASS
+Detect TPM after platform suspend (Ubuntu),PASS
+Generating keys for Verified Boot,PASS
+Signing image without rebuild,PASS
+Adding keys and building image,PASS
+Flashing device with built firmware,PASS
+Verified boot support (Ubuntu),PASS
+Booting from Slot A (Ubuntu),PASS
+Booting from Recovery (Ubuntu),PASS
+Recovery boot popup (firmware),PASS
+Recovery boot popup confirmation (firmware),PASS
+Recovery popup is not displayed when correctly signed firmware is flashed in RW_A,PASS
+BIOS lock support (Ubuntu),PASS
+BIOS lock support deactivation (Ubuntu),PASS
+Measured Boot support (Ubuntu),PASS
+Check Secure Boot default state (firmware),PASS
+UEFI Secure Boot (Ubuntu),PASS
+UEFI Secure Boot (Windows),PASS
+Attempt to boot file with the correct key from Shell (firmware),PASS
+Attempt to boot file without the key from Shell (firmware),PASS
+Attempt to boot file with the wrong-signed key from Shell (firmware),PASS
+Reset Secure Boot Keys option availability (firmware),PASS
+Attempt to boot the file after restoring keys to default (firmware),PASS
+Attempt to enroll the key in the incorrect format (firmware),PASS
+Check Password Setup option availability and default state,PASS
+Password setting mechanism correctness checking,PASS
+Attempt to log in with a correct password,PASS
+Attempt to log in with an incorrect password,PASS
+Attempt to log in with an incorrect password 3 times,PASS
+Attempt to turn off setup password functionality,PASS
+Attempt to set non-compilant password,PASS
+Attempt to set old password,PASS
+ME disable option is available and has the correct default state,PASS
+ME disable option off works correctly (Ubuntu),PASS
+ME disable option soft disable works correctly (Ubuntu),PASS
+Check Intel ME version,PASS
+Enable early boot DMA protection support,PASS
+Disable early boot DMA protection support,PASS
+Enable USB stack (firmware),PASS
+Disable USB stack (firmware),PASS
+Enable USB Mass Storage (firmware),PASS
+Disable USB Mass Storage (firmware),PASS
+Enable Network Boot (firmware),PASS
+Disable Network Boot (firmware),PASS
+SMM BIOS write protection enabling (Ubuntu),PASS
+SMM BIOS write protection disabling (Ubuntu),PASS
+WiFi / BT enable,PASS
+WiFi / BT disable,PASS
+Camera enable,PASS
+Camera disable,PASS
+Memory HCL - boot into OS (Ubuntu),PASS
+Custom Boot Order,PASS
+Custom boot menu key,PASS
+Custom BIOS Menu Key,PASS
+Custom boot logo,PASS
+USB devices detected in FW,PASS
+USB devices detected by OS (Ubuntu),PASS
+USB devices detected by OS (Windows),PASS
+USB keyboard detected in FW,PASS
+USB keyboard in OS (Ubuntu),PASS
+USB keyboard in OS (Windows),PASS
+USB devices detection after cold boot (Ubuntu),PASS
+USB devices detection after warm boot (Ubuntu),PASS
+USB devices detection after reboot (Ubuntu),PASS
+USB devices detection after suspension (Ubuntu),PASS
+Only one iPXE in boot menu,PASS
+Boot into UEFI OS (Ubuntu),PASS
+Boot into UEFI OS (Windows),PASS
+UEFI Shell,PASS
+NVMe support in firmware,PASS
+NVMe support in OS (Ubuntu),PASS
+NVMe support in OS (Windows),PASS
+NVMe detection after cold boot (Ubuntu),PASS
+NVMe detection after warm boot (Ubuntu),PASS
+NVMe detection after reboot (Ubuntu),PASS
+NVMe detection after suspension (Ubuntu),PASS
+NVMe detection after suspension (Ubuntu) (S0ix),PASS
+Dasharo Network Boot is available,PASS
+Dasharo network boot menu boot options order is correct,PASS
+Autoboot option is available and works correctly,PASS
+DTS option is available and works correctly,PASS
+OS installation option is available and works correctly,PASS
+iPXE shell option is available and works correctly,PASS
+SD Card reader detection (Ubuntu),PASS
+SD Card reader detection (Windows),PASS
+SD Card read/write (Ubuntu),PASS
+SD Card read/write (Windows),PASS
+USB Camera (Ubuntu),PASS
+USB Camera (Windows),PASS
+Wireless card detection (Ubuntu),PASS
+Wireless card detection (Windows),PASS
+Wi-Fi scanning (Ubuntu),PASS
+Wi-Fi scanning (Windows),PASS
+Bluetooth scanning (Ubuntu),PASS
+Bluetooth scanning (Windows),PASS
+Wi-fi connection after cold boot (Ubuntu),PASS
+Wi-fi connection after warm boot (Ubuntu),PASS
+Wi-fi connection after reboot (Ubuntu),PASS
+Wi-fi connection after suspension (Ubuntu),PASS
+Internal LCD in firmware,PASS
+Internal LCD in OS (Ubuntu),PASS
+Internal LCD in OS (Windows),PASS
+External HDMI display in OS (Ubuntu),PASS
+External HDMI display in OS (Windows),PASS
+External HDMI display in firmware,NOT SUPPORTED
+Audio subsystem detection (Ubuntu),PASS
+Audio subsystem detection (Windows),PASS
+Internal speaker audio playback (Ubuntu),PASS
+Internal speaker audio playback (Windows),PASS
+Internal microhphone audio capture (Ubuntu),PASS
+Internal microphone audio capture (Windows),PASS
+External headset recognition (Ubuntu),PASS
+External headset recognition (Windows),PASS
+External headset audio playback (Ubuntu),PASS
+External headset audio playback (Windows),PASS
+External headset audio capture (Windows),PASS
+HDMI audio recognition (Ubuntu),PASS
+HDMI audio recognition (Windows),PASS
+HDMI audio playback (Ubuntu),PASS
+HDMI audio playback (Windows),PASS
+Battery monitoring - charge level in OS (Ubuntu),PASS
+Battery monitoring - charge level in OS (Windows),PASS
+Battery monitoring - charging state in OS (Ubuntu),PASS
+Battery monitoring - charging state in OS (Windows),PASS
+Touchpad in OS - (Ubuntu),PASS
+Touchpad in OS - (Windows),PASS
+Keyboard (standard keypad) in firmware,PASS
+Keyboard (standard keypad) in OS (Ubuntu),PASS
+Keyboard (standard keypad) in OS (Windows),PASS
+Keyboard (function key: play/pause) in OS (Ubuntu),PASS
+Keyboard (function key: cooling mode) in OS (Ubuntu),PASS
+Keyboard (function key: touchpad on/off) in OS (Ubuntu),PASS
+Keyboard (function key: display on/off) in OS (Ubuntu),PASS
+Keyboard (function key: mute) in OS (Ubuntu),PASS
+Keyboard (function key: keyboard backlight) in OS (Ubuntu),PASS
+Keyboard (function key: volume down) in OS (Ubuntu),PASS
+Keyboard (function key: volume up) in OS (Ubuntu),PASS
+Keyboard (function key: display switch) in OS (Ubuntu),PASS
+Keyboard (function key: brightness down) in OS (Ubuntu),PASS
+Keyboard (function key: brightness up) in OS (Ubuntu),PASS
+Keyboard (function key: camera on/off) in OS (Ubuntu),PASS
+Keyboard (function key: flight mode) in OS (Ubuntu),PASS
+Keyboard (function key: sleep) in OS (Ubuntu),PASS
+Buttons (button: power) in OS (Ubuntu),PASS
+Buttons (button: power) in OS (Windows),PASS
+Buttons (button: lid switch) in OS (Ubuntu),PASS
+Buttons (button: lid switch) in OS (Windows),PASS
+Permanent keyboard illumination after cold boot (Ubuntu),PASS
+Permanent keyboard illumination after cold boot (Windows),PASS
+Permanent keyboard illumination after warm boot (Ubuntu),PASS
+Permanent keyboard illumination after warm boot (Windows),PASS
+Permanent keyboard illumination after reboot (Ubuntu),PASS
+Permanent keyboard illumination after reboot (Windows),PASS
+Permanent keyboard illumination after suspension (Ubuntu),PASS
+Permanent keyboard illumination after suspension (Windows),PASS
+FnLock Hotkey (Ubuntu),PASS
+FnLock Hotkey (Windows),PASS
+Charging until 98% level in OS (Ubuntu),PASS
+Not charging between 95% and 98% in OS (Ubuntu),PASS
+"Platform suspend and resume (Ubuntu, wakeup flag)",PASS
+"Platform suspend and resume (Ubuntu, press key)",PASS
+"Platform suspend and resume (Ubuntu, power button)",PASS
+Cyclic platform suspend and resume (Ubuntu),PASS
+Cyclic platform suspend and resume (Ubuntu) (S0ix),PASS
+Wireless card detection (Ubuntu),PASS
+Wireless card detection (Windows),PASS
+Wi-Fi scanning (Ubuntu),PASS
+Wi-Fi scanning (Windows),PASS
+Bluetooth scanning (Ubuntu),PASS
+Bluetooth scanning (Windows),PASS
+Verify the firmware version,PASS
+Verify the firmware product name,PASS
+Verify the firmware release date,PASS
+Verify the firmware manufacturer,PASS
+Verify the firmware vendor,PASS
+Verify the firmware family,PASS
+Verify the firmware type,PASS
+SOL string shows Dasharo firmware and EC version,PASS
+SOL string shows information about proprietary EC,PASS
+USB Type-A charging capability,PASS
+Thunderbolt 4 USB Type-C power output,PASS
+USB Type-C PD power input (Ubuntu),PASS
+USB Type-C PD power input (Windows),PASS
+USB Type-C Display output (Ubuntu),PASS
+USB Type-C Display output (Windows),PASS
+USB Type-C docking station HDMI display (Ubuntu),PASS
+USB Type-C docking station HDMI display (Windows),PASS
+USB Type-C docking station DP display (Ubuntu),PASS
+USB Type-C docking station DP display (Windows),PASS
+USB Type-C docking station detection after coldboot (Ubuntu),PASS
+USB Type-C docking station detection after coldboot (Windows),PASS
+USB Type-C docking station detection after warmboot (Ubuntu),PASS
+USB Type-C docking station detection after warmboot (Windows),PASS
+USB Type-C docking station detection after reboot (Ubuntu),PASS
+USB Type-C docking station detection after reboot (Windows),PASS
+USB Type-C docking station detection after suspend (Ubuntu),PASS
+USB Type-C docking station detection after suspend (Ubuntu) (S0ix),PASS
+USB Type-C docking station detection after suspend (Windows),PASS
+USB Type-C docking station USB devices recognition (firmware),PASS
+USB Type-C docking station USB devices recognition (Ubuntu),PASS
+USB Type-C docking station USB devices recognition (Windows),PASS
+USB Type-C docking station USB keyboard (firmware),PASS
+USB Type-C docking station USB keyboard (Ubuntu),PASS
+USB Type-C docking station USB keyboard (Windows),PASS
+USB Type-C docking station Ethernet connection (Ubuntu),PASS
+USB Type-C docking station Ethernet connection (Windows),PASS
+USB Type-C docking station audio recognition (Ubuntu),PASS
+USB Type-C docking station audio recognition (Windows),PASS
+USB Type-C docking station audio playback (Ubuntu),PASS
+USB Type-C docking station audio playback (Windows),PASS
+USB Type-C docking station audio capture (Ubuntu),PASS
+USB Type-C docking station audio capture (Windows),PASS
+USB Type-C laptop charging (Ubuntu),PASS
+USB Type-C laptop charging (Windows),PASS
+Replace logo in existing image and flashing firmware,PASS
+Check replaced logo in existing firmware image,PASS
+Custom logo persists after firmware update,PASS
+Windows 11 installation and boot,PASS
+Ubuntu LTS installation on Hard Disk,PASS
+Boot Ubuntu From Hard Disk,PASS
+Boot QubesOS,FAIL
+Platform hibernation and resume (Ubuntu),PASS
+Platform hibernation and resume (Windows),PASS
+Check Power State After Power Failure default state (firmware),PASS
+Powered Off State Restoration Test,PASS
+Powered On State Restoration Test,PASS
+Previous Power State Restoration Test - Powered Off,NOT SUPPORTED
+Previous Power State Restoration Test - Powered On,NOT SUPPORTED
+Boot blocking (charger disconnected) (Ubuntu),PASS
+Boot blocking (charger connected) (Ubuntu),PASS
+Booting DTS from USB works correctly,PASS
+DTS option Creating Dasharo HCL report works correctly,PASS
+DTS option reboot DUT works correctly,PASS
+DTS accessing shell works correctly,PASS
+Flash device from DTS shell by using flashrom works correctly,PASS
+Flash device EC firmware by using DTS built-in script works correctly,PASS
+Boot Fedora,PASS
+F9 resets Enable USB stack option to default,PASS
+F9 resets Enable USB Mass Storage driver option to default,PASS
+F9 resets Lock the BIOS boot medium option to default,PASS
+F9 resets Enable SMM BIOS write protection to default,PASS
+F9 resets Early boot DMA Protection to default,PASS
+F9 resets Enable network boot to default,PASS
+F9 resets Intel ME mode to default,PASS
+Suspend to Idle (S0ix) check (Ubuntu),PASS
+NET controller after coldboot (Ubuntu),PASS
+NET controller after warmboot (Ubuntu),PASS
+NET controller after reboot (Ubuntu),PASS
+NET controller after suspend (Ubuntu),PASS
+Serial boot measure: coreboot booting time after cold boot,PASS
+Serial boot measure: coreboot booting time after warm boot,PASS
+Serial boot measure: coreboot booting time after system reboot,PASS
+CPU temperature without load (Ubuntu),PASS
+CPU temperature without load (Ubuntu) (battery),PASS
+CPU temperature without load (Ubuntu) (AC),PASS
+CPU temperature without load (Ubuntu) (USB-PD),PASS
+CPU temperature after stress test (Ubuntu),PASS
+CPU temperature after stress test (Ubuntu) (battery),PASS
+CPU temperature after stress test (Ubuntu) (AC),PASS
+CPU temperature after stress test (Ubuntu) (USB-PD),PASS
+CPU not stuck on initial frequency (Ubuntu),PASS
+CPU not stuck on initial frequency (Windows),PASS
+CPU not stuck on initial frequency (Ubuntu) (battery),PASS
+CPU not stuck on initial frequency (Windows) (battery),PASS
+CPU not stuck on initial frequency (Ubuntu) (AC),PASS
+CPU not stuck on initial frequency (Windows) (AC),PASS
+CPU not stuck on initial frequency (Ubuntu) (USB-PD),PASS
+CPU not stuck on initial frequency (Windows) (USB-PD),PASS
+CPU runs on expected frequency (Ubuntu),PASS
+CPU runs on expected frequency (Windows),PASS
+CPU runs on expected frequency (Ubuntu) (battery),PASS
+CPU runs on expected frequency (Windows) (battery),PASS
+CPU runs on expected frequency (Ubuntu) (AC),PASS
+CPU runs on expected frequency (Windows) (AC),PASS
+CPU runs on expected frequency (Ubuntu) (USB-PD),PASS
+CPU runs on expected frequency (Windows) (USB-PD),PASS
+CPU with load runs on expected frequency (Ubuntu),PASS
+CPU with load runs on expected frequency (Ubuntu) (battery),PASS
+CPU with load runs on expected frequency (Windows) (battery),PASS
+CPU with load runs on expected frequency (Ubuntu) (AC),PASS
+CPU with load runs on expected frequency (Windows) (AC),PASS
+CPU with load runs on expected frequency (Ubuntu) (USB-PD),PASS
+CPU with load runs on expected frequency (Windows) (USB-PD),PASS
+Wi-fi connection after cold boot (Ubuntu),PASS
+Wi-fi connection after warm boot (Ubuntu),PASS
+Wi-fi connection after reboot (Ubuntu),PASS
+Wi-fi connection after suspension (Ubuntu),PASS
+Wi-fi connection after suspension (Ubuntu) (S0ix),PASS
+USB devices detection after cold boot (Ubuntu),PASS
+USB devices detection after warm boot (Ubuntu),PASS
+USB devices detection after reboot (Ubuntu),PASS
+USB devices detection after suspension (Ubuntu),PASS
+USB devices detection after suspension (Ubuntu) (S0ix),PASS
+NVMe detection after cold boot (Ubuntu),PASS
+NVMe detection after warm boot (Ubuntu),PASS
+NVMe detection after reboot (Ubuntu),PASS
+NVMe detection after suspension (Ubuntu),PASS
+NET controller after coldboot (Ubuntu),PASS
+NET controller after warmboot (Ubuntu),PASS
+NET controller after reboot (Ubuntu),PASS
+NET controller after suspend (Ubuntu),PASS
+NET controller after suspend (Ubuntu) (S0ix),PASS
+Detect TPM after platform reboot (Ubuntu),PASS
+Detect TPM after platform suspend (Ubuntu),PASS
+WiFi / BT enable,PASS
+WiFi / BT disable,PASS
+Camera enable,PASS
+Camera disable,PASS
+Change the bootsplash logo,PASS
+2x S0ix suspend cycle (Battery) (Ubuntu),PASS
+2x S0ix suspend cycle (Battery) (Windows),PASS
+2x S0ix suspend cycle (AC) (Ubuntu),PASS
+2x S0ix suspend cycle (AC) (Windows),PASS
+2x warmboot cycle (Battery) (Ubuntu),PASS
+2x warmboot cycle (Battery) (Windows),PASS
+2x warmboot cycle (AC) (Ubuntu),PASS
+2x warmboot cycle (AC) (Windows),PASS
+Netboot is available,PASS
+OS Selection & Utilities is available,PASS
+iPXE boot is available,PASS
+iPXE shell is available,PASS
+iPXE shell works correctly,PASS
+USB detection after coldboot,PASS
+USB detection after warmboot,PASS
+USB detection after system reboot,PASS
+USB detect and boot after coldboot,PASS
+USB detect and boot after warmboot,PASS
+USB detect and boot after system reboot,PASS
+Verify if no reboot occurs in the firmware,PASS
+Verify if no reboot occurs in the OS (Ubuntu),PASS
+Verify if no reboot occurs in the OS (Windows),PASS
+Verify if no unexpected boot errors appear in Linux logs,PASS
+CPU clock speed displayed in setup menu,PASS
+RAM speed displayed in setup menu,PASS
+RAM size displayed in setup menu,PASS
+Expected CPU clock speed displayed in setup menu,PASS
+Expected RAM speed displayed in setup menu,PASS
+Expected RAM size displayed in setup menu,PASS
+Boot Ubuntu LTS from disk after cold-boot,PASS
+Boot Ubuntu LTS from disk after warm-boot,PASS
+Boot Ubuntu LTS from disk after reboot,PASS
+Boot Windows 11 from disk after cold-boot,PASS
+Boot Windows 11 from disk after warm-boot,PASS
+Boot Windows 11 from disk after reboot,PASS
+CPU works (Ubuntu),PASS
+CPU works (Windows),PASS
+CPU cache enabled (Ubuntu),PASS
+CPU cache enabled (Windows),PASS
+Multiple CPU support (Ubuntu),PASS
+Multiple CPU support (Windows),PASS
+Multiple-core support (Ubuntu),PASS
+Multiple-core support (Windows),PASS
+Change Auto Boot Time-out and check after reboot,PASS
+F9 resets Auto Boot Time-out to default value,PASS
+Check Auto Boot Time-out option not accept non-numeric values,PASS
+PCRREAD Function Verification (Ubuntu),PASS
+PCREXTEND And PCRRESET Functions (Ubuntu),PASS
+PCREXTEND And PCRRESET Functions - locality protections (Ubuntu),PASS
+PCREVENT Function (Ubuntu),PASS
+CREATEPRIMARY Function Verification (Ubuntu),PASS
+NVDEFINE and NVUNDEFINE Functions Verification (Ubuntu),PASS
+CREATE Function (Ubuntu),PASS
+CREATELOADED Function (Ubuntu),PASS
+Signing the file (Ubuntu),PASS
+Hashing the file (Ubuntu),PASS
+Performing HMAC operation on the file (Ubuntu),PASS
+EC power button watchdog,PASS
