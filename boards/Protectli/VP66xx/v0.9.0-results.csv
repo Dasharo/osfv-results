@@ -1,0 +1,90 @@
+Test name,Test ID,VP6650,VP6670
+Custom boot menu key,CBK001.001,PASS,PASS
+Custom BIOS Menu Key,CBK002.001,PASS,PASS
+USB devices detected in FW,USB001.001,PASS,PASS
+USB devices detected by OS (Ubuntu),USB001.002,PASS,PASS
+USB devices detected by OS (Windows),USB001.003,PASS,PASS
+USB keyboard detected in FW,USB002.001,PASS,PASS
+USB keyboard in OS (Ubuntu),USB002.002,PASS,PASS
+USB keyboard in OS (Windows),USB002.003,PASS,PASS
+Boot into UEFI OS (Ubuntu),EFI001.001,PASS,PASS
+Boot into UEFI OS (Windows),EFI001.002,PASS,PASS
+UEFI Shell,USH001.001,PASS,PASS
+NVMe support in OS (Ubuntu),NVM001.002 ,PASS,PASS
+NVMe support in OS (Windows),NVM001.003,PASS,PASS
+Wireless card detection (Ubuntu),WLE001.001,PASS,PASS
+Wireless card detection (Windows),WLE001.002,PASS,PASS
+Wi-Fi scanning (Ubuntu),WLE002.001,PASS,PASS
+Wi-Fi scanning (Windows),WLE002.002,PASS,PASS
+Bluetooth scanning (Ubuntu),WLE003.001,PASS,PASS
+External HDMI display in OS (Ubuntu),DSP002.001,PASS,PASS
+External HDMI display in OS (Windows),DSP002.002,PASS,PASS
+External DP display in OS (Ubuntu),DSP003.001,FAIL,FAIL
+External DP display in OS (Windows),DSP003.002,FAIL,FAIL
+Audio subsystem detection (Ubuntu),AUD001.001,PASS,PASS
+Audio subsystem detection (Windows),AUD001.002,PASS,PASS
+Verify the firmware version,DMI002.001,PASS,PASS
+Verify the firmware product name,DMI003.001 ,PASS,PASS
+Verify the firmware release date,DMI004.001,PASS,PASS
+Verify the firmware manufacturer,DMI005.001,PASS,PASS
+Verify the firmware vendor,DMI006.001 ,PASS,PASS
+Verify the firmware family,DMI007.001 ,PASS,PASS
+Verify the firmware type,DMI008.001 ,PASS,PASS
+F9 resets Enable USB stack option to default,RTD001.001,PASS,PASS
+F9 resets Enable USB Mass Storage driver option to default,RTD002.001,PASS,PASS
+F9 resets Lock the BIOS boot medium option to default,RTD003.001,PASS,PASS
+F9 resets Enable SMM BIOS write protection to default,RTD004.001,PASS,PASS
+Serial boot measure: coreboot booting time after cold boot,CBMEM001.001,PASS,PASS
+Serial boot measure: coreboot booting time after warm boot,CBMEM002.001,PASS,PASS
+Serial boot measure: coreboot booting time after system reboot,CBMEM003.001,PASS,PASS
+CPU temperature without load (Ubuntu),CPT001.001,PASS,PASS
+CPU temperature after stress test (Ubuntu),CPT002.001,PASS,PASS
+CPU not stuck on initial frequency (Ubuntu),CPF001.001,PASS,PASS
+CPU not stuck on initial frequency (Windows),CPF001.002,PASS,PASS
+CPU runs on expected frequency (Ubuntu),CPF002.001,PASS,PASS
+CPU runs on expected frequency (Windows),CPF002.002,PASS,PASS
+CPU with load runs on expected frequency (Ubuntu),CPF004.001,PASS,PASS
+CPU with load runs on expected frequency (Windows),CPF004.002,PASS,PASS
+Change the UUID,DCU001.001 ,PASS,PASS
+Change the serial number,DCU002.001,PASS,PASS
+Change the bootsplash logo,DCU003.001 ,PASS,PASS
+Netboot is available,NBT001.001,PASS,PASS
+OS Selection & Utilities is available,NBT002.001,PASS,PASS
+iPXE boot is available,NBT003.001,PASS,PASS
+iPXE shell is available,NBT004.001,PASS,PASS
+iPXE shell works correctly,NBT005.001,PASS,PASS
+Advanced option is available,NBT006.001,PASS,PASS
+Change netboot URL works correctly,NBT007.001,PASS,PASS
+USB detection after coldboot,UDT001.001,PASS,PASS
+Verify if no reboot occurs in the OS (Ubuntu),STB001.002,PASS,PASS
+Verify if no unexpected boot errors appear in Linux logs,STB002.001,FAIL,FAIL
+CPU clock speed displayed in setup menu,SET001.001,PASS,PASS
+RAM speed displayed in setup menu,SET002.001,PASS,PASS
+RAM size displayed in setup menu,SET003.001,PASS,PASS
+Expected CPU clock speed displayed in setup menu,SET004.001,PASS,PASS
+Expected RAM speed displayed in setup menu,SET005.001,PASS,PASS
+Expected RAM size displayed in setup menu,SET006.001,PASS,PASS
+CPU works (Ubuntu),CPU001.001,PASS,PASS
+CPU works (Windows),CPU001.002,PASS,PASS
+CPU cache enabled (Ubuntu),CPU002.001,PASS,PASS
+CPU cache enabled (Windows),CPU002.002,PASS,PASS
+Multiple CPU support (Ubuntu),CPU003.001,PASS,PASS
+Multiple CPU support (Windows),CPU003.002,PASS,PASS
+Multiple-core support (Ubuntu),CPU004.001,PASS,PASS
+Multiple-core support (Windows),CPU004.002,PASS,PASS
+Change Auto Boot Time-out and check after reboot,BMM001.001,PASS,PASS
+F9 resets Auto Boot Time-out to default value,BMM002.001,PASS,PASS
+Check Auto Boot Time-out option not accept non-numeric values,BMM003.001,PASS,PASS
+Check core count with HT disabled (Ubuntu),CCC001.001,PASS,PASS
+Check core count with HT enabled,CCC002.001,PASS,PASS
+"Check core count (HT Enabled, P: All, E: 0) (Ubuntu)",CCC003.001,PASS,PASS
+"Check core count (HT Enabled, P: All, E: All) (Ubuntu)",CCC004.001,PASS,PASS
+"Check core count (HT Disabled, P: All, E: 0) (Ubuntu)",CCC005.001,PASS,PASS
+"Check core count (HT Disabled, P: All, E: 0) (Ubuntu)",CCC006.001,PASS,PASS
+"Check core count (HT Enabled, P: 1, E: A) (Ubuntu)",CCC007.001,PASS,PASS
+"Check core count (HT Disabled, P: 1, E: A) (Ubuntu)",CCC008.001,PASS,PASS
+"Check core count (HT Enabled, P: 1, E: 1) (Ubuntu)",CCC009.001,PASS,PASS
+"Check core count (HT Disabled, P: 1, E: 1) (Ubuntu)",CCC010.001,PASS,PASS
+"Check core count (HT Enabled, P: A, E: 1) (Ubuntu)",CCC011.001,PASS,PASS
+"Check core count (HT Disabled, P: A, E: 1) (Ubuntu)",CCC012.001,PASS,PASS
+

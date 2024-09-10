@@ -13,6 +13,7 @@ mainboards:
 - [MSI Z790-P PRO](./boards/msi/ms7e06) -- project [Raptor Lake Desktop](https://nlnet.nl/project/RaptorLake/)
 - [NovaCustom V54](./boards/NovaCustom/V54x_MTL/)
 - [NovaCustom V56](./boards/NovaCustom/V56x_MTL/)
+- [Protectli VP66xx](./boards/Protectli/VP66xx/)
 
 The `boards` directory contains the current test results retrieved from the
 [Dasharo Test & Feature Matrix](https://docs.google.com/spreadsheets/d/1wSE6xA3K3nXewwLn5lV39_2wZL1kg5AkGb4mvmG3bwE/edit#gid=736501945)
