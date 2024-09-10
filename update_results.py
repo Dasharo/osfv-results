@@ -42,6 +42,7 @@ def update_results_there(filename: str, data_from_matrix: pd.DataFrame):
 
     # Filter using the mask
     selected = selected[~mask]
+    selected = selected.dropna()
 
     selected.to_csv(filename, index=0)
 
