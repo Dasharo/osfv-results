@@ -1,4 +1,4 @@
-Test name,Test ID,OptiPlex 7010/9010  v0.1.0-rc1
+Test name,Test ID,OptiPlex 7010
 TPM Support (Ubuntu),TPM001.002,PASS
 Verify TPM version (Ubuntu),TPM002.002,PASS
 Check TPM Physical Presence Interface (Ubuntu),TPM003.002,PASS
@@ -159,39 +159,3 @@ Change Auto Boot Time-out and check after reboot,BMM001.001,PASS
 F9 resets Auto Boot Time-out to default value,BMM002.001,PASS
 Check Auto Boot Time-out option not accept non-numeric values,BMM003.001,PASS
 EC power button watchdog,ECR033.001,PASS
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
-,,
