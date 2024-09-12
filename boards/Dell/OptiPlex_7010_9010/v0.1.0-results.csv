@@ -1,0 +1,161 @@
+Test name,Test ID,OptiPlex 7010
+TPM Support (Ubuntu),TPM001.002,PASS
+Verify TPM version (Ubuntu),TPM002.002,PASS
+Check TPM Physical Presence Interface (Ubuntu),TPM003.002,PASS
+Detect TPM after platform reboot (Ubuntu),TPD003.001,PASS
+Detect TPM after platform suspend (Ubuntu),TPD004.001,PASS
+Measured Boot support (Ubuntu),MBO001.001,PASS
+Check Secure Boot default state (firmware),SBO001.001,PASS
+UEFI Secure Boot (Ubuntu),SBO002.001,PASS
+Attempt to boot file with the correct key from Shell (firmware),SBO003.001,PASS
+Attempt to boot file without the key from Shell (firmware),SBO004.001,PASS
+Attempt to boot file with the wrong-signed key from Shell (firmware),SBO005.001,PASS
+Reset Secure Boot Keys option availability (firmware),SBO006.001,PASS
+Attempt to boot the file after restoring keys to default (firmware),SBO007.001,PASS
+Attempt to enroll the key in the incorrect format (firmware),SBO008.001,PASS
+Check Password Setup option availability and default state,PSW001.001,PASS
+Password setting mechanism correctness checking,PSW002.001,PASS
+Attempt to log in with a correct password,PSW003.001,PASS
+Attempt to log in with an incorrect password,PSW004.001,PASS
+Attempt to log in with an incorrect password 3 times,PSW005.001,PASS
+Attempt to turn off setup password functionality,PSW006.001,PASS
+Attempt to set non-compilant password,PSW007.001,PASS
+Attempt to set old password,PSW008.001,PASS
+Enable USB stack (firmware),USS001.001,PASS
+Disable USB stack (firmware),USS002.001,PASS
+Enable USB Mass Storage (firmware),USS003.001,PASS
+Disable USB Mass Storage (firmware),USS004.001,PASS
+Enable Network Boot (firmware),NBA001.001,PASS
+Disable Network Boot (firmware),NBA002.001,PASS
+Memory HCL - boot into OS (Ubuntu),HCL001.001,PASS
+Custom Boot Order,CBO001.002,PASS
+Custom boot menu key,CBK001.001,PASS
+Custom BIOS Menu Key,CBK002.001,PASS
+USB devices detected in FW,USB001.001,PASS
+USB devices detected by OS (Ubuntu),USB001.002,PASS
+USB keyboard detected in FW,USB002.001,PASS
+USB keyboard in OS (Ubuntu),USB002.002,PASS
+Upload 1GB file on USB storage (Ubuntu),USB003.001,PASS
+USB devices detection after cold boot (Ubuntu),SUD0001.001,PASS
+USB devices detection after warm boot (Ubuntu),SUD0002.001,PASS
+USB devices detection after reboot (Ubuntu),SUD0003.001,PASS
+USB devices detection after suspension (Ubuntu),SUD0004.001,PASS
+Only one iPXE in boot menu,CNB001.002,PASS
+Boot into UEFI OS (Ubuntu),EFI001.001,PASS
+Boot into UEFI OS (Windows),EFI001.002,PASS
+UEFI Shell,USH001.001,PASS
+NVMe support in firmware,NVM001.001 ,PASS
+NVMe support in OS (Ubuntu),NVM001.002 ,PASS
+NVMe detection after cold boot (Ubuntu),SNV0001.001,PASS
+NVMe detection after warm boot (Ubuntu),SNV0001.001,PASS
+NVMe detection after reboot (Ubuntu),SNV0003.001,PASS
+NVMe detection after suspension (Ubuntu) (S0ix),SNV0004.002,PASS
+Dasharo Network Boot is available,PXE001.001,PASS
+Dasharo network boot menu boot options order is correct,PXE002.001,PASS
+Autoboot option is available and works correctly,PXE003.001,PASS
+DTS option is available and works correctly,PXE004.001,PASS
+OS installation option is available and works correctly,PXE005.001,PASS
+iPXE shell option is available and works correctly,PXE006.001,PASS
+SD Card read/write (Ubuntu),SDC002.001,PASS
+External HDMI display in OS (Ubuntu),DSP002.001,PASS
+External DP display in OS (Ubuntu),DSP003.001,PASS
+External DP display in firmware,DSP003.003,PASS
+Audio subsystem detection (Ubuntu),AUD001.001,PASS
+External headset recognition (Ubuntu),AUD004.001,PASS
+External headset audio playback (Ubuntu),AUD005.001,PASS
+External headset audio capture (Ubuntu),AUD006.001,PASS
+Buttons (button: power) in OS (Ubuntu),ECR019.001,PASS
+Buttons (button: power) in OS (Windows),ECR019.002,PASS
+"Platform suspend and resume (Ubuntu, wakeup flag)",SUSP001.001,PASS
+"Platform suspend and resume (QubesOS, wakeup flag)",SUSP001.003,PASS
+"Platform suspend and resume (Ubuntu, press key)",SUSP002.001,FAIL
+"Platform suspend and resume (QubesOS, press key)",SUSP002.003,FAIL
+"Platform suspend and resume (Ubuntu, power button)",SUSP003.001,PASS
+"Platform suspend and resume (QubesOS, power button)",SUSP003.003,PASS
+Cyclic platform suspend and resume (Ubuntu),SUSP005.001,PASS
+Cyclic platform suspend and resume (Ubuntu) (S3),SUSP005.003,PASS
+Verify the firmware version,DMI002.001,PASS
+Verify the firmware product name,DMI003.001 ,PASS
+Verify the firmware release date,DMI004.001,PASS
+Verify the firmware manufacturer,DMI005.001,PASS
+Verify the firmware vendor,DMI006.001 ,PASS
+Verify the firmware family,DMI007.001 ,PASS
+Windows 11 installation and boot,WBT001.001,PASS
+Ubuntu LTS installation on Hard Disk,LBT004.001,PASS
+Boot Ubuntu From Hard Disk,LBT004.002,PASS
+QubesOS installation,QBS001.001,PASS
+Boot QubesOS,QBS001.002,PASS
+Booting DTS from USB works correctly,DTS001.001,PASS
+DTS option Creating Dasharo HCL report works correctly,DTS002.001,PASS
+DTS option reboot DUT works correctly,DTS003.001,PASS
+DTS accessing shell works correctly,DTS004.001,PASS
+Flash device from DTS shell by using flashrom works correctly,DTS005.001,PASS
+DTS option power-off DUT works correctly,DTS008.001,PASS
+F9 resets Enable USB stack option to default,RTD001.001,PASS
+F9 resets Enable USB Mass Storage driver option to default,RTD002.001,PASS
+F9 resets Enable network boot to default,RTD006.001,FAIL
+F9 resets Enable PS2 Controller to default,RTD008.001,PASS
+Suspend to RAM (S3) check (Ubuntu),SMS001.002,PASS
+NET controller after coldboot (Ubuntu),NET001.001,PASS
+NET controller after warmboot (Ubuntu),NET002.001,PASS
+NET controller after reboot (Ubuntu),NET003.001,PASS
+NET controller after suspend (Ubuntu),NET004.001,PASS
+Serial boot measure: coreboot booting time after cold boot,CBMEM001.001,PASS
+Serial boot measure: coreboot booting time after warm boot,CBMEM002.001,PASS
+Serial boot measure: coreboot booting time after system reboot,CBMEM003.001,PASS
+CPU temperature without load (Ubuntu),CPT001.001,PASS
+CPU temperature after stress test (Ubuntu),CPT002.001,PASS
+CPU not stuck on initial frequency (Ubuntu),CPF001.001,PASS
+CPU runs on expected frequency (Ubuntu),CPF002.001,PASS
+CPU with load runs on expected frequency (Ubuntu),CPF004.001,PASS
+USB devices detection after cold boot (Ubuntu),SUD0001.001,PASS
+USB devices detection after warm boot (Ubuntu),SUD0002.001,PASS
+USB devices detection after reboot (Ubuntu),SUD0003.001,PASS
+USB devices detection after suspension (Ubuntu),SUD0004.001,PASS
+USB devices detection after suspension (Ubuntu) (S3),SUD0004.003,PASS
+NVMe detection after cold boot (Ubuntu),SNV0001.001,PASS
+NVMe detection after warm boot (Ubuntu),SNV0002.001,PASS
+NVMe detection after reboot (Ubuntu),SNV0003.001,PASS
+NVMe detection after suspension (Ubuntu),SNV0004.001,PASS
+NET controller after coldboot (Ubuntu),NET001.001,PASS
+NET controller after warmboot (Ubuntu),NET002.001,PASS
+NET controller after reboot (Ubuntu),NET003.001,PASS
+NET controller after suspend (Ubuntu),NET004.001,PASS
+NET controller after suspend (Ubuntu) (S3),NET004.003,PASS
+Detect TPM after platform reboot (Ubuntu),TPD003.001,PASS
+Detect TPM after platform suspend (Ubuntu),TPD004.001,PASS
+Netboot is available,NBT001.001,PASS
+OS Selection & Utilities is available,NBT002.001,PASS
+iPXE boot is available,NBT003.001,PASS
+iPXE shell is available,NBT004.001,PASS
+iPXE shell works correctly,NBT005.001,PASS
+USB detection after coldboot,UDT001.001,PASS
+USB detection after warmboot,UDT001.002,PASS
+USB detection after system reboot,UDT001.003,PASS
+USB detect and boot after coldboot,UBT001.001,PASS
+USB detect and boot after warmboot,UBT002.001,PASS
+USB detect and boot after system reboot,UBT003.001,PASS
+Verify if no reboot occurs in the firmware,STB001.001,PASS
+Verify if no reboot occurs in the OS (Ubuntu),STB001.002,PASS
+Verify if no unexpected boot errors appear in Linux logs,STB002.001,PASS
+CPU clock speed displayed in setup menu,SET001.001,PASS
+RAM speed displayed in setup menu,SET002.001,PASS
+RAM size displayed in setup menu,SET003.001,PASS
+Expected CPU clock speed displayed in setup menu,SET004.001,PASS
+Expected RAM speed displayed in setup menu,SET005.001,PASS
+Expected RAM size displayed in setup menu,SET006.001,PASS
+Boot Ubuntu LTS from disk after cold-boot,BUB001.001,PASS
+Boot Ubuntu LTS from disk after warm-boot,BUB002.001,PASS
+Boot Ubuntu LTS from disk after reboot,BUB003.001,PASS
+Boot Windows 11 from disk after cold-boot,BWI001.001,PASS
+Boot Windows 11 from disk after warm-boot,BWI002.001,PASS
+Boot Windows 11 from disk after reboot,BWI003.001,PASS
+CPU works (Ubuntu),CPU001.001,PASS
+CPU works (Windows),CPU001.002,PASS
+CPU cache enabled (Ubuntu),CPU002.001,PASS
+Multiple CPU support (Ubuntu),CPU003.001,PASS
+Multiple-core support (Ubuntu),CPU004.001,PASS
+Change Auto Boot Time-out and check after reboot,BMM001.001,PASS
+F9 resets Auto Boot Time-out to default value,BMM002.001,PASS
+Check Auto Boot Time-out option not accept non-numeric values,BMM003.001,PASS
+EC power button watchdog,ECR033.001,PASS
