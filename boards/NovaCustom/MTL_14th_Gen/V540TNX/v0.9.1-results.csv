@@ -1,0 +1,624 @@
+Test name,Test ID,V54xNx_MTL V54xNx_MTL v0.9.1-rc8
+TPM Support (Ubuntu),TPM001.002,PASS
+TPM Support (WIndows),TPM001.003,PASS
+Verify TPM version (firmware),TPM002.001,PASS
+Verify TPM version (Ubuntu),TPM002.002,PASS
+Verify TPM version (Windows),TPM002.003,PASS
+Check TPM Physical Presence Interface (firmware),TPM003.001,PASS
+Check TPM Physical Presence Interface (Ubuntu),TPM003.002,PASS
+Check TPM Physical Presence Interface (Windows),TPM003.003,PASS
+Change active PCR banks with TPM PPI (firmware),TPM003.004,SKIP
+Detect TPM after platform reboot (Ubuntu),TPD003.001,PASS
+Detect TPM after platform suspend (Ubuntu),TPD004.001,PASS
+Generating keys for Verified Boot,VBO001.001,PASS
+Signing image without rebuild,VBO002.001,PASS
+Flashing device with the signed firmware,VBO003.001,PASS
+Adding keys and building image,VBO004.001,SKIP
+Flashing device with built firmware,VBO005.001,SKIP
+Verified boot support (Ubuntu),VBO006.002,PASS
+Booting from Slot A (Ubuntu),VBO007.002,PASS
+Booting from Recovery (Ubuntu),VBO008.001,PASS
+Recovery boot popup (firmware),VBO009.001,PASS
+Recovery boot popup confirmation (firmware),VBO010.001,PASS
+Recovery popup is not displayed when correctly signed firmware is flashed in RW_A,VBO011.001,PASS
+Self-signed binary is bootable without errors,VBO012.001,PASS
+BIOS lock support (Ubuntu),BLS001.001,PASS
+BIOS lock support deactivation (Ubuntu),BLS002.001,PASS
+Boot Guard support (Ubuntu),BGS001.001,SKIP
+Measured Boot support (Ubuntu),MBO001.001,PASS
+,TBD,SKIP
+,TBD,SKIP
+Check Secure Boot default state (firmware),SBO001.001,PASS
+UEFI Secure Boot (Ubuntu),SBO002.001,PASS
+UEFI Secure Boot (Windows),SBO002.002,PASS
+Attempt to boot file with the correct key from Shell (firmware),SBO003.001,PASS
+Attempt to boot file without the key from Shell (firmware),SBO004.001,PASS
+Attempt to boot file with the wrong-signed key from Shell (firmware),SBO005.001,PASS
+Reset Secure Boot Keys option availability (firmware),SBO006.001,PASS
+Attempt to boot the file after restoring keys to default (firmware),SBO007.001,PASS
+Attempt to enroll the key in the incorrect format (firmware),SBO008.001,PASS
+Check Password Setup option availability and default state,PSW001.001,PASS
+Password setting mechanism correctness checking,PSW002.001,PASS
+Attempt to log in with a correct password,PSW003.001,PASS
+Attempt to log in with an incorrect password,PSW004.001,PASS
+Attempt to log in with an incorrect password 3 times,PSW005.001,PASS
+Attempt to turn off setup password functionality,PSW006.001,PASS
+Attempt to set non-compilant password,PSW007.001,PASS
+Attempt to set old password,PSW008.001,PASS
+,TBD,SKIP
+TCG OPAL disk password set and check,DMP001.001,SKIP
+ME disable option is available and has the correct default state,MNE001.001,PASS
+ME disable option off works correctly (Ubuntu),MNE002.001,PASS
+ME disable option soft disable works correctly (Ubuntu),MNE003.001,PASS
+ME disable HAP bit option works correctly (Ubuntu),MNE004.001,PASS
+PCI Express 5.0 port is functional when ME disabled (Ubuntu),MNE005.001,SKIP
+Check Intel ME version,MNE006.001,PASS
+Check if ME is statically disabled,MES001.001,SKIP
+Enable early boot DMA protection support,EDP001.001,SKIP
+Disable early boot DMA protection support,EDP002.001,SKIP
+Enable USB stack (firmware),USS001.001,PASS
+Disable USB stack (firmware),USS002.001,PASS
+Enable USB Mass Storage (firmware),USS003.001,PASS
+Disable USB Mass Storage (firmware),USS004.001,PASS
+Enable Network Boot (firmware),NBA001.001,PASS
+Disable Network Boot (firmware),NBA002.001,PASS
+SMM BIOS write protection enabling (Ubuntu),SMM001.001,PASS
+SMM BIOS write protection disabling (Ubuntu),SMM002.001,PASS
+Boot menu enable,BMA000.001,SKIP
+Boot menu disable,BMA000.002,SKIP
+WiFi / BT enable,WBS001.001,PASS
+WiFi / BT disable,WBS002.001,PASS
+Camera enable,CHS001.001,PASS
+Camera disable,CHS002.001,PASS
+Memory HCL - boot into OS (Ubuntu),HCL001.001,PASS
+Custom Boot Order,CBO001.002,PASS
+Custom boot menu key,CBK001.001,PASS
+Custom BIOS Menu Key,CBK002.001,PASS
+Custom boot logo,CLG001.001,PASS
+USB devices detected in FW,USB001.001,PASS
+USB devices detected by OS (Ubuntu),USB001.002,PASS
+USB devices detected by OS (Windows),USB001.003,PASS
+USB keyboard detected in FW,USB002.001,PASS
+USB keyboard in OS (Ubuntu),USB002.002,PASS
+USB keyboard in OS (Windows),USB002.003,PASS
+Upload 1GB file on USB storage (Ubuntu),USB003.001,SKIP
+Upload 1GB file on USB storage (Windows),USB003.002,SKIP
+USB devices detection after cold boot (Ubuntu),SUD0001.001,PASS
+USB devices detection after warm boot (Ubuntu),SUD0002.001,PASS
+USB devices detection after reboot (Ubuntu),SUD0003.001,PASS
+USB devices detection after suspension (Ubuntu),SUD0004.001,PASS
+FreeBSD installation and boot,BSD001.001,SKIP
+Only one iPXE in boot menu,CNB001.002,PASS
+Custom fan curve silent profile measure (Ubuntu),CFC001.001,SKIP
+Custom fan curve performance profile measure (Ubuntu),CFC001.002,SKIP
+Boot into UEFI OS (Ubuntu),EFI001.001,PASS
+Boot into UEFI OS (Windows),EFI001.002,PASS
+,TBD,SKIP
+,TBD,SKIP
+UEFI Shell,USH001.001,PASS
+,TBD,SKIP
+,TBD,SKIP
+,TBD,SKIP
+,TBD,SKIP
+,TBD,SKIP
+,TBD,SKIP
+NVMe support in firmware,NVM001.001 ,PASS
+NVMe support in OS (Ubuntu),NVM001.002 ,PASS
+NVMe support in OS (Windows),NVM001.003,PASS
+NVMe detection after cold boot (Ubuntu),SNV0001.001,PASS
+NVMe detection after warm boot (Ubuntu),SNV0001.001,PASS
+NVMe detection after reboot (Ubuntu),SNV0003.001,PASS
+NVMe detection after suspension (Ubuntu),SNV0004.001,PASS
+NVMe detection after suspension (Ubuntu) (S0ix),SNV0004.002,PASS
+NVMe detection after suspension (Ubuntu) (S3),SNV0004.003,SKIP
+Dasharo Network Boot is available,PXE001.001,PASS
+Dasharo network boot menu boot options order is correct,PXE002.001,PASS
+Autoboot option is available and works correctly,PXE003.001,PASS
+DTS option is available and works correctly,PXE004.001,PASS
+OS installation option is available and works correctly,PXE005.001,PASS
+iPXE shell option is available and works correctly,PXE006.001,PASS
+SD Card reader detection (Ubuntu),SDC001.001,PASS
+SD Card reader detection (Windows),SDC001.002,PASS
+SD Card read/write (Ubuntu),SDC002.001,PASS
+SD Card read/write (Windows),SDC002.002,PASS
+USB Camera (Ubuntu),CAM001.001,PASS
+USB Camera (Windows),CAM001.002,PASS
+Wireless card detection (Ubuntu),WLE001.001,PASS
+Wireless card detection (Windows),WLE001.002,PASS
+Wi-Fi scanning (Ubuntu),WLE002.001,PASS
+Wi-Fi scanning (Windows),WLE002.002,PASS
+Bluetooth scanning (Ubuntu),WLE003.001,PASS
+Bluetooth scanning (Windows),WLE003.002,PASS
+Wi-fi connection after cold boot (Ubuntu),SMW0001.001,PASS
+Wi-fi connection after warm boot (Ubuntu),SMW0002.001,PASS
+Wi-fi connection after reboot (Ubuntu),SMW0003.001,PASS
+Wi-fi connection after suspension (Ubuntu),SMW0004.001,PASS
+NVIDIA Graphics detect (Ubuntu),NVI001.001,PASS
+NVIDIA Graphics detect (Windows),NVI001.002,PASS
+NVIDIA Graphics power management (Ubuntu),NVI002.001,PASS
+NVIDIA Graphics power management (Windows),NVI002.002,PASS
+Internal LCD in firmware,DSP001.001,PASS
+Internal LCD in OS (Ubuntu),DSP001.002,PASS
+Internal LCD in OS (Windows),DSP001.003,PASS
+External HDMI display in OS (Ubuntu),DSP002.001,PASS
+External HDMI display in OS (Windows),DSP002.002,PASS
+External HDMI display in firmware,DSP002.003,SKIP
+External DP display in OS (Ubuntu),DSP003.001,SKIP
+External DP display in OS (Windows),DSP003.002,SKIP
+External DP display in firmware,DSP003.003,SKIP
+Audio subsystem detection (Ubuntu),AUD001.001,PASS
+Audio subsystem detection (Windows),AUD001.002,PASS
+Internal speaker audio playback (Ubuntu),AUD002.001,PASS
+Internal speaker audio playback (Windows),AUD002.002,PASS
+Internal microhphone audio capture (Ubuntu),AUD003.001,PASS
+Internal microphone audio capture (Windows),AUD003.002,PASS
+External headset recognition (Ubuntu),AUD004.001,PASS
+External headset recognition (Windows),AUD004.002,PASS
+External headset audio playback (Ubuntu),AUD005.001,PASS
+External headset audio playback (Windows),AUD005.002,PASS
+External headset audio capture (Ubuntu),AUD006.001,PASS
+External headset audio capture (Windows),AUD006.002,PASS
+HDMI audio recognition (Ubuntu),AUD007.001,PASS
+HDMI audio recognition (Windows),AUD007.002,PASS
+HDMI audio playback (Ubuntu),AUD008.001,PASS
+HDMI audio playback (Windows),AUD008.002,PASS
+Battery monitoring - charge level in OS (Ubuntu),ECR001.001,PASS
+Battery monitoring - charge level in OS (Windows),ECR001.002,PASS
+Battery monitoring - charging state in OS (Ubuntu),ECR002.001,PASS
+Battery monitoring - charging state in OS (Windows),ECR002.002,PASS
+Touchpad in OS - (Ubuntu),ECR003.001,PASS
+Touchpad in OS - (Windows),ECR003.002,PASS
+Keyboard (standard keypad) in firmware,ECR004.001,PASS
+Keyboard (standard keypad) in OS (Ubuntu),ECR004.002,PASS
+Keyboard (standard keypad) in OS (Windows),ECR004.003,PASS
+Keyboard (function key: play/pause) in OS (Ubuntu),ECR005.001,PASS
+Keyboard (function key: play/pause) in OS (Windows),ECR005.002,PASS
+Keyboard (function key: cooling mode) in OS (Ubuntu),ECR006.001,PASS
+Keyboard (function key: cooling mode) in OS (Windows),ECR006.002,PASS
+Keyboard (function key: touchpad on/off) in OS (Ubuntu),ECR007.001,PASS
+Keyboard (function key: touchpad on/off) in OS (Windows),ECR007.002,PASS
+Keyboard (function key: display on/off) in OS (Ubuntu),ECR008.001,PASS
+Keyboard (function key: display on/off) in OS (Windows),ECR008.002,PASS
+Keyboard (function key: mute) in OS (Ubuntu),ECR009.001,PASS
+Keyboard (function key: mute) in OS (Windows),ECR009.002,PASS
+Keyboard (function key: keyboard backlight) in OS (Ubuntu),ECR010.001,PASS
+Keyboard (function key: keyboard backlight) in OS (Windows),ECR010.002,PASS
+Keyboard (function key: volume down) in OS (Ubuntu),ECR011.001,PASS
+Keyboard (function key: volume down) in OS (Windows),ECR011.002,PASS
+Keyboard (function key: volume up) in OS (Ubuntu),ECR012.001,PASS
+Keyboard (function key: volume up) in OS (Windows),ECR012.002,PASS
+Keyboard (function key: display switch) in OS (Ubuntu),ECR013.001,PASS
+Keyboard (function key: display switch) in OS (Windows),ECR013.002,PASS
+Keyboard (function key: brightness down) in OS (Ubuntu),ECR014.001,PASS
+Keyboard (function key: brightness down) in OS (Windows),ECR014.002,PASS
+Keyboard (function key: brightness up) in OS (Ubuntu),ECR015.001,PASS
+Keyboard (function key: brightness up) in OS (Windows),ECR015.002,PASS
+Keyboard (function key: camera on/off) in OS (Ubuntu),ECR016.001,PASS
+Keyboard (function key: camera on/off) in OS (Windows),ECR016.002,PASS
+Keyboard (function key: flight mode) in OS (Ubuntu),ECR017.001,PASS
+Keyboard (function key: flight mode) in OS (Windows),ECR017.002,PASS
+Keyboard (function key: sleep) in OS (Ubuntu),ECR018.001,PASS
+Keyboard (function key: sleep) in OS (Windows),ECR018.002,PASS
+Buttons (button: power) in OS (Ubuntu),ECR019.001,PASS
+Buttons (button: power) in OS (Windows),ECR019.002,PASS
+Buttons (button: lid switch) in OS (Ubuntu),ECR020.001,PASS
+Buttons (button: lid switch) in OS (Windows),ECR020.002,PASS
+Permanent keyboard illumination after cold boot (Ubuntu),ECR025.002,PASS
+Permanent keyboard illumination after cold boot (Windows),ECR025.003,PASS
+Permanent keyboard illumination after warm boot (Ubuntu),ECR026.002,PASS
+Permanent keyboard illumination after warm boot (Windows),ECR026.003,PASS
+Permanent keyboard illumination after reboot (Ubuntu),ECR027.002,PASS
+Permanent keyboard illumination after reboot (Windows),ECR027.003,PASS
+Permanent keyboard illumination after suspension (Ubuntu),ECR028.002,PASS
+Permanent keyboard illumination after suspension (Windows),ECR028.003,PASS
+FnLock Hotkey (Ubuntu),ECR029.001,PASS
+FnLock Hotkey (Windows),ECR029.002,PASS
+Charging until 98% level in OS (Ubuntu),ECR030.001,PASS
+Not charging between 95% and 98% in OS (Ubuntu),ECR030.002,PASS
+PS/2 keyboard detection,PPS001.001,SKIP
+Reset button (QubesOS),DPC001.001,SKIP
+Changing the display resolution,DSR001.001,SKIP
+M.2 automatic SATA/NVMe switching support (Ubuntu 22.04),MSS001.001,SKIP
+"Platform suspend and resume (Ubuntu, wakeup flag)",SUSP001.001,PASS
+"Platform suspend and resume (QubesOS, wakeup flag)",SUSP001.003,SKIP
+"Platform suspend and resume (Ubuntu, press key)",SUSP002.001,PASS
+"Platform suspend and resume (QubesOS, press key)",SUSP002.003,SKIP
+"Platform suspend and resume (Ubuntu, power button)",SUSP003.001,PASS
+"Platform suspend and resume (QubesOS, power button)",SUSP003.003,SKIP
+Cyclic platform suspend and resume (Ubuntu),SUSP005.001,PASS
+Cyclic platform suspend and resume (Ubuntu) (S0ix),SUSP005.002,PASS
+Cyclic platform suspend and resume (Ubuntu) (S3),SUSP005.003,SKIP
+Wireless card detection (Ubuntu),MWL001.001,PASS
+Wireless card detection (Windows),MWL001.002,PASS
+Wi-Fi scanning (Ubuntu),MWL002.001,PASS
+Wi-Fi scanning (Windows),MWL002.002,PASS
+Bluetooth scanning (Ubuntu),MWL003.001,PASS
+Bluetooth scanning (Windows),MWL003.002,PASS
+LTE card detection (Ubuntu),MWL004.001,SKIP
+Verify the serial number,DMI001.001,PASS
+Verify the firmware version,DMI002.001,PASS
+Verify the firmware product name,DMI003.001 ,PASS
+Verify the firmware release date,DMI004.001,PASS
+Verify the firmware manufacturer,DMI005.001,PASS
+Verify the firmware vendor,DMI006.001 ,PASS
+Verify the firmware family,DMI007.001 ,PASS
+Verify the firmware type,DMI008.001 ,PASS
+eMMC support (Ubuntu),MMC001.001,SKIP
+SATA support,,SKIP
+SATA hot plug (firmware),SHT001.001,SKIP
+SATA hot plug (Ubuntu),SHT001.002,SKIP
+SATA hot plug (Windows),SHT001.003,SKIP
+SOL string shows Dasharo firmware and EC version,SOL001.001,PASS
+SOL string shows information about proprietary EC,SOL002.001,NOT TESTED
+USB Type-A charging capability,UTC001.001,PASS
+Thunderbolt 4 USB Type-C power output,UTC002.001,PASS
+USB Type-C PD power input (Ubuntu),UTC003.001,PASS
+USB Type-C PD power input (Windows),UTC003.002,PASS
+USB Type-C Display output (Ubuntu),UTC004.001,PASS
+USB Type-C Display output (Windows),UTC004.002,PASS
+USB Type-C docking station HDMI display (DP Alt mode) (Ubuntu),UTC005.001,PASS
+USB Type-C docking station HDMI display (Windows),UTC005.002,PASS
+USB Type-C docking station DP display (DP Alt mode) (Ubuntu),UTC006.001,PASS
+USB Type-C docking station DP display (Windows),UTC006.002,PASS
+USB Type-C docking station Triple display (Ubuntu),UTC007.001,SKIP
+USB Type-C docking station Triple display (Windows),UTC007.002,SKIP
+USB Type-C docking station detection after coldboot (Ubuntu),UTC008.001,PASS
+USB Type-C docking station detection after coldboot (Windows),UTC008.002,PASS
+USB Type-C docking station detection after warmboot (Ubuntu),UTC009.001,PASS
+USB Type-C docking station detection after warmboot (Windows),UTC009.002,PASS
+USB Type-C docking station detection after reboot (Ubuntu),UTC010.001,PASS
+USB Type-C docking station detection after reboot (Windows),UTC010.002,PASS
+USB Type-C docking station detection after suspend (Ubuntu),UTC011.001,PASS
+USB Type-C docking station detection after suspend (Ubuntu) (S0ix),UTC011.002,PASS
+USB Type-C docking station detection after suspend (Ubuntu) (S3),UTC011.003,SKIP
+USB Type-C docking station detection after suspend (Windows),UTC011.004,PASS
+USB Type-C docking station USB devices recognition (firmware),UTC012.001,PASS
+USB Type-C docking station USB devices recognition (Ubuntu),UTC012.002,PASS
+USB Type-C docking station USB devices recognition (Windows),UTC012.003,FAIL
+USB Type-C docking station USB keyboard (firmware),UTC013.001,PASS
+USB Type-C docking station USB keyboard (Ubuntu),UTC013.002,PASS
+USB Type-C docking station USB keyboard (Windows),UTC013.003,PASS
+USB Type-C docking station Ethernet connection (Ubuntu),UTC014.001,PASS
+USB Type-C docking station Ethernet connection (Windows),UTC014.002,FAIL
+USB Type-C docking station audio recognition (Ubuntu),UTC015.001,PASS
+USB Type-C docking station audio recognition (Windows),UTC015.002,PASS
+USB Type-C docking station audio playback (Ubuntu),UTC016.001,PASS
+USB Type-C docking station audio playback (Windows),UTC016.002,PASS
+USB Type-C docking station audio capture (Ubuntu),UTC017.001,PASS
+USB Type-C docking station audio capture (Windows),UTC017.002,PASS
+USB Type-C docking station SD Card reader detection (Ubuntu),UTC018.001,SKIP
+USB Type-C docking station SD Card reader detection (Windows),UTC018.002,SKIP
+USB Type-C docking station SD Card read/write (Ubuntu),UTC019.001,SKIP
+USB Type-C docking station SD Card read/write (Windows),UTC019.002,SKIP
+USB Type-C PD current limiting (Ubuntu),UTC020.001,SKIP
+USB Type-C PD current limiting (Windows),UTC020.002,SKIP
+USB Type-C laptop charging (Ubuntu),UTC021.001 ,PASS
+USB Type-C laptop charging (Windows),UTC021.002 ,PASS
+Replace logo in existing image and flashing firmware,LCM001.001,SKIP
+Check replaced logo in existing firmware image,LCM001.002,SKIP
+Custom logo persists after firmware update,LCM004.001,SKIP
+Windows 11 installation and boot,WBT001.001,PASS
+Windows 10 installation and boot,WBT002.001,SKIP
+Debian stable installation on Hard Disk,LBT003.001,SKIP
+Boot Debian from Hard Disk,LBT003.002,SKIP
+Ubuntu LTS installation on Hard Disk,LBT004.001,PASS
+Boot Ubuntu From Hard Disk,LBT004.002,PASS
+QubesOS installation,QBS001.001,SKIP
+Boot QubesOS,QBS001.002,SKIP
+Platform hibernation and resume (Ubuntu),HBN001.001,PASS
+Platform hibernation and resume (Windows),HBN001.002,PASS
+FlexiCharger,,SKIP
+Check Power State After Power Failure default state (firmware),PSF001.001,PASS
+Powered Off State Restoration Test,PSF002.001,PASS
+Powered On State Restoration Test,PSF003.001,PASS
+Previous Power State Restoration Test - Powered Off,PSF004.001,SKIP
+Previous Power State Restoration Test - Powered On,PSF004.002,SKIP
+Boot blocking (charger disconnected) (Ubuntu),BBB001.001,PASS
+Boot blocking (charger connected) (Ubuntu),BBB001.002,PASS
+Booting DTS from USB works correctly,DTS001.001,PASS
+DTS option Creating Dasharo HCL report works correctly,DTS002.001,PASS
+DTS option reboot DUT works correctly,DTS003.001,PASS
+DTS accessing shell works correctly,DTS004.001,PASS
+Flash device from DTS shell by using flashrom works correctly,DTS005.001,PASS
+Flash device EC firmware by using DTS built-in script works correctly,DTS006.001,PASS
+Update device EC firmware by using DTS works correctly,DTS007.001,SKIP
+DTS option power-off DUT works correctly,DTS008.001,PASS
+Update Dasharo firmware by using DTS via USB works correctly,DTS009.001,PASS
+Update Dasharo firmware by using DTS via iPXE works correctly,DTS009.002,PASS
+Initial deployment with DES creds (iPXE boot),DES001.001,SKIP
+Initial deployment with DES creds (USB boot),DES001.002,SKIP
+Fedora installation,FED001.001,PASS
+Boot Fedora,FED001.002,PASS
+F9 resets Enable USB stack option to default,RTD001.001,PASS
+F9 resets Enable USB Mass Storage driver option to default,RTD002.001,PASS
+F9 resets Lock the BIOS boot medium option to default,RTD003.001,PASS
+F9 resets Enable SMM BIOS write protection to default,RTD004.001,PASS
+F9 resets Early boot DMA Protection to default,RTD005.001,SKIP
+F9 resets Enable network boot to default,RTD006.001,PASS
+F9 resets Intel ME mode to default,RTD007.001,PASS
+F9 resets Enable PS2 Controller to default,RTD008.001,SKIP
+F9 resets Enable watchdog to default,RTD009.001,SKIP
+F9 resets Enable watchdog to default,RTD010.001,SKIP
+F9 resets Watchdog timeout value to default,RTD011.001,SKIP
+Suspend to Idle (S0ix) check (Ubuntu),SMS001.001,SKIP
+Suspend to RAM (S3) check (Ubuntu),SMS001.002,SKIP
+NET controller after coldboot (Ubuntu),NET001.001,PASS
+NET controller after warmboot (Ubuntu),NET002.001,PASS
+NET controller after reboot (Ubuntu),NET003.001,PASS
+NET controller after suspend (Ubuntu),NET004.001,PASS
+Serial boot measure: coreboot booting time after cold boot,CBMEM001.001,NOT TESTED
+Serial boot measure: coreboot booting time after warm boot,CBMEM002.001,PASS
+Serial boot measure: coreboot booting time after system reboot,CBMEM003.001,PASS
+CPU temperature without load (Ubuntu),CPT001.001,PASS
+CPU temperature without load (Ubuntu) (battery),CPT001.002,SKIP
+CPU temperature without load (Ubuntu) (AC),CPT001.003,SKIP
+CPU temperature without load (Ubuntu) (USB-PD),CPT001.004,SKIP
+CPU temperature after stress test (Ubuntu),CPT002.001,NOT TESTED
+CPU temperature after stress test (Ubuntu) (battery),CPT002.002,SKIP
+CPU temperature after stress test (Ubuntu) (AC),CPT002.003,SKIP
+CPU temperature after stress test (Ubuntu) (USB-PD),CPT002.004,SKIP
+CPU not stuck on initial frequency (Ubuntu),CPF001.001,NOT TESTED
+CPU not stuck on initial frequency (Windows),CPF001.002,SKIP
+CPU not stuck on initial frequency (Heads+Debian),CPF001.003,SKIP
+CPU not stuck on initial frequency (Ubuntu) (battery),CPF001.004,SKIP
+CPU not stuck on initial frequency (Windows) (battery),CPF001.005,SKIP
+CPU not stuck on initial frequency (Heads+Debian) (battery),CPF001.006,SKIP
+CPU not stuck on initial frequency (Ubuntu) (AC),CPF001.007,SKIP
+CPU not stuck on initial frequency (Windows) (AC),CPF001.008,SKIP
+CPU not stuck on initial frequency (Heads+Debian) (AC),CPF001.009,SKIP
+CPU not stuck on initial frequency (Ubuntu) (USB-PD),CPF001.010,SKIP
+CPU not stuck on initial frequency (Windows) (USB-PD),CPF001.011,SKIP
+CPU not stuck on initial frequency (Heads+Debian) (USB-PD),CPF001.012,SKIP
+CPU runs on expected frequency (Ubuntu),CPF002.001,NOT TESTED
+CPU runs on expected frequency (Windows),CPF002.002,SKIP
+CPU runs on expected frequency (Ubuntu) (battery),CPF002.003,PASS
+CPU runs on expected frequency (Windows) (battery),CPF002.004,NOT TESTED
+CPU runs on expected frequency (Ubuntu) (AC),CPF002.005,PASS
+CPU runs on expected frequency (Windows) (AC),CPF002.006,NOT TESTED
+CPU runs on expected frequency (Ubuntu) (USB-PD),CPF002.007,NOT TESTED
+CPU runs on expected frequency (Windows) (USB-PD),CPF002.008,NOT TESTED
+CPU with load runs on expected frequency (Ubuntu),CPF004.001,PASS
+CPU with load runs on expected frequency (Windows),CPF004.002,SKIP
+CPU with load runs on expected frequency (Ubuntu) (battery),CPF004.003,NOT TESTED
+CPU with load runs on expected frequency (Windows) (battery),CPF004.004,NOT TESTED
+CPU with load runs on expected frequency (Ubuntu) (AC),CPF004.005,PASS
+CPU with load runs on expected frequency (Windows) (AC),CPF004.006,NOT TESTED
+CPU with load runs on expected frequency (Ubuntu) (USB-PD),CPF004.007,NOT TESTED
+CPU with load runs on expected frequency (Windows) (USB-PD),CPF004.008,NOT TESTED
+Custom fan curve silent profile measure (Ubuntu),CFC001.001,SKIP
+Custom fan curve performance profile measure (Ubuntu),CFC002.001,SKIP
+Wi-fi connection after cold boot (Ubuntu),SMW001.001,PASS
+Wi-fi connection after warm boot (Ubuntu),SMW002.001,PASS
+Wi-fi connection after reboot (Ubuntu),SMW003.001,PASS
+Wi-fi connection after suspension (Ubuntu),SMW004.001,PASS
+Wi-fi connection after suspension (Ubuntu) (S0ix),SMW004.002,PASS
+Wi-fi connection after suspension (Ubuntu) (S3),SMW004.003,SKIP
+USB devices detection after cold boot (Ubuntu),SUD0001.001,PASS
+USB devices detection after warm boot (Ubuntu),SUD0002.001,PASS
+USB devices detection after reboot (Ubuntu),SUD0003.001,PASS
+USB devices detection after suspension (Ubuntu),SUD0004.001,PASS
+USB devices detection after suspension (Ubuntu) (S0ix),SUD0004.002,PASS
+USB devices detection after suspension (Ubuntu) (S3),SUD0004.003,SKIP
+NVMe detection after cold boot (Ubuntu),SNV0001.001,PASS
+NVMe detection after warm boot (Ubuntu),SNV0002.001,PASS
+NVMe detection after reboot (Ubuntu),SNV0003.001,PASS
+NVMe detection after suspension (Ubuntu),SNV0004.001,PASS
+NET controller after coldboot (Ubuntu),NET001.001,PASS
+NET controller after warmboot (Ubuntu),NET002.001,PASS
+NET controller after reboot (Ubuntu),NET003.001,PASS
+NET controller after suspend (Ubuntu),NET004.001,PASS
+NET controller after suspend (Ubuntu) (S0ix),NET004.002,PASS
+NET controller after suspend (Ubuntu) (S3),NET004.003,SKIP
+Detect TPM after platform reboot (Ubuntu),TPD003.001,PASS
+Detect TPM after platform suspend (Ubuntu),TPD004.001,PASS
+WiFi / BT enable,WBS001.001,PASS
+WiFi / BT disable,WBS002.001,PASS
+Camera enable,CHS001.001,PASS
+Camera disable,CHS002.001,PASS
+Firmware Update Mode,,SKIP
+Change the UUID,DCU001.001 ,SKIP
+Change the serial number,DCU002.001,SKIP
+Change the bootsplash logo,DCU003.001 ,PASS
+Verify SMMSTORE changes,DCU004.001,SKIP
+ESP Scan with OS-specific .efi files added,ESP001.001,SKIP
+ESP Scan after deleting additional .efi files,ESP002.001,SKIP
+ESP Scan ignores OSes on removable media,ESP003.001,SKIP
+ESP Scan does not create duplicate entries,ESP004.001,SKIP
+ESP Scan detects Dasharo Tools Suite,ESP005.001,SKIP
+Switching to XMP profile,MPS001.001,SKIP
+Switching back to JEDEC profile,MPS002.001,SKIP
+Booting at XMP profile 1,MPS003.001,SKIP
+Check that all options in OptionROMs are available,SOR001.001,SKIP
+Check if Resizeable BARs option is present,RBE001.001,SKIP
+2x S0ix suspend cycle (Battery) (Ubuntu),SPM001.001,PASS
+2x S0ix suspend cycle (Battery) (Windows),SPM001.002,PASS
+2x S0ix suspend cycle (AC) (Ubuntu),SPM002.001,PASS
+2x S0ix suspend cycle (AC) (Windows),SPM002.002,PASS
+2x S3 suspend cycle (Battery) (Ubuntu),SPM003.001,SKIP
+2x S3 suspend cycle (Battery) (Windows),SPM003.002,SKIP
+2x S3 suspend cycle (AC) (Ubuntu),SPM004.001,SKIP
+2x S3 suspend cycle (AC) (Windows),SPM004.002,SKIP
+2x warmboot cycle (Battery) (Ubuntu),SPM005.001,PASS
+2x warmboot cycle (Battery) (Windows),SPM005.002,PASS
+2x warmboot cycle (AC) (Ubuntu),SPM006.001,PASS
+2x warmboot cycle (AC) (Windows),SPM006.002,PASS
+Netboot is available,NBT001.001,PASS
+OS Selection & Utilities is available,NBT002.001,PASS
+iPXE boot is available,NBT003.001,PASS
+iPXE shell is available,NBT004.001,PASS
+iPXE shell works correctly,NBT005.001,PASS
+Advanced option is available,NBT006.001,SKIP
+Change netboot URL works correctly,NBT007.001,SKIP
+USB detection after coldboot,UDT001.001,PASS
+USB detection after warmboot,UDT001.002,PASS
+USB detection after system reboot,UDT001.003,PASS
+USB detect and boot after coldboot,UBT001.001,PASS
+USB detect and boot after warmboot,UBT002.001,PASS
+USB detect and boot after system reboot,UBT003.001,PASS
+Verify if no reboot occurs in the firmware,STB001.001,PASS
+Verify if no reboot occurs in the OS (Ubuntu),STB001.002,PASS
+Verify if no reboot occurs in the OS (Windows),STB001.003,PASS
+Verify if no unexpected boot errors appear in Linux logs,STB002.001,SKIP
+SATA LED and PC speaker error indication support (firmware),ERR001.001,SKIP
+PC speaker beep during boot (firmware),ERR002.001,SKIP
+CPU clock speed displayed in setup menu,SET001.001,PASS
+RAM speed displayed in setup menu,SET002.001,PASS
+RAM size displayed in setup menu,SET003.001,PASS
+Expected CPU clock speed displayed in setup menu,SET004.001,PASS
+Expected RAM speed displayed in setup menu,SET005.001,PASS
+Expected RAM size displayed in setup menu,SET006.001,PASS
+pfSense stable (serial output) installation on Hard Disk,PFS001.001,SKIP
+Boot pfSense stable (serial output) from Hard Disk,PFS001.002,SKIP
+pfSense stable (VGA output) installation on Hard Disk,PFS002.001,SKIP
+Boot pfSense stable (VGA output) from Hard Disk,PFS002.002,SKIP
+OPNsense stable (serial output) installation on Hard Disk,OPN001.001,SKIP
+Boot OPNsense stable (serial output) from Hard Disk,OPN001.002,SKIP
+OPNsense stable (VGA output) installation on Hard Disk,OPN002.001,SKIP
+Boot OPNsense stable (VGA output) from Hard Disk,OPN002.002,SKIP
+Ubuntu Server stable installation on Hard Disk,USS001.001,SKIP
+Boot Ubuntu Server stable from Hard Disk,USS001.002,SKIP
+Proxmox Virtual Environment stable installation on Hard Disk,PVE001.001,SKIP
+Boot Proxmox Virtual Environment stable from Hard Disk,PVE001.002,SKIP
+Boot Ubuntu LTS from disk after cold-boot,BUB001.001,PASS
+Boot Ubuntu LTS from disk after warm-boot,BUB002.001,PASS
+Boot Ubuntu LTS from disk after reboot,BUB003.001,PASS
+Boot Debian LTS from disk after cold-boot,BDE001.001,SKIP
+Boot Debian LTS from disk after warm-boot,BDE002.001,SKIP
+Boot Debian LTS from disk after reboot,BDE003.001,SKIP
+Boot Ubuntu Server LTS from disk after cold-boot,BUS001.001,SKIP
+Boot Ubuntu Server LTS from disk after warm-boot,BUS002.001,SKIP
+Boot Ubuntu Server LTS from disk after reboot,BUS003.001,SKIP
+Boot Proxmox Virtual Environment from disk after cold-boot,BPM001.001,SKIP
+Boot Proxmox Virtual Environment from disk after warm-boot,BPM002.001,SKIP
+Boot Proxmox Virtual Environment from disk after reboot,BPM003.001,SKIP
+Boot FreeBSD-RELEASE from disk after cold-boot,BFB001.001,SKIP
+Boot FreeBSD-RELEASE from disk after warm-boot,BFB002.001,SKIP
+Boot FreeBSD-RELEASE from disk after reboot,BFB003.001,SKIP
+Boot OPNsense (serial output) from disk after cold-boot,BOS001.001,SKIP
+Boot OPNsense (serial output) from disk after warm-boot,BOS002.001,SKIP
+Boot OPNsense (serial output) from disk after reboot,BOS003.001,SKIP
+Boot OPNsense (VGA output) from disk after cold-boot,BOV001.001,SKIP
+Boot OPNsense (VGA output) from disk after warm-boot,BOV002.001,SKIP
+Boot OPNsense (VGA output) from disk after reboot,BOV003.001,SKIP
+Boot pfSense LTS CE (serial output) from disk after cold-boot,BPS001.001,SKIP
+Boot pfSense LTS CE (serial output) from disk after warm-boot,BPS002.001,SKIP
+Boot pfSense LTS CE (serial output) from disk after reboot,BPS003.001,SKIP
+Boot pfSense LTS CE (VGA output) from disk after cold-boot,BPV001.001,SKIP
+Boot pfSense LTS CE (VGA output) from disk after warm-boot,BPV002.001,SKIP
+Boot pfSense LTS CE (VGA output) from disk after reboot,BPV003.001,SKIP
+Boot Windows 11 from disk after cold-boot,BWI001.001,PASS
+Boot Windows 11 from disk after warm-boot,BWI002.001,PASS
+Boot Windows 11 from disk after reboot,BWI003.001,PASS
+CPU works (Ubuntu),CPU001.001,PASS
+CPU works (Windows),CPU001.002,PASS
+CPU cache enabled (Ubuntu),CPU002.001,PASS
+CPU cache enabled (Windows),CPU002.002,PASS
+Multiple CPU support (Ubuntu),CPU003.001,PASS
+Multiple CPU support (Windows),CPU003.002,PASS
+Multiple-core support (Ubuntu),CPU004.001,PASS
+Multiple-core support (Windows),CPU004.002,PASS
+Change Auto Boot Time-out and check after reboot,BMM001.001,PASS
+F9 resets Auto Boot Time-out to default value,BMM002.001,PASS
+Check Auto Boot Time-out option not accept non-numeric values,BMM003.001,PASS
+Check if both SHA1 and SHA256 PCRs are enabled (Ubuntu),TPMCMD001.001,SKIP
+PCRREAD Function Verification (Ubuntu),TPMCMD002.001,PASS
+PCREXTEND And PCRRESET Functions (Ubuntu),TPMCMD003.001,PASS
+PCREXTEND And PCRRESET Functions - locality protections (Ubuntu),TPMCMD003.002,PASS
+PCREVENT Function (Ubuntu),TPMCMD004.001,PASS
+CREATEPRIMARY Function Verification (Ubuntu),TPMCMD005.001,PASS
+NVDEFINE and NVUNDEFINE Functions Verification (Ubuntu),TPMCMD006.001,PASS
+CREATE Function (Ubuntu),TPMCMD007.001,PASS
+CREATELOADED Function (Ubuntu),TPMCMD007.002,PASS
+Signing the file (Ubuntu),TPMCMD008.001,PASS
+Encryption and Decryption of the file (Ubuntu),TPMCMD009.001,SKIP
+Hashing the file (Ubuntu),TPMCMD010.001,PASS
+Performing HMAC operation on the file (Ubuntu),TPMCMD011.001,PASS
+Check if apu2 watchdog option is available,APU001.001,SKIP
+Enable apu2 watchdog,APU002.001,SKIP
+Disable apu2 watchdog,APU003.001,SKIP
+Change apu2 watchdog timeout,APU004.001,SKIP
+Check if watchdog option is available,WDT001.001,SKIP
+Enable watchdog,WDT002.001,SKIP
+Disable watchdog,WDT003.001,SKIP
+Change watchdog timeout,WDT004.001,SKIP
+Watchdog is detected by OS (Ubuntu),WDT005.001,SKIP
+Check if disabling CPB decreases performance,APU005.001,SKIP
+"Disabling ""Enable PCIe power management features"" disables ASPM",APU006.001,SKIP
+"Enabling ""Enable PCIe power management features"" enables ASPM",APU006.002,SKIP
+Ubuntu stays bootable (Legacy to UEFI),FBC001.001,SKIP
+OPNSense stays bootable (Legacy to UEFI),FBC002.001,SKIP
+pfSensie stays bootable (Legacy to UEFI),FBC003.001,SKIP
+OpenWrt stays bootable (Legacy to UEFI),FBC004.001,SKIP
+Switch from Legacy to UEFI,FBC101.001,SKIP
+Switch from UEFI to Legacy,FBC102.001,SKIP
+EC power button watchdog,ECR033.001,PASS
+EC firmware sync in coreboot,ECR031.001,SKIP
+EC firmware sync in coreboot blocked when AC not connected,ECR032.001,SKIP
+EC sync update with power adapter connected works correctly,ECR022.001,SKIP
+EC sync doesn't update with power adapter disconnected,ECR023.001,SKIP
+Check Network Speed,NETSPD001.001,SKIP
+Check core count with HT disabled (Ubuntu),CCC001.001,SKIP
+Check core count with HT enabled,CCC002.001,SKIP
+"Check core count (HT Enabled, P: All, E: 0) (Ubuntu)",CCC003.001,SKIP
+"Check core count (HT Enabled, P: All, E: All) (Ubuntu)",CCC004.001,SKIP
+"Check core count (HT Disabled, P: All, E: 0) (Ubuntu)",CCC005.001,SKIP
+"Check core count (HT Disabled, P: All, E: 0) (Ubuntu)",CCC006.001,SKIP
+"Check core count (HT Enabled, P: 1, E: A) (Ubuntu)",CCC007.001,SKIP
+"Check core count (HT Disabled, P: 1, E: A) (Ubuntu)",CCC008.001,SKIP
+"Check core count (HT Enabled, P: 1, E: 1) (Ubuntu)",CCC009.001,SKIP
+"Check core count (HT Disabled, P: 1, E: 1) (Ubuntu)",CCC010.001,SKIP
+"Check core count (HT Enabled, P: A, E: 1) (Ubuntu)",CCC011.001,SKIP
+"Check core count (HT Disabled, P: A, E: 1) (Ubuntu)",CCC012.001,SKIP
+Soft Switch Microphone Key (Ubuntu),ECR034.001,FAIL
+Soft Switch Microphone Key (Windows),ECR034.002,FAIL
+Docking station HDMI display in OS (Ubuntu),UTC005.003,SKIP
+Docking station DP display in OS (Ubuntu),UTC006.003,PASS
+USB Type-A charging capability with ME disabled,UTC001.002,SKIP
+Thunderbolt 4 USB Type-C power output with ME disabled,UTC002.002,SKIP
+USB Type-C PD power input with ME disabled(Ubuntu),UTC003.003,PASS
+USB Type-C PD power input with ME disabled(Windows),UTC003.004,PASS
+USB Type-C Display output with ME disabled(Ubuntu),UTC004.005,PASS
+USB Type-C Display output with ME disabled(Windows),UTC004.006,PASS
+USB Type-C docking station HDMI display with ME disabled(Ubuntu),UTC005.005,PASS
+USB Type-C docking station HDMI display with ME disabled(Windows),UTC005.006,PASS
+USB Type-C docking station HDMI display with ME enabled(Windows),UTC005.007,PASS
+USB Type-C docking station DP display with ME disabled(Ubuntu),UTC006.005,PASS
+USB Type-C docking station DP display with ME disabled(Windows),UTC006.006,PASS
+USB Type-C docking station DP display with ME enabled(Ubuntu),UTC006.007,PASS
+USB Type-C docking station Triple display with ME disabled(Ubuntu),UTC007.005,SKIP
+USB Type-C docking station Triple display with ME disabled(Windows),UTC007.006,SKIP
+USB Type-C docking station detection after coldboot with ME disabled(Ubuntu),UTC008.002,PASS
+USB Type-C docking station detection after warmboot with ME disabled(Ubuntu),UTC009.002,PASS
+USB Type-C docking station detection after reboot ME disabled (Ubuntu),UTC010.002,PASS
+USB Type-C docking station USB devices recognition with ME disabled(Ubuntu),UTC011.005,PASS
+USB Type-C docking station USB devices recognition with ME disabled(Windows),UTC011.006,FAIL
+USB Type-C docking station USB keyboard with ME disabled(firmware),UTC012.004,PASS
+USB Type-C docking station USB keyboard with ME disabled(Ubuntu),UTC012.005,PASS
+USB Type-C docking station USB keyboard with ME disabled(Windows),UTC012.006,PASS
+USB Type-C docking station upload 1GB file on USB storage with ME disabled(Ubuntu),UTC013.003,PASS
+USB Type-C docking station upload 1GB file on USB storage with ME disabled(Windows),UTC013.004,FAIL
+USB Type-C docking station Ethernet connection with ME disabled(Ubuntu),UTC014.003,PASS
+USB Type-C docking station Ethernet connection with ME disabled(Windows),UTC014.004,FAIL
+USB Type-C docking station audio recognition with ME disabled(Ubuntu),UTC015.003,PASS
+USB Type-C docking station audio recognition with ME disabled(Windows),UTC015.004,PASS
+USB Type-C docking station audio playback with ME disabled(Ubuntu),UTC016.003,PASS
+USB Type-C docking station audio playback with ME disabled(Windows),UTC016.004,PASS
+USB Type-C docking station audio capture with ME disabled(Ubuntu),UTC017.003,PASS
+USB Type-C docking station audio capture with ME disabled(Windows),UTC017.004,PASS
+USB Type-C docking station SD Card reader detection ME disabled (Ubuntu),UTC018.003,PASS
+USB Type-C docking station SD Card reader detection ME disabled (Windows),UTC018.004,PASS
+USB Type-C docking station SD Card read/write with ME disabled (Ubuntu),UTC019.003,PASS
+USB Type-C docking station SD Card read/write with ME disabled (Windows),UTC019.004,FAIL
+USB Type-C PD current limiting with ME disabled (Ubuntu),UTC020.003,PASS
+USB Type-C PD current limiting with ME disabled (Windows),UTC020.004,SKIP
+Capsule Update With Wrong Keys,CUP001.001,SKIP
+Capsule Update With Wrong GUID,CUP002.001,SKIP
+Verifying BIOS Settings Persistence After Update - PART 1,CUP130.001,SKIP
+Capsule Update,CUP150.001,SKIP
+Verifying BIOS Settings Persistence After Update - PART 2,CUP160.001,SKIP
+Verifying UUID (Ubuntu),CUP170.001,SKIP
+Verifying UUID (Windows),CUP170.002,SKIP
+Verifying Serial Number (Ubuntu),CUP180.001,SKIP
+Verifying Serial Number (Windows),CUP180.002,SKIP
+Verifying If Custom Logo Persists Across updates (Ubuntu),CUP190.001,SKIP
+Capsule Update Progress Bar - Default Logo,CUP250.001,SKIP
