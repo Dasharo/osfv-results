@@ -1,0 +1,163 @@
+,,
+,MS7D25 MSI PRO Z690-A DDR5 #1 v1.1.4,MS7D25 MSI PRO Z690-A WiFi DDR4 #2 v1.1.4
+TPM Support (Ubuntu),PASS,PASS
+TPM Support (WIndows),PASS,PASS
+Verify TPM version (firmware),PASS,PASS
+Verify TPM version (Ubuntu),PASS,PASS
+Verify TPM version (Windows),PASS,PASS
+Check TPM Physical Presence Interface (firmware),PASS,PASS
+Check TPM Physical Presence Interface (Ubuntu),PASS,PASS
+Check TPM Physical Presence Interface (Windows),PASS,PASS
+Change active PCR banks with TPM PPI (firmware),PASS,PASS
+Verified boot support (Ubuntu),PASS,PASS
+Booting from Slot A (Ubuntu),PASS,PASS
+Booting from Recovery (Ubuntu),PASS,PASS
+Recovery boot popup (firmware),PASS,PASS
+Recovery boot popup confirmation (firmware),PASS,PASS
+Recovery popup is not displayed when correctly signed firmware is flashed in RW_A,PASS,PASS
+BIOS lock support (Ubuntu),PASS,PASS
+BIOS lock support deactivation (Ubuntu),PASS,PASS
+Measured Boot support (Ubuntu),PASS,PASS
+Check Secure Boot default state (firmware),PASS,PASS
+UEFI Secure Boot (Ubuntu),PASS,PASS
+UEFI Secure Boot (Windows),PASS,PASS
+Attempt to boot file with the correct key from Shell (firmware),PASS,PASS
+Attempt to boot file without the key from Shell (firmware),PASS,PASS
+Attempt to boot file with the wrong-signed key from Shell (firmware),PASS,PASS
+Reset Secure Boot Keys option availability (firmware),PASS,PASS
+Attempt to boot the file after restoring keys to default (firmware),PASS,PASS
+Attempt to enroll the key in the incorrect format (firmware),PASS,PASS
+Check Password Setup option availability and default state,PASS,PASS
+Password setting mechanism correctness checking,PASS,PASS
+Attempt to log in with a correct password,PASS,PASS
+Attempt to log in with an incorrect password,PASS,PASS
+Attempt to log in with an incorrect password 3 times,PASS,PASS
+Attempt to turn off setup password functionality,PASS,PASS
+Attempt to set non-compilant password,PASS,PASS
+Attempt to set old password,PASS,PASS
+TCG OPAL disk password set and check,PASS,PASS
+ME disable option is available and has the correct default state,PASS,PASS
+ME disable option off works correctly (Ubuntu),PASS,PASS
+ME disable option soft disable works correctly (Ubuntu),PASS,PASS
+ME disable HAP bit option works correctly (Ubuntu),PASS,PASS
+Check Intel ME version,PASS,PASS
+Enable early boot DMA protection support,PASS,PASS
+Disable early boot DMA protection support,PASS,PASS
+Enable USB Mass Storage (firmware),PASS,PASS
+Disable USB Mass Storage (firmware),PASS,PASS
+Enable Network Boot (firmware),PASS,PASS
+Disable Network Boot (firmware),PASS,PASS
+SMM BIOS write protection enabling (Ubuntu),PASS,PASS
+SMM BIOS write protection disabling (Ubuntu),PASS,PASS
+Custom boot menu key,PASS,PASS
+Custom BIOS Menu Key,PASS,PASS
+Custom boot logo,PASS,PASS
+USB devices detected in FW,PASS,PASS
+USB devices detected by OS (Ubuntu),PASS,PASS
+USB devices detected by OS (Windows),PASS,PASS
+USB keyboard detected in FW,PASS,PASS
+USB keyboard in OS (Ubuntu),PASS,PASS
+USB keyboard in OS (Windows),PASS,PASS
+Boot into UEFI OS (Ubuntu),PASS,PASS
+Boot into UEFI OS (Windows),PASS,PASS
+UEFI Shell,PASS,PASS
+NVMe support in firmware,PASS,PASS
+NVMe support in OS (Ubuntu),PASS,PASS
+NVMe support in OS (Windows),PASS,PASS
+Dasharo Network Boot is available,PASS,PASS
+Dasharo network boot menu boot options order is correct,PASS,PASS
+Autoboot option is available and works correctly,PASS,PASS
+DTS option is available and works correctly,PASS,PASS
+OS installation option is available and works correctly,PASS,PASS
+iPXE shell option is available and works correctly,PASS,PASS
+SD Card reader detection (Ubuntu),PASS,PASS
+SD Card reader detection (Windows),PASS,PASS
+SD Card read/write (Ubuntu),PASS,PASS
+SD Card read/write (Windows),PASS,PASS
+External HDMI display in OS (Ubuntu),PASS,PASS
+External HDMI display in OS (Windows),PASS,PASS
+External HDMI display in firmware,PASS,PASS
+External DP display in OS (Ubuntu),PASS,PASS
+External DP display in OS (Windows),PASS,PASS
+External DP display in firmware,PASS,PASS
+Audio subsystem detection (Ubuntu),PASS,PASS
+Audio subsystem detection (Windows),PASS,PASS
+External headset recognition (Ubuntu),PASS,PASS
+External headset recognition (Windows),PASS,PASS
+External headset audio playback (Ubuntu),PASS,PASS
+External headset audio playback (Windows),PASS,PASS
+External headset audio capture (Ubuntu),PASS,PASS
+External headset audio capture (Windows),PASS,PASS
+"Platform suspend and resume (Ubuntu, wakeup flag)",PASS,PASS
+"Platform suspend and resume (Ubuntu, press key)",PASS,PASS
+"Platform suspend and resume (Ubuntu, power button)",PASS,PASS
+Cyclic platform suspend and resume (Ubuntu),PASS,PASS
+Verify the firmware version,PASS,PASS
+Verify the firmware product name,PASS,PASS
+Verify the firmware release date,PASS,PASS
+Verify the firmware manufacturer,PASS,PASS
+Verify the firmware vendor,PASS,PASS
+Verify the firmware type,PASS,PASS
+Replace logo in existing image and flashing firmware,PASS,PASS
+Check replaced logo in existing firmware image,PASS,PASS
+Windows 11 installation and boot,PASS,PASS
+Ubuntu LTS installation on Hard Disk,PASS,PASS
+Boot Ubuntu From Hard Disk,PASS,PASS
+Check Power State After Power Failure default state (firmware),PASS,PASS
+Powered Off State Restoration Test,PASS,PASS
+Powered On State Restoration Test,PASS,PASS
+Previous Power State Restoration Test - Powered Off,PASS,PASS
+Previous Power State Restoration Test - Powered On,PASS,PASS
+DTS option Creating Dasharo HCL report works correctly,PASS,PASS
+DTS option reboot DUT works correctly,PASS,PASS
+DTS accessing shell works correctly,PASS,PASS
+DTS option power-off DUT works correctly,PASS,PASS
+Update Dasharo firmware by using DTS via USB works correctly,,
+Update Dasharo firmware by using DTS via iPXE works correctly,,
+F9 resets Enable network boot to default,PASS,PASS
+NET controller after suspend (Ubuntu),PASS,PASS
+Serial boot measure: coreboot booting time after cold boot,PASS,PASS
+Serial boot measure: coreboot booting time after warm boot,PASS,PASS
+Serial boot measure: coreboot booting time after system reboot,PASS,PASS
+CPU temperature without load (Ubuntu),PASS,PASS
+CPU temperature after stress test (Ubuntu),PASS,PASS
+CPU not stuck on initial frequency (Ubuntu),PASS,PASS
+CPU not stuck on initial frequency (Windows),PASS,PASS
+CPU runs on expected frequency (Ubuntu),PASS,PASS
+CPU runs on expected frequency (Windows),PASS,PASS
+CPU with load runs on expected frequency (Ubuntu),PASS,PASS
+CPU with load runs on expected frequency (Windows),PASS,PASS
+ESP Scan with OS-specific .efi files added,PASS,PASS
+ESP Scan after deleting additional .efi files,PASS,PASS
+ESP Scan ignores OSes on removable media,PASS,PASS
+ESP Scan does not create duplicate entries,PASS,PASS
+ESP Scan detects Dasharo Tools Suite,PASS,PASS
+Switching to XMP profile,PASS,PASS
+Switching back to JEDEC profile,PASS,FAIL
+Booting at XMP profile 1,PASS,FAIL
+Check that all options in OptionROMs are available,PASS,PASS
+Check if Resizeable BARs option is present,PASS,PASS
+2x warmboot cycle (AC) (Windows),PASS,PASS
+Check core count with HT disabled (Ubuntu),PASS,PASS
+Check core count with HT enabled,PASS,PASS
+"Check core count (HT Enabled, P: All, E: 0) (Ubuntu)",PASS,PASS
+"Check core count (HT Enabled, P: All, E: All) (Ubuntu)",PASS,PASS
+"Check core count (HT Disabled, P: All, E: 0) (Ubuntu)",PASS,PASS
+"Check core count (HT Disabled, P: All, E: 0) (Ubuntu)",PASS,PASS
+"Check core count (HT Enabled, P: 1, E: A) (Ubuntu)",PASS,PASS
+"Check core count (HT Disabled, P: 1, E: A) (Ubuntu)",PASS,PASS
+"Check core count (HT Enabled, P: 1, E: 1) (Ubuntu)",PASS,PASS
+"Check core count (HT Disabled, P: 1, E: 1) (Ubuntu)",PASS,PASS
+"Check core count (HT Enabled, P: A, E: 1) (Ubuntu)",PASS,PASS
+"Check core count (HT Disabled, P: A, E: 1) (Ubuntu)",PASS,PASS
+Capsule Update With Wrong Keys,PASS,PASS
+Capsule Update With Wrong GUID,PASS,PASS
+Verifying BIOS Settings Persistence After Update - PART 1,PASS,PASS
+Capsule Update,PASS,PASS
+Verifying BIOS Settings Persistence After Update - PART 2,PASS,PASS
+Verifying UUID (Ubuntu),PASS,PASS
+Verifying UUID (Windows),PASS,PASS
+Verifying Serial Number (Ubuntu),PASS,PASS
+Verifying Serial Number (Windows),PASS,PASS
+Verifying If Custom Logo Persists Across updates (Ubuntu),PASS,PASS
+Capsule Update Progress Bar - Default Logo,PASS,PASS
