@@ -1,0 +1,12 @@
+Test name,Test ID, PC Engines APU2C
+All cores are up,WOD001.001,PASS
+SRTM event log exists,WOD002.001,PASS
+DRTM PCRs are not updated without TB,WOD003.001,PASS
+DRTM event log doesn't exist,WOD004.001,PASS
+All cores are up,WTD001.001,PASS
+DRTM PCRs are updated with TB,WTD002.001,PASS
+SRTM event log exists,WTD003.001,PASS
+DRTM event log exists,WTD004.001,PASS
+DRTM event log has DRTM entries (AMD),WTD005.001,PASS
+DRTM log aligns with PCR values,WTD006.001,PASS
+SRTM log aligns with PCR values,WTD007.001,PASS
