@@ -112,8 +112,8 @@ DTS option Creating Dasharo HCL report works correctly,PASS,PASS
 DTS option reboot DUT works correctly,PASS,PASS
 DTS accessing shell works correctly,PASS,PASS
 DTS option power-off DUT works correctly,PASS,PASS
-Update Dasharo firmware by using DTS via USB works correctly,,
-Update Dasharo firmware by using DTS via iPXE works correctly,,
+Update Dasharo firmware by using DTS via USB works correctly,PASS,PASS
+Update Dasharo firmware by using DTS via iPXE works correctly,PASS,PASS
 F9 resets Enable network boot to default,PASS,PASS
 NET controller after suspend (Ubuntu),PASS,PASS
 Serial boot measure: coreboot booting time after cold boot,PASS,PASS
