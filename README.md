@@ -11,8 +11,10 @@ mainboards:
 
 - [MSI Z690-A PRO](./boards/msi/ms7d25) -- project [Alder Lake Desktop](https://nlnet.nl/project/AlderLake/)
 - [MSI Z790-P PRO](./boards/msi/ms7e06) -- project [Raptor Lake Desktop](https://nlnet.nl/project/RaptorLake/)
-- [NovaCustom V54](./boards/NovaCustom/V54x_MTL/)
-- [NovaCustom V56](./boards/NovaCustom/V56x_MTL/)
+- [NovaCustom V540TU](./boards/NovaCustom/MTL_14th_Gen/V540TU/)
+- [NovaCustom V560TU](./boards/NovaCustom/MTL_14th_Gen/V560TU/)
+- [NovaCustom V540TNx](./boards/NovaCustom/MTL_14th_Gen/V540TNX/)
+- [NovaCustom V560TNx](./boards/NovaCustom/MTL_14th_Gen/V560TNX/)
 - [Protectli VP66xx](./boards/Protectli/VP66xx/)
 - [Dell OptiPlex 7010/9010](./boards/Dell/OptiPlex_7010_9010/)
 
@@ -36,16 +38,16 @@ To use it simply launch it using python.
 When adding a new board family, for which a seperate `results.csv` file
 should be kept, like `V54x_MTL`, the `results.csv` file has to be created
 manually. The file only needs to contain the column names identical to full
-names in the test matrix. Then the script will be able to update the file 
+names in the test matrix. Then the script will be able to update the file
 automatically according to column names present in it.
 
 ### Manual updating
 
 If a board family should be excluded from the automated updates there
 are two ways to make the script ignore it:
-- Add an empty file called `manual_update` to the directory containing 
+- Add an empty file called `manual_update` to the directory containing
 `results.csv`
-- Add the name of the directory containing the `results.csv` file to 
+- Add the name of the directory containing the `results.csv` file to
 `IGNORE_BOARDS` list in the `update_results.py` script.
 
 ## Links
