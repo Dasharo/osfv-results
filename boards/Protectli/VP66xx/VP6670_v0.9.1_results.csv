@@ -1,0 +1,208 @@
+Test name,Test ID,Result,Comments
+"Audio subsystem detection (Ubuntu)",AUD001.001,PASS
+"Audio subsystem detection (Windows)",AUD001.002,PASS
+"HDMI audio recognition (Ubuntu)",AUD007.001,PASS
+"HDMI audio recognition (Windows)",AUD007.002,PASS
+"HDMI audio playback (Ubuntu)",AUD008.001,PASS
+"HDMI audio playback (Windows)",AUD008.002,PASS
+"Boot Debian LTS from disk after cold-boot",BDE001.001,PASS
+"Boot Debian LTS from disk after warm-boot",BDE002.001,PASS
+"Boot Debian LTS from disk after reboot",BDE003.001,PASS
+"Boot FreeBSD-RELEASE from disk after cold-boot",BFB001.001,PASS
+"Boot FreeBSD-RELEASE from disk after warm-boot",BFB002.001,PASS
+"Boot FreeBSD-RELEASE from disk after reboot",BFB003.001,PASS
+"BIOS lock support (Ubuntu)",BLS001.001,PASS
+"BIOS lock support deactivation (Ubuntu)",BLS002.001,PASS
+"Change Auto Boot Time-out and check after reboot",BMM001.001,PASS
+"F9 resets Auto Boot Time-out to default value",BMM002.001,PASS
+"Check Auto Boot Time-out option not accept non-numeric values",BMM003.001,PASS
+"Boot OPNsense (serial output) from disk after cold-boot",BOS001.001,PASS
+"Boot OPNsense (serial output) from disk after warm-boot",BOS002.001,PASS
+"Boot OPNsense (serial output) from disk after reboot",BOS003.001,PASS
+"Boot OPNsense (VGA output) from disk after cold-boot",BOV001.001,PASS
+"Boot OPNsense (VGA output) from disk after warm-boot",BOV002.001,PASS
+"Boot OPNsense (VGA output) from disk after reboot",BOV003.001,PASS
+"Boot Proxmox Virtual Environment from disk after cold-boot",BPM001.001,PASS
+"Boot Proxmox Virtual Environment from disk after warm-boot",BPM002.001,PASS
+"Boot Proxmox Virtual Environment from disk after reboot",BPM003.001,PASS
+"Boot pfSense LTS CE (serial output) from disk after cold-boot",BPS001.001,PASS
+"Boot pfSense LTS CE (serial output) from disk after warm-boot",BPS002.001,PASS
+"Boot pfSense LTS CE (serial output) from disk after reboot",BPS003.001,PASS
+"Boot pfSense LTS CE (VGA output) from disk after cold-boot",BPV001.001,PASS
+"Boot pfSense LTS CE (VGA output) from disk after warm-boot",BPV002.001,PASS
+"Boot pfSense LTS CE (VGA output) from disk after reboot",BPV003.001,PASS
+"FreeBSD installation and boot",BSD001.001,PASS
+"Boot Ubuntu LTS from disk after cold-boot",BUB001.001,PASS
+"Boot Ubuntu LTS from disk after warm-boot",BUB002.001,PASS
+"Boot Ubuntu LTS from disk after reboot",BUB003.001,PASS
+"Boot Ubuntu Server LTS from disk after cold-boot",BUS001.001,PASS
+"Boot Ubuntu Server LTS from disk after warm-boot",BUS002.001,PASS
+"Boot Ubuntu Server LTS from disk after reboot",BUS003.001,PASS
+"Boot Windows 11 from disk after cold-boot",BWI001.001,PASS
+"Boot Windows 11 from disk after warm-boot",BWI002.001,PASS
+"Boot Windows 11 from disk after reboot",BWI003.001,PASS
+"Custom boot menu key",CBK001.001,PASS
+"Custom BIOS Menu Key",CBK002.001,PASS
+"Serial boot measure: coreboot booting time after cold boot",CBMEM001.001,PASS
+"Serial boot measure: coreboot booting time after warm boot",CBMEM002.001,PASS
+"Serial boot measure: coreboot booting time after system reboot",CBMEM003.001,PASS
+"Custom boot logo",CLG001.001,PASS
+"Only one iPXE in boot menu",CNB001.002,PASS
+"CPU not stuck on initial frequency (Ubuntu)",CPF001.001,PASS
+"CPU runs on expected frequency (Ubuntu)",CPF002.001,PASS
+"CPU with load runs on expected frequency (Ubuntu)",CPF004.001,PASS
+"CPU temperature without load (Ubuntu)",CPT001.001,PASS
+"CPU temperature after stress test (Ubuntu)",CPT002.001,PASS
+"CPU works (Ubuntu)",CPU001.001,PASS
+"CPU works (Windows)",CPU001.002,PASS
+"CPU cache enabled (Ubuntu)",CPU002.001,PASS
+"CPU cache enabled (Windows)",CPU002.002,PASS
+"Multiple CPU support (Ubuntu)",CPU003.001,PASS
+"Multiple CPU support (Windows)",CPU003.002,PASS
+"Multiple-core support (Ubuntu)",CPU004.001,PASS
+"Multiple-core support (Windows)",CPU004.002,PASS
+"Change the UUID",DCU001.001,PASS
+"Change the serial number",DCU002.001,PASS
+"Change the bootsplash logo",DCU003.001,PASS
+"Verify SMMSTORE changes",DCU004.001,FAIL,"https://github.com/Dasharo/open-source-firmware-validation/issues/671"
+"Verify the firmware version",DMI002.001,PASS
+"Verify the firmware product name",DMI003.001,PASS
+"Verify the firmware release date",DMI004.001,PASS
+"Verify the firmware manufacturer",DMI005.001,PASS
+"Verify the firmware vendor",DMI006.001,PASS
+"External HDMI display in OS (Ubuntu)",DSP002.001,PASS
+"External HDMI display in OS (Windows)",DSP002.002,PASS
+"External HDMI display in firmware",DSP002.003,PASS
+"External DP display in OS (Ubuntu)",DSP003.001,PASS
+"External DP display in OS (Windows)",DSP003.002,PASS
+"External DP display in firmware",DSP003.003,PASS
+"Boot into UEFI OS (Ubuntu)",EFI001.001,PASS
+"Boot into UEFI OS (Windows)",EFI001.002,PASS
+"PC speaker beep during boot (firmware)",ERR002.001,PASS
+"ESP Scan with OS-specific .efi files added",ESP001.001,PASS
+"ESP Scan after deleting additional .efi files",ESP002.001,PASS
+"ESP Scan ignores OSes on removable media",ESP003.001,PASS
+"ESP Scan does not create duplicate entries",ESP004.001,PASS
+"ESP Scan detects Dasharo Tools Suite",ESP005.001,PASS
+"Memory HCL - boot into OS (Ubuntu)",HCL001.001,PASS
+"Debian stable installation on Hard Disk",LBT003.001,PASS
+"Boot Debian from Hard Disk",LBT003.002,PASS
+"Ubuntu LTS installation on Hard Disk",LBT004.001,PASS
+"Boot Ubuntu From Hard Disk",LBT004.002,PASS
+"Measured Boot support (Ubuntu)",MBO001.001,PASS
+"Check if ME is statically disabled",MES001.001,PASS
+"Netboot is available",NBT001.001,PASS
+"OS Selection & Utilities is available",NBT002.001,PASS
+"iPXE boot is available",NBT003.001,PASS
+"iPXE shell is available",NBT004.001,PASS
+"iPXE shell works correctly",NBT005.001,PASS
+"Advanced option is available",NBT006.001,PASS
+"Change netboot URL works correctly",NBT007.001,PASS
+"Check Network Speed",NETSPD001.001,PASS
+"NVMe support in firmware",NVM001.001,PASS
+"NVMe support in OS (Ubuntu)",NVM001.002,PASS
+"NVMe support in OS (Windows)",NVM001.003,PASS
+"OPNsense stable (serial output) installation on Hard Disk",OPN001.001,PASS
+"Boot OPNsense stable (serial output) from Hard Disk",OPN001.002,PASS
+"OPNsense stable (VGA output) installation on Hard Disk",OPN002.001,PASS
+"Boot OPNsense stable (VGA output) from Hard Disk",OPN002.002,PASS
+"pfSense stable (serial output) installation on Hard Disk",PFS001.001,PASS
+"Boot pfSense stable (serial output) from Hard Disk",PFS001.002,PASS
+"pfSense stable (VGA output) installation on Hard Disk",PFS002.001,PASS
+"Boot pfSense stable (VGA output) from Hard Disk",PFS002.002,PASS
+"Check Password Setup option availability and default state",PSW001.001,PASS
+"Password setting mechanism correctness checking",PSW002.001,PASS
+"Attempt to log in with a correct password",PSW003.001,PASS
+"Attempt to log in with an incorrect password",PSW004.001,PASS
+"Attempt to log in with an incorrect password 3 times",PSW005.001,PASS
+"Attempt to turn off setup password functionality",PSW006.001,PASS
+"Attempt to set non-compilant password",PSW007.001,PASS
+"Attempt to set old password",PSW008.001,PASS
+"Proxmox Virtual Environment stable installation on Hard Disk",PVE001.001,PASS
+"Boot Proxmox Virtual Environment stable from Hard Disk",PVE001.002,PASS
+"F9 resets Enable USB stack option to default",RTD001.001,PASS
+"F9 resets Enable USB Mass Storage driver option to default",RTD002.001,PASS
+"F9 resets Lock the BIOS boot medium option to default",RTD003.001,PASS
+"F9 resets Enable SMM BIOS write protection to default",RTD004.001,PASS
+"SATA support in firmware",SAT001.001,PASS
+"SATA support in OS (Ubuntu}",SAT001.002,PASS
+"SATA support in OS (Windows}",SAT001.003,PASS
+"Check Secure Boot default state (firmware)",SBO001.001,PASS
+"UEFI Secure Boot (Ubuntu)",SBO002.001,PASS
+"UEFI Secure Boot (Windows)",SBO002.002,PASS
+"Attempt to boot file with the correct key from Shell (firmware)",SBO003.001,PASS
+"Attempt to boot file without the key from Shell (firmware)",SBO004.001,PASS
+"Attempt to boot file with the wrong-signed key from Shell (firmware)",SBO005.001,PASS
+"Reset Secure Boot Keys option availability (firmware)",SBO006.001,PASS
+"Attempt to boot the file after restoring keys to default (firmware)",SBO007.001,PASS
+"Attempt to enroll the key in the incorrect format (firmware)",SBO008.001,PASS
+"CPU clock speed displayed in setup menu",SET001.001,PASS
+"RAM speed displayed in setup menu",SET002.001,PASS
+"RAM size displayed in setup menu",SET003.001,PASS
+"Expected CPU clock speed displayed in setup menu",SET004.001,PASS
+"Expected RAM speed displayed in setup menu",SET005.001,PASS
+"Expected RAM size displayed in setup menu",SET006.001,PASS
+"SMM BIOS write protection enabling (Ubuntu)",SMM001.001,PASS
+"SMM BIOS write protection disabling (Ubuntu)",SMM002.001,PASS
+"SATA LED and PC speaker error indication support (firmware)",SPK001.001,PASS
+"Check Ethernet Ports Order",SPS001.001,PASS
+"Verify if no reboot occurs in the firmware",STB001.001,PASS
+"Verify if no reboot occurs in the OS (Ubuntu)",STB001.002,PASS
+"Verify if no reboot occurs in the OS (Windows)",STB001.003,PASS
+"Verify if no unexpected boot errors appear in Linux logs",STB002.001,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/817"
+"TPM Support (Ubuntu)",TPM001.002,PASS
+"TPM Support (WIndows)",TPM001.003,PASS
+"Verify TPM version (firmware)",TPM002.001,PASS
+"Verify TPM version (Ubuntu)",TPM002.002,PASS
+"Verify TPM version (Windows)",TPM002.003,PASS
+"Check TPM Physical Presence Interface (firmware)",TPM003.001,PASS
+"Check TPM Physical Presence Interface (Ubuntu)",TPM003.002,PASS
+"Check TPM Physical Presence Interface (Windows)",TPM003.003,PASS
+"Change active PCR banks with TPM PPI (firmware)",TPM003.004,PASS
+"Check if both SHA1 and SHA256 PCRs are enabled (Ubuntu)",TPMCMD001.001,PASS
+"PCRREAD Function Verification (Ubuntu)",TPMCMD002.001,PASS
+"PCREXTEND And PCRRESET Functions (Ubuntu)",TPMCMD003.001,PASS
+"PCREXTEND And PCRRESET Functions - locality protections (Ubuntu)",TPMCMD003.002,PASS
+"PCREVENT Function (Ubuntu)",TPMCMD004.001,PASS
+"CREATEPRIMARY Function Verification (Ubuntu)",TPMCMD005.001,PASS
+"NVDEFINE and NVUNDEFINE Functions Verification (Ubuntu)",TPMCMD006.001,PASS
+"CREATE Function (Ubuntu)",TPMCMD007.001,PASS
+"CREATELOADED Function (Ubuntu)",TPMCMD007.002,PASS
+"Signing the file (Ubuntu)",TPMCMD008.001,PASS
+"Encryption and Decryption of the file (Ubuntu)",TPMCMD009.001,NOT TESTED
+"Hashing the file (Ubuntu)",TPMCMD010.001,PASS
+"Performing HMAC operation on the file (Ubuntu)",TPMCMD011.001,PASS
+"USB detect and boot after coldboot",UBT001.001,PASS
+"USB detect and boot after warmboot",UBT002.001,PASS
+"USB detect and boot after system reboot",UBT003.001,PASS
+"USB detection after coldboot",UDT001.001,PASS
+"USB detection after warmboot",UDT001.002,PASS
+"USB detection after system reboot",UDT001.003,PASS
+"USB devices detected in FW",USB001.001,PASS
+"USB devices detected by OS (Ubuntu)",USB001.002,PASS
+"USB devices detected by OS (Windows)",USB001.003,PASS
+"USB keyboard detected in FW",USB002.001,PASS
+"USB keyboard in OS (Ubuntu)",USB002.002,PASS
+"USB keyboard in OS (Windows)",USB002.003,PASS
+"UEFI Shell",USH001.001,PASS
+"Enable USB stack (firmware)",USS001.001,PASS
+"Boot Ubuntu Server stable from Hard Disk",USS001.002,PASS
+"Disable USB stack (firmware)",USS002.001,PASS
+"Enable USB Mass Storage (firmware)",USS003.001,PASS
+"Disable USB Mass Storage (firmware)",USS004.001,PASS
+"USB Type-C Display output (Ubuntu)",UTC004.001,PASS
+"USB Type-C Display output (Windows)",UTC004.002,PASS
+"Verified boot support (Ubuntu)",VBO006.002,PASS
+"Booting from Slot A (Ubuntu)",VBO007.002,PASS
+"Booting from Recovery (Ubuntu)",VBO008.001,PASS
+"Recovery boot popup (firmware)",VBO009.001,PASS
+"Recovery boot popup confirmation (firmware)",VBO010.001,PASS
+"Recovery popup is not displayed when correctly signed firmware is flashed in RW_A",VBO011.001,PASS
+"Self-signed binary is bootable without errors",VBO012.001,PASS
+"Windows 11 installation and boot",WBT001.001,PASS
+"Wireless card detection (Ubuntu)",WLE001.001,PASS
+"Wireless card detection (Windows)",WLE001.002,PASS
+"Wi-Fi scanning (Ubuntu)",WLE002.001,PASS
+"Wi-Fi scanning (Windows)",WLE002.002,PASS
+"Bluetooth scanning (Ubuntu)",WLE003.001,PASS
+"Bluetooth scanning (Windows)",WLE003.002,PASS
