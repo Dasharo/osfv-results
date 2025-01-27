@@ -108,7 +108,7 @@ Test name,Test ID,Result,Comments
 "Expected RAM speed displayed in setup menu",SET005.001,PASS,
 "Expected RAM size displayed in setup menu",SET006.001,PASS,
 "SMM BIOS write protection enabling (Ubuntu)",SMM001.001,PASS,
-"SMM BIOS write protection disabling (Ubuntu)",SMM002.001,PASS,"man.; auto fails randomly missing &quot;too boot directly&quot; string"
+"SMM BIOS write protection disabling (Ubuntu)",SMM002.001,PASS,"man.; auto fails randomly missing ""to boot directly"" string"
 "SATA LED and PC speaker error indication support (firmware)",SPK001.001,PASS,
 "Check Ethernet Ports Order",SPS001.001,PASS,
 "Verify if no reboot occurs in the firmware",STB001.001,PASS,
