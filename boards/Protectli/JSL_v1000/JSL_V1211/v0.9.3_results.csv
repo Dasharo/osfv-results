@@ -1,0 +1,93 @@
+Test Case,Protectli V1210 v0.9.3
+TPM Support (Ubuntu),PASS
+TPM Support (WIndows),PASS
+Verify TPM version (firmware),PASS
+Verify TPM version (Ubuntu),PASS
+Verify TPM version (Windows),PASS
+Check TPM Physical Presence Interface (firmware),PASS
+Check TPM Physical Presence Interface (Ubuntu),PASS
+Check TPM Physical Presence Interface (Windows),PASS
+Measured Boot support (Ubuntu),PASS
+Check Secure Boot default state (firmware),PASS
+UEFI Secure Boot (Ubuntu),PASS
+UEFI Secure Boot (Windows),PASS
+Reset Secure Boot Keys option availability (firmware),PASS
+USB devices detected in FW,PASS
+USB devices detected by OS (Ubuntu),PASS
+USB devices detected by OS (Windows),PASS
+USB keyboard detected in FW,PASS
+USB keyboard in OS (Ubuntu),PASS
+USB keyboard in OS (Windows),PASS
+Boot into UEFI OS (Ubuntu),PASS
+Boot into UEFI OS (Windows),PASS
+UEFI Shell,PASS
+NVMe support in OS (Ubuntu),PASS
+NVMe support in OS (Windows),PASS
+Wireless card detection (Ubuntu),NOT TESTED
+Wireless card detection (Windows),NOT TESTED
+Wi-Fi scanning (Ubuntu),NOT TESTED
+Wi-Fi scanning (Windows),NOT TESTED
+Bluetooth scanning (Ubuntu),NOT TESTED
+External HDMI display in OS (Ubuntu),PASS
+External HDMI display in OS (Windows),PASS
+Audio subsystem detection (Ubuntu),PASS
+Audio subsystem detection (Windows),PASS
+Verify the firmware version,PASS
+Verify the firmware product name,PASS
+Verify the firmware release date,PASS
+Verify the firmware manufacturer,PASS
+Verify the firmware vendor,PASS
+Verify the firmware family,PASS
+Verify the firmware type,PASS
+eMMC support (Ubuntu),PASS
+Serial boot measure: coreboot booting time after cold boot,PASS
+Serial boot measure: coreboot booting time after warm boot,PASS
+Serial boot measure: coreboot booting time after system reboot,PASS
+CPU temperature without load (Ubuntu),PASS
+CPU temperature after stress test (Ubuntu),PASS
+CPU not stuck on initial frequency (Ubuntu),PASS
+CPU not stuck on initial frequency (Windows),PASS
+CPU runs on expected frequency (Ubuntu),PASS
+CPU runs on expected frequency (Windows),PASS
+CPU with load runs on expected frequency (Ubuntu),PASS
+CPU with load runs on expected frequency (Windows),PASS
+Change the UUID,PASS
+Change the serial number,PASS
+Change the bootsplash logo,PASS
+Netboot is available,PASS
+OS Selection & Utilities is available,PASS
+iPXE boot is available,PASS
+iPXE shell is available,PASS
+iPXE shell works correctly,PASS
+Advanced option is available,PASS
+Change netboot URL works correctly,PASS
+Verify if no reboot occurs in the OS (Ubuntu),PASS
+Verify if no unexpected boot errors appear in Linux logs,PASS
+CPU clock speed displayed in setup menu,PASS
+RAM speed displayed in setup menu,PASS
+RAM size displayed in setup menu,PASS
+Expected CPU clock speed displayed in setup menu,PASS
+Expected RAM speed displayed in setup menu,PASS
+Expected RAM size displayed in setup menu,PASS
+CPU works (Ubuntu),PASS
+CPU works (Windows),PASS
+CPU cache enabled (Ubuntu),PASS
+CPU cache enabled (Windows),PASS
+Multiple CPU support (Ubuntu),PASS
+Multiple CPU support (Windows),PASS
+Multiple-core support (Ubuntu),PASS
+Multiple-core support (Windows),PASS
+Change Auto Boot Time-out and check after reboot,PASS
+F9 resets Auto Boot Time-out to default value,PASS
+Check Auto Boot Time-out option not accept non-numeric values,PASS
+PCRREAD Function Verification (Ubuntu),PASS
+PCREXTEND And PCRRESET Functions (Ubuntu),PASS
+PCREXTEND And PCRRESET Functions - locality protections (Ubuntu),PASS
+PCREVENT Function (Ubuntu),PASS
+CREATEPRIMARY Function Verification (Ubuntu),PASS
+NVDEFINE and NVUNDEFINE Functions Verification (Ubuntu),PASS
+CREATE Function (Ubuntu),PASS
+CREATELOADED Function (Ubuntu),PASS
+Signing the file (Ubuntu),PASS
+Hashing the file (Ubuntu),PASS
+Performing HMAC operation on the file (Ubuntu),PASS
