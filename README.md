@@ -11,6 +11,7 @@ mainboards:
 
 - [MSI Z690-A PRO](./boards/msi/ms7d25) -- project [Alder Lake Desktop](https://nlnet.nl/project/AlderLake/)
 - [MSI Z790-P PRO](./boards/msi/ms7e06) -- project [Raptor Lake Desktop](https://nlnet.nl/project/RaptorLake/)
+- [NovaCustom NV41PZ](./boards/NovaCustom/ADL_12th_Gen/NV41PZ/)
 - [NovaCustom V540TU](./boards/NovaCustom/MTL_14th_Gen/V540TU/)
 - [NovaCustom V560TU](./boards/NovaCustom/MTL_14th_Gen/V560TU/)
 - [NovaCustom V540TNx](./boards/NovaCustom/MTL_14th_Gen/V540TNX/)
