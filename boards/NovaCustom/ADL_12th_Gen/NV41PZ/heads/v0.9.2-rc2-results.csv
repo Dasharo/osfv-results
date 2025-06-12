@@ -62,8 +62,8 @@ Test name,Test ID,Result,Comments
 "Reset TPM option is available and works correctly",HDS018.001,PASS,
 "Generate new TOTP/HOTP secret",HDS019.001,PASS,
 "Boot DTS from USB",HDS020.001,PASS,
-"Update firmware via DTS (DES)",HDS021.001,NOT TESTED,
-"Install Heads via DTS (DES)",HDS022.001,FAIL,"marked by mistake"
+"Update firmware via DTS (DES)",HDS021.001,PASS,
+"Install Heads via DTS (DES)",HDS022.001,PASS,
 "Existing Qubes installation is bootable after transition from EDK2",HDS023.001,PASS,
 "Revert back to UEFI from Heads",HDS024.001,PASS,
 "Existing Qubes installation is bootable after transition back to EDK2",HDS025.001,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/713"
