@@ -34,11 +34,7 @@ Test name,Test ID,Result,Comments
 "Custom boot menu key",CBK001.001,PASS,
 "Custom BIOS Menu Key",CBK002.001,PASS,
 "Serial boot time measure: coreboot booting time after coldboot",CBMEM001.201,PASS,
-"Serial boot time measure: coreboot booting time after coldboot",CBMEM001.202,PASS,"Total Time: 2,396,685
-Total Time: 2,402,651
-Total Time: 2,405,942
-Total Time: 2,405,908
-Total Time: 2,403,991"
+"Serial boot time measure: coreboot booting time after coldboot",CBMEM001.202,PASS,"Total Time: 2,396,685, Total Time: 2,402,651, Total Time: 2,405,942, Total Time: 2,405,908, Total Time: 2,403,991"
 "Serial boot time measure: coreboot booting time after warmboot",CBMEM002.201,PASS,
 "Serial boot time measure: coreboot booting time after warmboot",CBMEM002.202,PASS,
 "Serial boot time measure: coreboot booting time after system reboot",CBMEM003.201,PASS,
@@ -222,8 +218,7 @@ Total Time: 2,403,991"
 "Platform suspend and resume (Ubuntu, wakeup flag)",SUSP001.201,PASS,
 "Platform suspend and resume (QubesOS, wakeup flag)",SUSP001.203,PASS,
 "Platform suspend and resume (Ubuntu, press key)",SUSP002.201,PASS,
-"Platform suspend and resume (QubesOS, press key)",SUSP002.203,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1044
-https://github.com/Dasharo/dasharo-issues/issues/731"
+"Platform suspend and resume (QubesOS, press key)",SUSP002.203,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1044, https://github.com/Dasharo/dasharo-issues/issues/731"
 "Platform suspend and resume (Ubuntu, power button)",SUSP003.201,PASS,
 "Platform suspend and resume (QubesOS, power button)",SUSP003.203,PASS,
 "Cyclic platform suspend and resume (Ubuntu) (S0ix)",SUSP006.201,PASS,
