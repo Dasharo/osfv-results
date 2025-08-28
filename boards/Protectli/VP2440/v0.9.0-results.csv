@@ -1,5 +1,6 @@
 Test name,Test ID,Result,Comments
 "Audio subsystem detection (Ubuntu)",AUD001.201,PASS,
+"Audio subsystem detection (Windows)",AUD001.301,PASS,
 "BIOS lock support (Ubuntu)",BLS001.201,PASS,
 "BIOS lock support deactivation (Ubuntu)",BLS002.201,PASS,
 "Change Auto Boot Time-out and check after reboot",BMM001.001,PASS,
@@ -84,6 +85,7 @@ Test name,Test ID,Result,Comments
 "TPM Support (Windows)",TPM001.301,PASS,
 "Verify TPM version (firmware)",TPM002.001,PASS,
 "Verify TPM Version (Ubuntu)",TPM002.201,PASS,
+"Verify TPM Version (Windows)",TPM002.301,PASS,
 "Check TPM Physical Presence Interface (firmware)",TPM003.001,PASS,
 "Check TPM Physical Presence Interface (Ubuntu)",TPM003.201,PASS,
 "Check TPM Physical Presence Interface (Windows)",TPM003.301,PASS,
