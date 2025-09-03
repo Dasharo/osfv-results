@@ -18,6 +18,7 @@ mainboards:
 - [NovaCustom V560TNx](./boards/NovaCustom/MTL_14th_Gen/V560TNX/)
 - [Protectli VP2420](./boards/Protectli/VP2420/)
 - [Protectli VP66xx](./boards/Protectli/VP66xx/)
+- [Hardkernel ODROID-H4](./boards/Hardkernel/Odroid_H4/)
 - [Dell OptiPlex 7010/9010](./boards/Dell/OptiPlex_7010_9010/)
 - [QEMU Q35](./boards/QEMU/Q35/)
 
