@@ -1,0 +1,604 @@
+Test name,Test ID,Result,Comments
+"ACPI driver test (Fedora)",ACPI001.202,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1064"
+"Audio subsystem detection (Qubes OS)",AUD001.003,PASS,
+"Audio subsystem detection (Fedora)",AUD001.202,PASS,
+"Audio playback (Qubes OS)",AUD002.003,PASS,
+"Audio capture (Qubes OS)",AUD003.003,PASS,
+"External headset recognition (Qubes OS)",AUD004.003,PASS,
+"External headset recognition (Fedora)",AUD004.202,PASS,
+"External headset audio playback (Qubes OS)",AUD005.003,PASS,
+"External headset audio capture (Qubes OS)",AUD006.003,PASS,
+"HDMI audio recognition (Qubes OS)",AUD007.003,PASS,
+"HDMI audio playback (Qubes OS)",AUD008.003,PASS,
+"BIOS lock support (Fedora)",BLS001.202,PASS,
+"BIOS lock support deactivation (Fedora)",BLS002.202,PASS,
+"USB Camera (Qubes OS)",CAM001.003,PASS,
+"Integrated webcam (Fedora)",CAM001.202,PASS,
+"Serial boot time measure: coreboot booting time after coldboot (Fedora)",CBMEM001.202,PASS,"manual, cbmem -t shows ~2s"
+"Serial boot time measure: coreboot booting time after warmboot (Fedora)",CBMEM002.202,PASS,
+"Serial boot time measure: coreboot booting time after system reboot (Fedora)",CBMEM003.202,PASS,
+"CPU not stuck on initial frequency (Qubes OS) (battery)",CPF001.014,PASS,
+"CPU not stuck on initial frequency (Qubes OS) (AC)",CPF001.015,PASS,
+"CPU not stuck on initial frequency (Qubes OS) (USB-PD)",CPF001.016,PASS,
+"CPU runs on expected frequency (Qubes OS) (battery)",CPF002.010,PASS,
+"CPU runs on expected frequency (Qubes OS) (AC)",CPF002.011,PASS,
+"CPU runs on expected frequency (Qubes OS) (USB-PD)",CPF002.012,PASS,
+"CPU not stuck on initial frequency (Fedora) (battery)",CPF002.202,PASS,
+"CPU not stuck on initial frequency (Fedora) (AC)",CPF003.202,PASS,
+"CPU with load runs on expected frequency (Qubes OS) (battery)",CPF004.010,PASS,
+"CPU with load runs on expected frequency (Qubes OS) (AC)",CPF004.011,PASS,
+"CPU with load runs on expected frequency (Qubes OS) (USB-PD)",CPF004.012,PASS,
+"CPU not stuck on initial frequency (Fedora) (USB-PD)",CPF004.202,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1073"
+"CPU runs on expected frequency (Fedora) (battery)",CPF006.202,PASS,
+"CPU runs on expected frequency (Fedora) (AC)",CPF007.202,PASS,
+"CPU runs on expected frequency (Fedora) (USB-PD)",CPF008.202,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1073"
+"CPU with load runs on expected frequency (Fedora) (battery)",CPF010.202,PASS,
+"CPU with load runs on expected frequency (Fedora) (AC)",CPF011.202,PASS,
+"CPU with load runs on expected frequency (Fedora) (USB-PD)",CPF012.202,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1073"
+"CPU temperature without load (Fedora) (battery)",CPT002.202,PASS,
+"CPU temperature without load (Fedora) (AC)",CPT003.202,PASS,
+"CPU temperature without load (Fedora) (USB-PD)",CPT004.202,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1073"
+"CPU temperature after stress test (Fedora) (battery)",CPT006.202,PASS,
+"CPU temperature after stress test (Fedora) (AC)",CPT007.202,PASS,
+"CPU temperature after stress test (Fedora) (USB-PD)",CPT008.202,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1073"
+"CPU works (Qubes OS)",CPU001.003,PASS,
+"CPU works (Fedora)",CPU001.202,PASS,
+"CPU cache enabled (Qubes OS)",CPU002.003,PASS,
+"CPU cache enabled (Fedora)",CPU002.202,PASS,
+"Multiple CPU support (Qubes OS)",CPU003.003,PASS,
+"Multiple CPU support (Fedora)",CPU003.202,PASS,"manual DUT has a 125H while OSFV expected a 155H"
+"Multiple-core support (Qubes OS)",CPU004.003,PASS,
+"Multiple-core support (Fedora)",CPU004.202,PASS,
+"Internal LCD in OS (Qubes OS)",DSP001.004,PASS,
+"Internal display in OS (Fedora)",DSP001.202,PASS,
+"External HDMI display in OS (Qubes OS)",DSP002.004,PASS,
+"External HDMI display in OS (Fedora)",DSP002.202,PASS,
+"Battery monitoring - charge level in OS (Qubes OS)",ECR001.005,PASS,
+"Battery monitoring - charge level in OS (Fedora)",ECR001.202,PASS,
+"Battery monitoring - charging state in OS (Qubes OS)",ECR002.003,PASS,
+"Battery monitoring - charging state in OS (Fedora)",ECR002.202,PASS,
+"Touchpad in OS - (Qubes OS)",ECR003.003,PASS,
+"Touchpad in OS - (Fedora)",ECR003.202,PASS,
+"Keyboard (standard keypad) in OS (Qubes OS)",ECR004.004,PASS,
+"Keyboard (function key: play/pause) in OS (Qubes OS)",ECR005.003,PASS,
+"Keyboard (function key: cooling mode) in OS (Qubes OS)",ECR006.003,PASS,
+"Keyboard (function key: touchpad on/off) in OS (Qubes OS)",ECR007.003,PASS,
+"Keyboard (function key: mute) in OS (Qubes OS)",ECR009.003,PASS,
+"Keyboard (function key: keyboard backlight) in OS (Qubes OS)",ECR010.003,PASS,
+"Keyboard (function key: volume down) in OS (Qubes OS)",ECR011.003,PASS,
+"Keyboard (function key: volume up) in OS (Qubes OS)",ECR012.003,PASS,
+"Keyboard (function key: display switch) in OS (Qubes OS)",ECR013.003,PASS,
+"Keyboard (function key: brightness down) in OS (Qubes OS)",ECR014.003,PASS,
+"Keyboard (function key: brightness down) in OS (Fedora)",ECR014.202,PASS,
+"Keyboard (function key: brightness up) in OS (Qubes OS)",ECR015.003,PASS,
+"Keyboard (function key: brightness up) in OS (Fedora)",ECR015.202,PASS,
+"Keyboard (function key: camera on/off) in OS (Qubes OS)",ECR016.003,PASS,
+"Keyboard (function key: camera on/off) in OS (Fedora)",ECR016.202,PASS,"manual https://github.com/Dasharo/open-source-firmware-validation/issues/1065"
+"Keyboard (function key: flight mode) in OS (Qubes OS)",ECR017.003,PASS,
+"Keyboard (function key: flight mode) in OS (Fedora)",ECR017.202,PASS,"manual via ssh"
+"Keyboard (function key: sleep) in OS (Qubes OS)",ECR018.003,PASS,
+"Buttons (button: power) in OS (Qubes OS)",ECR019.003,PASS,
+"Buttons (button: power) in OS (Fedora)",ECR019.202,PASS,
+"Buttons (button: lid switch) in OS (Qubes OS)",ECR020.003,PASS,
+"Permanent keyboard illumination after cold boot (Qubes OS)",ECR025.004,PASS,
+"Permanent keyboard illumination after warm boot (Qubes OS)",ECR026.004,PASS,
+"Permanent keyboard illumination after reboot (Qubes OS)",ECR027.004,PASS,
+"Permanent keyboard illumination after suspension (Qubes OS)",ECR028.004,PASS,
+"FnLock Hotkey (Qubes OS)",ECR029.003,PASS,
+"Charging until 98% level in OS (Qubes OS)",ECR030.003,PASS,
+"Not charging between 95% and 98% in OS (Qubes OS)",ECR030.004,PASS,
+"Fedora installation",FED001.001,PASS,
+"Boot Fedora",FED001.002,PASS,
+"Fwupd Devices Detected (Fedora)",FWUPD001.202,PASS,
+"Fwupd Devices Detected (QubesOS)",FWUPD001.203,PASS,
+"Fwupd Local Firmware Update (Fedora)",FWUPD002.202,PASS,
+"Fwupd Local Firmware Update (QubesOS)",FWUPD002.203,PASS,
+"Fwupd LVFS Firmware Update (Fedora)",FWUPD003.202,NOT TESTED,"not a part of regression testing for now"
+"Fwupd LVFS Firmware Update (QubesOS)",FWUPD003.203,NOT TESTED,"not a part of regression testing for now"
+"Measured Boot support (Fedora)",MBO001.202,PASS,
+"Check if event log PCRs match actual values (Fedora)",MBO002.202,PASS,"https://github.com/Dasharo/dasharo-issues/issues/1491"
+"Wireless card detection (Fedora)",MWL001.202,PASS,"manual, device name changed?"
+"Wi-Fi scanning (Fedora)",MWL002.202,PASS,
+"Bluetooth scanning (Fedora)",MWL003.202,PASS,
+"NET controller after coldboot (Qubes OS)",NET001.002,PASS,
+"NET controller after warmboot (Qubes OS)",NET002.002,PASS,
+"Net controller after warmboot (Fedora)",NET002.202,PASS,
+"NET controller after reboot (Qubes OS)",NET003.002,PASS,
+"Net controller after reboot (Fedora)",NET003.202,PASS,
+"NET controller after suspend (Qubes OS) (S3)",NET004.004,PASS,
+"NET controller after suspend (Fedora)",NET004.202,PASS,
+"NET controller after suspend (Fedora) (S0ix)",NET005.202,PASS,"not automated via ssh"
+"NET controller after suspend (Fedora) (S3)",NET006.202,PASS,"not automated via ssh"
+"NVMe support in OS (Fedora)",NVM001.202,PASS,
+"QubesOS installation",QBS001.001,PASS,
+"Boot QubesOS",QBS001.002,PASS,
+"Boot installed Qubes from SSD",QBS004.001,PASS,
+"Reboot in Qubes",QBS005.001,PASS,
+"SD Card reader detection (Qubes OS)",SDC001.003,NOT TESTED,"broken SD card slot"
+"SD Card reader detection (Fedora)",SDC001.202,NOT TESTED,"SD card port might be broken"
+"SD Card read/write (Qubes OS)",SDC002.003,NOT TESTED,"broken SD card slot"
+"SD Card read/write (Fedora)",SDC002.202,PASS,
+"Wi-fi connection after cold boot (Qubes OS)",SMW001.002,PASS,
+"Wi-fi connection after warm boot (Qubes OS)",SMW002.002,PASS,
+"Wi-fi connection after warm boot (Fedora)",SMW002.202,PASS,
+"Wi-fi connection after reboot (Qubes OS)",SMW003.002,PASS,
+"Wi-fi connection after reboot (Fedora)",SMW003.202,PASS,
+"Wi-fi connection after suspension (Qubes OS) (S3)",SMW004.004,PASS,
+"Wi-fi connection after suspension (Fedora)",SMW004.202,PASS,
+"Wi-fi connection after suspension (Fedora) (S0ix)",SMW005.202,PASS,"not automated via ssh"
+"Wi-fi connection after suspension (Fedora) (S3)",SMW006.202,PASS,"not automated via ssh"
+"NVMe detection after cold boot (Qubes OS)",SNV0001.002,PASS,
+"NVMe detection after warm boot (Qubes OS)",SNV0002.002,PASS,
+"NVMe detection after reboot (Qubes OS)",SNV0003.002,PASS,
+"NVMe detection after suspension (Qubes OS) (S3)",SNV0004.004,PASS,
+"NVMe detection after warm boot (Fedora)",SNV002.202,PASS,
+"NVMe detection after reboot (Fedora)",SNV003.202,PASS,
+"NVMe detection after suspension (Fedora)",SNV004.202,PASS,
+"NVMe detection after suspension (Fedora) (S0ix)",SNV005.202,PASS,"not automated via ssh"
+"NVMe detection after suspension (Fedora) (S3)",SNV006.202,PASS,"not automated via ssh"
+"2x S3 suspend cycle (Battery) (Qubes OS)",SPM003.003,PASS,
+"2x S3 suspend cycle (AC) (Qubes OS)",SPM004.003,PASS,
+"2x warmboot cycle (Battery) (Qubes OS)",SPM005.003,PASS,
+"2x warmboot cycle (AC) (Qubes OS)",SPM006.003,PASS,
+"Verify if no reboot occurs in the OS (Qubes OS)",STB001.004,PASS,
+"Verify if no reboot occurs in the OS (Fedora)",STB001.202,PASS,
+"No unexpected boot errors (Qubes OS)",STB002.002,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1201"
+"Verify if no unexpected boot errors appear in Linux logs (Fedora)",STB002.202,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1201"
+"USB devices detection after cold boot (Qubes OS)",SUD0001.002,PASS,
+"USB devices detection after warm boot (Qubes OS)",SUD0002.002,PASS,
+"USB devices detection after reboot (Qubes OS)",SUD0003.002,PASS,
+"USB devices detection after suspension (Qubes OS) (S3)",SUD0004.004,PASS,
+"USB devices detection after warm boot (Fedora)",SUD002.202,PASS,
+"USB devices detection after reboot (Fedora)",SUD003.202,PASS,
+"USB devices detection after suspension (Fedora)",SUD004.202,PASS,
+"USB devices detection after suspension (Fedora) (S0ix)",SUD005.202,PASS,"not automated via ssh"
+"USB devices detection after suspension (Fedora) (S3)",SUD006.202,PASS,"not automated via ssh"
+"Platform suspend and resume (QubesOS, wakeup flag)",SUSP001.203,PASS,
+"Platform suspend and resume (QubesOS, press key)",SUSP002.203,PASS,
+"Platform suspend and resume (QubesOS, power button)",SUSP003.203,PASS,
+"Cyclic platform suspend and resume (Fedora)",SUSP005.202,PASS,
+"Cyclic platform suspend and resume (Fedora) (S0ix)",SUSP006.202,PASS,"not automated via ssh"
+"Cyclic platform suspend and resume (Fedora) (S3)",SUSP007.202,PASS,"not automated via ssh"
+"Cyclic platform suspend and resume (Qubes OS) (S3)",SUSP007.203,PASS,
+"Detect TPM after platform reboot (Fedora)",TPD003.202,PASS,
+"Detect TPM after platform suspend (Fedora)",TPD004.202,PASS,
+"TPM Support (Fedora)",TPM001.202,PASS,
+"Verify TPM Version (Fedora)",TPM002.202,PASS,
+"Check TPM Physical Presence Interface (Fedora)",TPM003.202,PASS,
+"USB devices detected by OS (Fedora)",USB001.202,PASS,
+"USB devices detected by OS (Qubes OS)",USB001.203,PASS,
+"USB keyboard in OS (Fedora)",USB002.202,PASS,
+"USB keyboard in OS (Qubes OS)",USB002.203,PASS,
+"Upload 1GB file on USB storage (Fedora)",USB003.202,PASS,
+"USB Type-C docking station Triple display (Ubuntu)",UTC007.001,PASS,""
+"USB Type-C docking station Triple display (Windows)",UTC007.002,PASS,
+"USB Type-C docking station Triple display (Qubes OS)",UTC007.003,PASS,
+"USB Type-C docking station Triple display with ME disabled(Ubuntu)",UTC007.005,PASS,""
+"USB Type-C docking station Triple display with ME disabled(Windows)",UTC007.006,PASS,""
+"USB Type-C docking station detection after coldboot (Qubes OS)",UTC008.003,PASS,
+"USB Type-C docking station detection after warmboot (Qubes OS)",UTC009.003,PASS,
+"USB Type-C docking station detection after reboot (Qubes OS)",UTC010.003,PASS,
+"USB Type-C PD current limiting (Ubuntu)",UTC020.001,PASS,"https://github.com/Dasharo/dasharo-issues/issues/1507"
+"USB Type-C PD current limiting (Windows)",UTC020.002,PASS,"https://github.com/Dasharo/dasharo-issues/issues/1507"
+"USB Type-C PD current limiting with ME disabled (Ubuntu)",UTC020.003,PASS,"https://github.com/Dasharo/dasharo-issues/issues/1507"
+"USB Type-C PD current limiting with ME disabled (Windows)",UTC020.004,PASS,"https://github.com/Dasharo/dasharo-issues/issues/1507"
+"USB Type-C laptop charging (Ubuntu)",UTC021.001,PASS,
+"USB Type-C laptop charging (Windows)",UTC021.002,PASS,
+"USB Type-C laptop charging (Qubes OS)",UTC021.003,PASS,
+"USB Type-C Display output (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC107.201,PASS,"manual https://github.com/Dasharo/open-source-firmware-validation/issues/1069"
+"USB Type-C Display output (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC107.202,PASS,"manual https://github.com/Dasharo/open-source-firmware-validation/issues/1069"
+"USB Type-C Display output with ME disabled(Ubuntu)",UTC108.201,PASS,"manual https://github.com/Dasharo/open-source-firmware-validation/issues/1069"
+"USB Type-C Display output (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC108.202,PASS,"manual https://github.com/Dasharo/open-source-firmware-validation/issues/1069"
+"USB Type-C docking station HDMI display (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC109.201,PASS,
+"USB Type-C docking station HDMI display (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC109.202,PASS,
+"USB Type-C docking station HDMI display (Windows) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC109.301,PASS,
+"USB Type-C docking station HDMI display (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC110.201,PASS,
+"USB Type-C docking station HDMI display (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC110.202,PASS,
+"USB Type-C docking station HDMI display (Windows) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC110.301,PASS,
+"USB Type-C docking station DP display (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC111.201,PASS,
+"USB Type-C docking station DP display (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC111.202,PASS,
+"USB Type-C docking station DP display (Windows) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC111.301,PASS,
+"USB Type-C docking station DP display (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC112.201,PASS,
+"USB Type-C docking station DP display (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC112.202,PASS,
+"USB Type-C docking station DP display (Windows) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC112.301,PASS,
+"USB Type-C docking station USB devices recognition (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC115.201,PASS,
+"USB Type-C docking station USB devices recognition (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC115.202,PASS,
+"USB Type-C docking station USB devices recognition (Windows) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC115.301,PASS,
+"USB Type-C docking station USB devices recognition (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC116.201,PASS,
+"USB Type-C docking station USB devices recognition (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC116.202,PASS,
+"USB Type-C docking station USB devices recognition (Windows) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC116.301,PASS,
+"USB Type-C docking station USB keyboard (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC117.201,PASS,
+"USB Type-C docking station USB keyboard (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC117.202,PASS,
+"USB Type-C docking station USB keyboard (Windows) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC117.301,PASS,
+"USB Type-C docking station USB keyboard (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC118.201,PASS,
+"USB Type-C docking station USB keyboard (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC118.202,PASS,
+"USB Type-C docking station USB keyboard (Windows) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC118.301,PASS,
+"USB Type-C docking station Ethernet connection (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC121.201,PASS,
+"USB Type-C docking station Ethernet connection (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC121.202,PASS,
+"USB Type-C docking station Ethernet connection (Windows) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC121.301,PASS,
+"USB Type-C docking station Ethernet connection (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC122.201,PASS,
+"USB Type-C docking station Ethernet connection (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC122.202,PASS,
+"USB Type-C docking station Ethernet connection (Windows) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC122.301,PASS,
+"USB Type-C docking station audio recognition (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC123.201,PASS,
+"USB Type-C docking station audio recognition (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC123.202,PASS,
+"USB Type-C docking station audio recognition (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC124.201,PASS,
+"USB Type-C docking station audio recognition (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC124.202,PASS,
+"USB Type-C docking station SD Card reader detection (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC129.201,PASS,
+"USB Type-C docking station SD Card reader detection (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC129.202,PASS,
+"USB Type-C docking station SD Card reader detection (Windows) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC129.301,PASS,
+"USB Type-C docking station SD Card reader detection (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC130.201,PASS,
+"USB Type-C docking station SD Card reader detection (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC130.202,PASS,
+"USB Type-C docking station SD Card reader detection (Windows) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC130.301,PASS,
+"USB Type-C docking station SD Card read/write (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC131.201,PASS,
+"USB Type-C docking station SD Card read/write (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC131.202,PASS,
+"USB Type-C docking station SD Card read/write (Windows) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC131.301,PASS,
+"USB Type-C docking station SD Card read/write (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC132.201,PASS,
+"USB Type-C docking station SD Card read/write (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC132.202,PASS,
+"USB Type-C docking station SD Card read/write (Windows) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC132.301,PASS,
+"Docking station detection after coldboot (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC135.201,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1069"
+"Docking station detection after coldboot (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC135.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after coldboot (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC136.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after coldboot (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC136.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after warmboot (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC137.201,PASS,
+"Docking station detection after warmboot (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC137.202,PASS,
+"Docking station detection after warmboot (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC138.201,PASS,
+"Docking station detection after warmboot (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC138.202,PASS,
+"Docking station detection after reboot (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC139.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after reboot (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC139.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after reboot (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC140.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after reboot (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC140.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC141.201,PASS,
+"Docking station detection after suspend (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC141.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC142.201,PASS,
+"Docking station detection after suspend (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC142.202,PASS,
+"Docking station detection after suspend (S0ix) (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC143.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (S0ix) (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC143.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (S0ix) (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC144.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (S0ix) (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC144.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (S3) (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC145.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (S3) (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC145.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (S3) (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC146.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend (S3) (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC146.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after coldboot then hotplug (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC147.201,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1069"
+"Docking station detection after coldboot then hotplug (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC147.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after coldboot then hotplug (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC148.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after coldboot then hotplug (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC148.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after warmboot then hotplug (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC149.201,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1069"
+"Docking station detection after warmboot then hotplug (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC149.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after warmboot then hotplug (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC150.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after warmboot then hotplug (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC150.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after reboot then hotplug (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC151.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after reboot then hotplug (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC151.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after reboot then hotplug (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC152.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after reboot then hotplug (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC152.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC153.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC153.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC154.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC154.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (S0ix) (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC155.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (S0ix) (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC155.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (S0ix) (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC156.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (S0ix) (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC156.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (S3) (Ubuntu) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC157.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (S3) (Fedora) (ME: Enabled) (WL-UMD05 Pro Rev.E)",UTC157.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (S3) (Ubuntu) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC158.201,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Docking station detection after suspend then hotplug (S3) (Fedora) (ME: Disabled) (WL-UMD05 Pro Rev.E)",UTC158.202,PASS,"manual https://github.com/Dasharo/dasharo-issues/issues/1505"
+"Wifi and Bluetooth card power switch disabled (Fedora)",WBS001.202,PASS,
+"Wifi and Bluetooth card power switch enabled (Fedora)",WBS002.202,PASS,"manual"
+"Wireless card detection (Qubes OS)",WLE001.003,PASS,
+"Wi-Fi scanning (Qubes OS)",WLE002.003,PASS,
+"ACPI driver test (Ubuntu)",ACPI001.201,PASS,
+"Audio subsystem detection (Ubuntu)",AUD001.201,PASS,
+"Audio subsystem detection (Windows)",AUD001.301,PASS,"man"
+"Internal speaker audio playback (Ubuntu)",AUD002.201,PASS,
+"Internal speaker audio playback (Windows)",AUD002.301,PASS,
+"Internal microhphone audio capture (Ubuntu)",AUD003.201,PASS,
+"Internal microphone audio capture (Windows)",AUD003.301,PASS,
+"External headset recognition (Ubuntu)",AUD004.201,PASS,"man"
+"External headset recognition (Windows)",AUD004.301,PASS,
+"External headset audio playback (Ubuntu)",AUD005.201,PASS,
+"External headset audio playback (Windows)",AUD005.301,PASS,
+"External headset audio capture (Ubuntu)",AUD006.201,PASS,
+"External headset audio capture (Windows)",AUD006.301,PASS,
+"Boot blocking (charger disconnected) (Ubuntu)",BBB001.001,PASS,
+"Boot blocking (charger connected) (Ubuntu)",BBB001.002,PASS,
+"BIOS lock support (Ubuntu)",BLS001.201,PASS,
+"BIOS lock support deactivation (Ubuntu)",BLS002.201,PASS,
+"Change Auto Boot Time-out and check after reboot",BMM001.001,PASS,
+"F9 resets Auto Boot Time-out to default value",BMM002.001,PASS,
+"Check Auto Boot Time-out option not accept non-numeric values",BMM003.001,PASS,
+"Boot Windows 11 from disk after cold-boot",BWI001.001,PASS,
+"Boot Windows 11 from disk after warm-boot",BWI002.001,PASS,
+"Boot Windows 11 from disk after reboot",BWI003.001,PASS,
+"Integrated webcam (Ubuntu)",CAM001.201,PASS,
+"Integrated webcam (Windows)",CAM001.301,PASS,"man"
+"Custom boot menu key",CBK001.001,PASS,
+"Custom BIOS Menu Key",CBK002.001,PASS,
+"Serial boot time measure: coreboot booting time after coldboot (Ubuntu)",CBMEM001.201,PASS,
+"Serial boot time measure: coreboot booting time after warmboot (Ubuntu)",CBMEM002.201,PASS,
+"Serial boot time measure: coreboot booting time after system reboot (Ubuntu)",CBMEM003.201,PASS,
+"Converged Boot Guard and TXT Status Menu is visible",CBNT002.101,PASS,
+"Converged Boot Guard and TXT - PCR-0 is reconstructed correctly (Ubuntu)",CBNT003.201,PASS,
+"Converged Boot Guard and TXT - TPM Startup from locality 3 (Ubuntu)",CBNT004.201,PASS,
+"Converged Boot Guard and TXT - Fused platform EoM set and FPFs Committed (Ubuntu)",CBNT005.201,NOT TESTED,"The test is tailored for Intel Boot Guard permanently fused platforms, which we don't do yet. "
+"Setup Menu Boot Guard Information",CBNT006.101,PASS,"man"
+"Custom Boot Order",CBO001.002,PASS,
+"Camera enable",CHS001.201,PASS,
+"Check camera enablement",CHS001.202,PASS,"man"
+"Camera disable",CHS002.201,PASS,
+"Custom boot logo",CLG001.001,PASS,
+"Only one iPXE in boot menu",CNB001.201,PASS,
+"CPU not stuck on initial frequency (Ubuntu)",CPF001.201,PASS,
+"CPU runs on expected frequency (Ubuntu)",CPF005.201,PASS,"man"
+"CPU runs on expected frequency (Ubuntu) (battery)",CPF006.201,PASS,"man"
+"CPU runs on expected frequency (Windows) (battery)",CPF006.301,PASS,"man"
+"CPU runs on expected frequency (Ubuntu) (AC)",CPF007.201,PASS,
+"CPU runs on expected frequency (Windows) (AC)",CPF007.301,PASS,"man"
+"CPU runs on expected frequency (Ubuntu) (USB-PD)",CPF008.201,PASS,"man"
+"CPU with load runs on expected frequency (Ubuntu)",CPF009.201,PASS,"man"
+"CPU with load runs on expected frequency (Ubuntu) (battery)",CPF010.201,PASS,"man"
+"CPU with load runs on expected frequency (Windows) (battery)",CPF010.301,PASS,"man"
+"CPU with load runs on expected frequency (Windows) (AC)",CPF011.301,PASS,"man"
+"CPU with load runs on expected frequency (Ubuntu) (USB-PD)",CPF012.201,PASS,"man"
+"CPU with load runs on expected frequency (Windows) (USB-PD)",CPF012.301,PASS,"man"
+"CPU temperature without load (Ubuntu) (AC)",CPT003.201,PASS,"man"
+"CPU temperature after stress test (Ubuntu) (AC)",CPT007.201,PASS,"man"
+"CPU works (Ubuntu)",CPU001.201,PASS,
+"CPU works (Windows)",CPU001.301,PASS,
+"CPU cache enabled (Ubuntu)",CPU002.201,PASS,
+"CPU cache enabled (Windows)",CPU002.301,PASS,
+"Multiple CPU support (Ubuntu)",CPU003.201,PASS,
+"Multiple CPU support (Windows)",CPU003.301,PASS,
+"Multiple-core support (Ubuntu)",CPU004.201,PASS,
+"Multiple-core support (Windows)",CPU004.301,PASS,
+"Capsule Update With Wrong Keys",CUP001.001,PASS,"man"
+"Capsule Update With Wrong GUID",CUP002.001,PASS,"man"
+"Verifying BIOS Settings Persistence After Update - PART 1",CUP130.001,PASS,
+"Capsule Update",CUP150.001,PASS,"man"
+"Verifying BIOS Settings Persistence After Update - PART 2",CUP160.001,PASS,
+"Verifying UUID (Ubuntu)",CUP170.201,PASS,
+"Verifying UUID (Windows)",CUP170.301,PASS,
+"Verifying Serial Number (Ubuntu)",CUP180.201,PASS,
+"Verifying Serial Number (Windows)",CUP180.301,PASS,
+"Verifying If Custom Logo Persists Across updates (Ubuntu)",CUP190.201,PASS,"man"
+"Capsule Update Progress Bar - Default Logo",CUP250.001,PASS,"man"
+"Change the bootsplash logo",DCU003.201,PASS,
+"Sequential Read Performance (Ubuntu) (AC)",DIO001.201,PASS,
+"Sequential Read Performance (Ubuntu) (Battery)",DIO001.202,PASS,
+"Sequential Write Performance (Ubuntu) (AC)",DIO002.201,PASS,
+"Sequential Write Performance (Ubuntu) (Battery)",DIO002.202,PASS,
+"Random Read Performance (Ubuntu) (AC)",DIO003.201,PASS,
+"Random Read Performance (Ubuntu) (Battery)",DIO003.202,PASS,
+"Random Write Performance (Ubuntu) (AC)",DIO004.201,PASS,
+"Random Write Performance (Ubuntu) (Battery)",DIO004.202,PASS,
+"Verify the firmware version",DMI002.201,PASS,"man"
+"Verify the firmware product name",DMI003.201,PASS,
+"Verify the firmware release date",DMI004.201,PASS,"man"
+"Verify the firmware manufacturer",DMI005.201,PASS,
+"Verify the firmware vendor",DMI006.201,PASS,
+"Verify the firmware family",DMI007.201,PASS,
+"Verify the firmware type",DMI008.201,PASS,
+"Internal LCD in firmware",DSP001.001,PASS,
+"Internal display in OS",DSP001.201,PASS,
+"Internal display in OS (Windows)",DSP001.301,PASS,
+"External HDMI display in OS (Ubuntu)",DSP002.201,PASS,
+"External HDMI display in OS (Windows)",DSP002.301,PASS,
+"Flash device from DTS shell by using flashrom works correctly",DTS005.001,PASS,
+"Flash device EC firmware by using DTS built-in script works correctly",DTS006.001,PASS,
+"DTS option power-off DUT works correctly",DTS008.001,PASS,
+"Battery monitoring - charge level in OS (Ubuntu)",ECR001.201,PASS,
+"Battery monitoring - charge level in OS (Windows)",ECR001.301,PASS,
+"Battery monitoring - charging state in OS (Ubuntu)",ECR002.201,PASS,
+"Battery monitoring - charging state in OS (Windows)",ECR002.301,PASS,"man"
+"Touchpad in OS - (Ubuntu)",ECR003.201,PASS,
+"Touchpad in OS - (Windows)",ECR003.301,PASS,
+"Keyboard (standard keypad) in firmware",ECR004.001,PASS,
+"Keyboard (standard keypad) in OS (Ubuntu)",ECR004.201,PASS,
+"Keyboard (standard keypad) in OS (Windows)",ECR004.301,PASS,
+"Keyboard (function key: play/pause) in OS (Ubuntu)",ECR005.201,PASS,
+"Keyboard (function key: play/pause) in OS (Windows)",ECR005.301,PASS,
+"Keyboard (function key: cooling mode) in OS (Ubuntu)",ECR006.201,PASS,
+"Keyboard (function key: cooling mode) in OS (Windows)",ECR006.301,PASS,
+"Keyboard (function key: touchpad on/off) in OS (Ubuntu)",ECR007.201,PASS,
+"Keyboard (function key: touchpad on/off) in OS (Windows)",ECR007.301,PASS,
+"Keyboard (function key: display on/off) in OS (Ubuntu)",ECR008.201,PASS,
+"Keyboard (function key: display on/off) in OS (Windows)",ECR008.301,PASS,
+"Keyboard (function key: mute) in OS (Ubuntu)",ECR009.201,PASS,
+"Keyboard (function key: mute) in OS (Windows)",ECR009.301,PASS,
+"Keyboard (function key: keyboard backlight) in OS (Ubuntu)",ECR010.201,PASS,
+"Keyboard (function key: keyboard backlight) in OS (Windows)",ECR010.301,PASS,
+"Keyboard (function key: volume down) in OS (Ubuntu)",ECR011.201,PASS,
+"Keyboard (function key: volume down) in OS (Windows)",ECR011.301,PASS,
+"Keyboard (function key: volume up) in OS (Ubuntu)",ECR012.201,PASS,
+"Keyboard (function key: volume up) in OS (Windows)",ECR012.301,PASS,
+"Keyboard (function key: display switch) in OS (Ubuntu)",ECR013.201,PASS,
+"Keyboard (function key: display switch) in OS (Windows)",ECR013.301,PASS,
+"Keyboard (function key: brightness down) in OS (Windows)",ECR014.002,PASS,
+"Keyboard (function key: brightness down) in OS (Ubuntu)",ECR014.201,PASS,
+"Keyboard (function key: brightness up) in OS (Windows)",ECR015.002,PASS,
+"Keyboard (function key: brightness up) in OS (Ubuntu)",ECR015.201,PASS,
+"Keyboard (function key: camera on/off) in OS (Windows)",ECR016.002,PASS,
+"Keyboard (function key: camera on/off) in OS (Ubuntu)",ECR016.201,PASS,
+"Keyboard (function key: flight mode) in OS (Windows)",ECR017.002,PASS,
+"Keyboard (function key: flight mode) in OS (Ubuntu)",ECR017.201,PASS,
+"Keyboard (function key: sleep) in OS (Ubuntu)",ECR018.201,PASS,
+"Keyboard (function key: sleep) in OS (Windows)",ECR018.301,PASS,
+"Buttons (button: power) in OS (Windows)",ECR019.002,PASS,
+"Buttons (button: power) in OS (Ubuntu)",ECR019.201,PASS,
+"Buttons (button: lid switch) in OS (Windows)",ECR020.002,PASS,
+"EC sync update with power adapter connected works correctly",ECR022.001,PASS,
+"EC sync doesn't update with power adapter disconnected",ECR023.001,PASS,
+"Permanent keyboard illumination after cold boot (Ubuntu)",ECR025.002,PASS,
+"Permanent keyboard illumination after cold boot (Windows)",ECR025.003,PASS,
+"Permanent keyboard illumination after warm boot (Ubuntu)",ECR026.002,PASS,
+"Permanent keyboard illumination after warm boot (Windows)",ECR026.003,PASS,
+"Permanent keyboard illumination after reboot (Ubuntu)",ECR027.002,PASS,
+"Permanent keyboard illumination after reboot (Windows)",ECR027.003,PASS,
+"Permanent keyboard illumination after suspension (Ubuntu)",ECR028.002,PASS,"man"
+"Permanent keyboard illumination after suspension (Windows)",ECR028.003,PASS,
+"FnLock Hotkey (Ubuntu)",ECR029.001,PASS,
+"FnLock Hotkey (Windows)",ECR029.002,PASS,
+"EC power button watchdog",ECR033.001,PASS,
+"Soft Switch Microphone Key (Ubuntu)",ECR034.001,PASS,
+"Soft Switch Microphone Key (Windows)",ECR034.002,PASS,
+"Boot into UEFI OS (Ubuntu)",EFI001.201,PASS,
+"Boot into UEFI OS (Windows)",EFI001.301,PASS,
+"CPU fan speed measure",FAN001.201,PASS,
+"All available fans are running",FAN002.201,PASS,
+"Fans are turning off during suspend mode with ME Enabled",FAN003.201,PASS,
+"Fans are turning off during suspend mode with ME Soft disabled",FAN004.201,PASS,
+"Fans are turning off during suspend mode with ME HAP disabled",FAN005.201,PASS,
+"Fast Boot Reduces Boot Time",FBT001.201,PASS,
+"Fwupd Devices Detected (Ubuntu)",FWUPD001.201,PASS,
+"Fwupd Local Firmware Update (Ubuntu)",FWUPD002.201,PASS,
+"Fwupd LVFS Firmware Update (Ubuntu)",FWUPD003.201,NOT TESTED,
+"Platform hibernation and resume (Ubuntu)",HBN001.001,PASS,
+"Platform hibernation and resume (Windows)",HBN001.002,PASS,"maybe needs post install steps"
+"Memory HCL - boot into OS (Ubuntu)",HCL001.001,PASS,
+"Ubuntu LTS installation on Hard Disk",LBT004.001,PASS,
+"Boot Ubuntu From Hard Disk",LBT004.002,PASS,
+"Measured Boot support (Ubuntu)",MBO001.201,PASS,
+"ME disable option is available and has the correct default state",MNE001.001,PASS,
+"ME disable option off works correctly (Ubuntu)",MNE002.001,PASS,
+"ME disable option soft disable works correctly (Ubuntu)",MNE003.001,PASS,
+"ME disable HAP bit option works correctly (Ubuntu)",MNE004.001,PASS,
+"Check Intel ME version",MNE006.001,PASS,
+"Wireless card detection (Ubuntu)",MWL001.201,PASS,
+"Wireless card detection (Windows)",MWL001.301,PASS,"man"
+"Enable Network Boot (firmware)",NBA001.001,PASS,
+"Disable Network Boot (firmware)",NBA002.001,PASS,
+"Netboot is available",NBT001.001,PASS,
+"OS Selection & Utilities is available",NBT002.001,PASS,
+"iPXE boot is available",NBT003.001,PASS,
+"iPXE shell is available",NBT004.001,PASS,
+"iPXE shell works correctly",NBT005.001,PASS,
+"NET controller after coldboot (Ubuntu)",NET001.001,PASS,
+"NET controller after warmboot (Ubuntu)",NET002.001,PASS,
+"Net controller after reboot (Ubuntu)",NET003.201,PASS,
+"NET controller after suspend (Ubuntu)",NET004.201,PASS,"man"
+"NVMe support in firmware",NVM001.001,PASS,
+"NVMe support in OS (Ubuntu)",NVM001.201,PASS,
+"NVMe support in OS (Windows)",NVM001.301,PASS,
+"Check Power State After Power Failure default state (firmware)",PSF001.001,PASS,
+"Powered Off State Restoration Test",PSF002.001,PASS,
+"Powered On State Restoration Test",PSF003.001,PASS,
+"Check Password Setup option availability and default state",PSW001.001,PASS,
+"Password setting mechanism correctness checking",PSW002.001,PASS,
+"Attempt to log in with a correct password",PSW003.001,PASS,
+"Attempt to log in with an incorrect password",PSW004.001,PASS,
+"Attempt to log in with an incorrect password 3 times",PSW005.001,PASS,
+"Attempt to turn off setup password functionality",PSW006.001,PASS,
+"Attempt to set non-compliant password",PSW007.001,PASS,
+"Attempt to set old password",PSW008.001,PASS,
+"Dasharo Network Boot is available",PXE001.001,PASS,
+"Dasharo network boot menu boot options order is correct",PXE002.001,PASS,
+"Autoboot option is available and works correctly",PXE003.001,PASS,
+"DTS option is available and works correctly",PXE004.001,PASS,
+"OS installation option is available and works correctly",PXE005.001,PASS,
+"iPXE shell option is available and works correctly",PXE006.001,PASS,
+"F9 resets Enable USB stack option to default",RTD001.001,PASS,
+"F9 resets Enable USB Mass Storage driver option to default",RTD002.001,PASS,
+"F9 resets Lock the BIOS boot medium option to default",RTD003.001,PASS,
+"F9 resets Enable SMM BIOS write protection to default",RTD004.001,PASS,
+"F9 resets Enable network boot to default",RTD006.001,PASS,
+"F9 resets Intel ME mode to default",RTD007.001,PASS,
+"Check Secure Boot default state (firmware)",SBO001.001,PASS,
+"UEFI Secure Boot (Ubuntu)",SBO002.001,PASS,
+"UEFI Secure Boot (Windows)",SBO002.002,PASS,
+"Attempt to boot file with the correct key from Shell (firmware)",SBO003.001,PASS,
+"Attempt to boot file without the key from Shell (firmware)",SBO004.001,PASS,
+"Attempt to boot file with the wrong-signed key from Shell (firmware)",SBO005.001,PASS,
+"Reset Secure Boot Keys option availability (firmware)",SBO006.001,PASS,
+"Attempt to boot the file after restoring keys to default (firmware)",SBO007.001,PASS,
+"Attempt to enroll the key in the incorrect format (firmware)",SBO008.001,PASS,
+"SD Card reader detection (Ubuntu)",SDC001.201,PASS,"man"
+"SD Card reader detection (Windows)",SDC001.301,PASS,"man"
+"SD Card read/write (Ubuntu)",SDC002.201,PASS,"man"
+"SD Card read/write (Windows)",SDC002.301,PASS,"man"
+"CPU clock speed displayed in setup menu",SET001.001,PASS,
+"RAM speed displayed in setup menu",SET002.001,PASS,
+"RAM size displayed in setup menu",SET003.001,PASS,
+"Expected CPU clock speed displayed in setup menu",SET004.001,PASS,
+"Expected RAM speed displayed in setup menu",SET005.001,PASS,
+"Expected RAM size displayed in setup menu",SET006.001,PASS,
+"SMM BIOS write protection enabling (Ubuntu)",SMM001.001,PASS,
+"SMM BIOS write protection disabling (Ubuntu)",SMM002.001,PASS,
+"Wi-fi connection after cold boot (Ubuntu)",SMW001.001,PASS,
+"Wi-fi connection after warm boot (Ubuntu)",SMW002.201,PASS,
+"Wi-fi connection after reboot (Ubuntu)",SMW003.201,PASS,
+"Wi-fi connection after suspension (Ubuntu)",SMW004.201,PASS,"man"
+"NVMe detection after cold boot (Ubuntu)",SNV0001.001,PASS,
+"NVMe detection after warm boot (Ubuntu)",SNV002.201,PASS,
+"NVMe detection after reboot (Ubuntu)",SNV003.201,PASS,
+"NVMe detection after suspension (Ubuntu)",SNV004.201,PASS,"man"
+"SOL string shows Dasharo firmware and EC version",SOL001.001,PASS,
+"SOL string shows information about proprietary EC",SOL002.001,PASS,
+"2x warmboot cycle (Battery) (Ubuntu)",SPM005.001,PASS,
+"2x warmboot cycle (Battery) (Windows)",SPM005.002,PASS,
+"2x warmboot cycle (AC) (Ubuntu)",SPM006.001,PASS,
+"2x warmboot cycle (AC) (Windows)",SPM006.002,PASS,
+"USB devices detection after cold boot (Ubuntu)",SUD0001.001,PASS,
+"USB devices detection after warm boot (Ubuntu)",SUD002.201,PASS,
+"USB devices detection after reboot (Ubuntu)",SUD003.201,PASS,
+"USB devices detection after suspension (Ubuntu)",SUD004.201,PASS,"man"
+"Platform suspend and resume (Ubuntu, wakeup flag)",SUSP001.201,PASS,
+"Platform suspend and resume (Ubuntu, press key)",SUSP002.201,PASS,
+"Platform suspend and resume (Ubuntu, power button)",SUSP003.201,PASS,
+"Cyclic platform suspend and resume (Ubuntu)",SUSP005.201,PASS,
+"Detect TPM after platform reboot (Ubuntu)",TPD003.201,PASS,"man"
+"Detect TPM after platform suspend (Ubuntu)",TPD004.001,PASS,
+"TPM Support (Ubuntu)",TPM001.201,PASS,
+"TPM Support (Windows)",TPM001.301,PASS,
+"Verify TPM version (firmware)",TPM002.001,PASS,
+"Verify TPM Version (Ubuntu)",TPM002.201,PASS,
+"Verify TPM Version (Windows)",TPM002.301,PASS,"man"
+"Check TPM Physical Presence Interface (firmware)",TPM003.001,PASS,
+"Check TPM Physical Presence Interface (Ubuntu)",TPM003.201,PASS,
+"Check TPM Physical Presence Interface (Windows)",TPM003.301,PASS,
+"PCRREAD Function Verification (Ubuntu)",TPMCMD002.001,PASS,"manual"
+"PCREXTEND And PCRRESET Functions (Ubuntu)",TPMCMD003.001,PASS,"manual"
+"PCREXTEND And PCRRESET Functions - locality protections (Ubuntu)",TPMCMD003.002,PASS,"man"
+"PCREVENT Function (Ubuntu)",TPMCMD004.001,PASS,"man"
+"CREATEPRIMARY Function Verification (Ubuntu)",TPMCMD005.001,PASS,"man"
+"NVDEFINE and NVUNDEFINE Functions Verification (Ubuntu)",TPMCMD006.001,PASS,"man"
+"CREATE Function (Ubuntu)",TPMCMD007.001,PASS,"manual"
+"CREATELOADED Function (Ubuntu)",TPMCMD007.002,PASS,"man"
+"Signing the file (Ubuntu)",TPMCMD008.001,PASS,"man"
+"Hashing the file (Ubuntu)",TPMCMD010.001,PASS,"man"
+"Performing HMAC operation on the file (Ubuntu)",TPMCMD011.001,PASS,"man"
+"USB detect and boot after coldboot",UBT001.001,PASS,
+"USB detect and boot after warmboot",UBT002.001,PASS,
+"USB detect and boot after system reboot",UBT003.001,PASS,
+"USB detection after coldboot",UDT001.001,PASS,
+"USB detection after warmboot",UDT001.002,PASS,
+"USB detection after system reboot",UDT001.003,PASS,
+"Manual Single Threaded CPU Benchmark (Windows) (AC)",UPP001.301,PASS,"man"
+"Manual Multi Threaded CPU Benchmark (Windows) (AC)",UPP002.301,PASS,"man"
+"USB devices detected in FW",USB001.001,PASS,
+"USB devices detected by OS (Ubuntu)",USB001.201,PASS,"man"
+"USB devices detected by OS (Windows)",USB001.301,PASS,"man"
+"USB keyboard detected in FW",USB002.001,PASS,
+"USB keyboard in OS (Ubuntu)",USB002.201,PASS,"man"
+"USB keyboard in OS (Windows)",USB002.301,PASS,
+"USB power and charging option is present",USC001.001,PASS,"man"
+"Power IS delivered through always-on USB A ports",USC002.001,PASS,
+"Power IS delivered through always-on USB C ports",USC003.001,PASS,
+"Power IS NOT delivered through always-on USB A ports",USC004.001,PASS,
+"Power IS NOT delivered through always-on USB C ports",USC005.001,PASS,
+"Power IS NOT delivered through regular USB A ports",USC006.001,PASS,
+"Enable USB stack (firmware)",USS001.001,PASS,
+"Disable USB stack (firmware)",USS002.001,PASS,
+"Enable USB Mass Storage (firmware)",USS003.001,PASS,
+"Disable USB Mass Storage (firmware)",USS004.001,PASS,
+"Verified boot support (Ubuntu)",VBO006.002,PASS,
+"Booting from Slot A (Ubuntu)",VBO007.002,PASS,
+"Booting from Recovery (Ubuntu)",VBO008.001,PASS,
+"Recovery popup is not displayed when correctly signed firmware is flashed in RW_A",VBO011.001,PASS,"man"
+"Self-signed binary is bootable without errors",VBO012.001,PASS,
+"WiFi / BT enable",WBS001.201,PASS,
+"WiFi / BT disable",WBS002.201,PASS,
+"Windows 11 installation and boot",WBT001.001,PASS,
+"Wireless card detection (Windows)",WLE001.301,PASS,"man"
+"Wi-Fi scanning (Ubuntu)",WLE002.201,PASS,
+"Wi-Fi scanning (Windows)",WLE002.301,PASS,
+"Bluetooth scanning (Ubuntu)",WLE003.201,PASS,
