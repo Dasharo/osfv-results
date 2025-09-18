@@ -1,0 +1,142 @@
+Test name,Test ID,Result,Comments
+"Change Auto Boot Time-out and check after reboot",BMM001.001,PASS,
+"F9 resets Auto Boot Time-out to default value",BMM002.001,PASS,
+"Check Auto Boot Time-out option not accept non-numeric values",BMM003.001,PASS,
+"Custom boot menu key",CBK001.001,PASS,
+"Custom BIOS Menu Key",CBK002.001,PASS,
+"Serial boot time measure: coreboot booting time after coldboot (Ubuntu)",CBMEM001.201,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1585"
+"Serial boot time measure: coreboot booting time after warmboot (Ubuntu)",CBMEM002.201,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1585"
+"Serial boot time measure: coreboot booting time after system reboot (Ubuntu)",CBMEM003.201,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1585"
+"Custom Boot Order",CBO001.002,PASS,"manual"
+"Only one iPXE in boot menu",CNB001.201,PASS,
+"CPU not stuck on initial frequency (Ubuntu)",CPF001.201,PASS,
+"CPU runs on expected frequency (Ubuntu)",CPF005.201,PASS,
+"CPU with load runs on expected frequency (Ubuntu)",CPF009.201,PASS,
+"CPU temperature without load (Ubuntu)",CPT001.201,NOT TESTED,
+"CPU temperature after stress test (Ubuntu)",CPT005.201,NOT TESTED,
+"CPU works (Ubuntu)",CPU001.201,PASS,
+"CPU cache enabled (Ubuntu)",CPU002.201,PASS,
+"Multiple CPU support (Ubuntu)",CPU003.201,PASS,
+"Multiple-core support (Ubuntu)",CPU004.201,PASS,
+"Change the UUID",DCU001.201,PASS,
+"Change the serial number",DCU002.201,PASS,
+"Change the bootsplash logo",DCU003.201,FAIL,
+"Verify the serial number",DMI001.201,PASS,
+"Verify the firmware version",DMI002.201,PASS,
+"Verify the firmware product name",DMI003.201,PASS,
+"Verify the firmware release date",DMI004.201,PASS,
+"Verify the firmware manufacturer",DMI005.201,PASS,
+"Verify the firmware vendor",DMI006.201,PASS,
+"Verify the firmware family",DMI007.201,PASS,
+"Verify the firmware type",DMI008.201,PASS,
+"TCG OPAL disk password set and check",DMP001.001,PASS,
+"Booting DTS from USB works correctly",DTS001.001,PASS,
+"DTS option Creating Dasharo HCL report works correctly",DTS002.001,PASS,"manual"
+"DTS option reboot DUT works correctly",DTS003.001,PASS,
+"DTS accessing shell works correctly",DTS004.001,PASS,
+"DTS option power-off DUT works correctly",DTS008.001,PASS,
+"Boot into UEFI OS (Ubuntu)",EFI001.201,PASS,
+"Check the ethernet port names (Ubuntu)",EPN001.201,PASS,
+"ESP Scan with OS-specific .efi files added",ESP001.001,PASS,
+"ESP Scan after deleting additional .efi files",ESP002.001,PASS,"manual https://github.com/Dasharo/open-source-firmware-validation/issues/1111"
+"ESP Scan ignores OSes on removable media",ESP003.001,PASS,
+"ESP Scan does not create duplicate entries",ESP004.001,PASS,
+"ESP Scan detects Dasharo Tools Suite",ESP005.001,PASS,
+"Fast Boot Reduces Boot Time",FBT001.201,PASS,"manual https://github.com/Dasharo/open-source-firmware-validation/issues/1090
+https://github.com/Dasharo/dasharo-issues/issues/1585
+without fb: Total Time: 92,869,648
+with fb: Total Time: 91,646,167"
+"Boot Ubuntu From Hard Disk",LBT004.002,PASS,
+"Measured Boot support (Ubuntu)",MBO001.201,PASS,
+"Check if event log PCRs match actual values (Ubuntu)",MBO002.201,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1608"
+"Changing Secure Boot certificate changes only PCR-7",MBO003.001,PASS,
+"Changing Dasharo network boot settings changes only PCR-1",MBO004.001,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1608"
+"Changing Dasharo security settings changes only PCR-1",MBO004.002,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1608"
+"Changing Dasharo APU settings changes only PCR-1",MBO004.003,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1608"
+"Flashing firmware and reset to defaults results in same measurement",MBO005.001,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1608"
+"Multiple reset to defaults results in identical measurements",MBO005.002,PASS,
+"Identical configuration results in identical measurements",MBO006.001,PASS,
+"Identical configuration after reset results in identical measurements",MBO006.002,PASS,
+"Enable Network Boot (firmware)",NBA001.001,PASS,
+"Disable Network Boot (firmware)",NBA002.001,PASS,
+"NVMe support in firmware",NVM001.001,PASS,
+"NVMe support in OS (Ubuntu)",NVM001.201,PASS,
+"Check Password Setup option availability and default state",PSW001.001,PASS,
+"Password setting mechanism correctness checking",PSW002.001,PASS,
+"Attempt to log in with a correct password",PSW003.001,PASS,
+"Attempt to log in with an incorrect password",PSW004.001,PASS,
+"Attempt to log in with an incorrect password 3 times",PSW005.001,PASS,
+"Attempt to turn off setup password functionality",PSW006.001,PASS,
+"Attempt to set non-compliant password",PSW007.001,PASS,
+"Attempt to set old password",PSW008.001,PASS,
+"Dasharo Network Boot is available",PXE001.001,PASS,
+"Dasharo network boot menu boot options order is correct",PXE002.001,PASS,
+"Autoboot option is available and works correctly",PXE003.001,PASS,
+"DTS option is available and works correctly",PXE004.001,PASS,
+"OS installation option is available and works correctly",PXE005.001,PASS,
+"iPXE shell option is available and works correctly",PXE006.001,PASS,
+"Check if Resizeable BARs option is present",RBE001.001,PASS,
+"F9 resets Enable USB stack option to default",RTD001.001,PASS,
+"F9 resets Enable USB Mass Storage driver option to default",RTD002.001,PASS,
+"F9 resets Enable SMM BIOS write protection to default",RTD004.001,PASS,
+"F9 resets Enable network boot to default",RTD006.001,PASS,"manual"
+"Check Secure Boot default state (firmware)",SBO001.001,PASS,
+"UEFI Secure Boot (Ubuntu)",SBO002.001,PASS,
+"Attempt to boot file with the correct key from Shell (firmware)",SBO003.001,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1610"
+"Attempt to boot file without the key from Shell (firmware)",SBO004.001,PASS,
+"Attempt to boot file with the wrong-signed key from Shell (firmware)",SBO005.001,PASS,
+"Reset Secure Boot Keys option availability (firmware)",SBO006.001,PASS,
+"Attempt to boot the file after restoring keys to default (firmware)",SBO007.001,PASS,
+"Attempt to enroll the key in the incorrect format (firmware)",SBO008.001,PASS,
+"CPU clock speed displayed in setup menu",SET001.001,PASS,
+"RAM speed displayed in setup menu",SET002.001,PASS,
+"RAM size displayed in setup menu",SET003.001,PASS,
+"Expected CPU clock speed displayed in setup menu",SET004.001,PASS,
+"Expected RAM speed displayed in setup menu",SET005.001,PASS,
+"Expected RAM size displayed in setup menu",SET006.001,PASS,
+"SMM BIOS write protection enabling (Ubuntu)",SMM001.001,PASS,
+"SMM BIOS write protection disabling (Ubuntu)",SMM002.001,PASS,
+"NVMe detection after cold boot (Ubuntu)",SNV0001.001,PASS,
+"NVMe detection after reboot (Ubuntu)",SNV003.201,PASS,
+"Check that all options in OptionROMs are available",SOR001.001,PASS,
+"Verify if no reboot occurs in the firmware",STB001.001,PASS,
+"Verify if no reboot occurs in the OS (Ubuntu)",STB001.201,PASS,
+"Verify if no unexpected boot errors appear in Linux logs (Ubuntu)",STB002.201,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1013"
+"USB devices detection after cold boot (Ubuntu)",SUD0001.001,PASS,
+"USB devices detection after warm boot (Ubuntu)",SUD002.201,PASS,
+"USB devices detection after reboot (Ubuntu)",SUD003.201,PASS,
+"Detect TPM after platform reboot (Ubuntu)",TPD003.201,PASS,
+"TPM Support (Ubuntu)",TPM001.201,PASS,
+"Verify TPM version (firmware)",TPM002.001,PASS,
+"Verify TPM Version (Ubuntu)",TPM002.201,PASS,
+"Check TPM Physical Presence Interface (firmware)",TPM003.001,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1602"
+"Change active PCR banks with TPM PPI (firmware)",TPM003.101,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1602"
+"Check TPM Physical Presence Interface (Ubuntu)",TPM003.201,PASS,
+"Check if the ChangeEPS works (Ubuntu)",TPM004.201,PASS,
+"TPM PPI Prompt (Ubuntu)",TPM013.201,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1602"
+"Check if both SHA1 and SHA256 PCRs are enabled (Ubuntu)",TPMCMD001.001,PASS,
+"PCRREAD Function Verification (Ubuntu)",TPMCMD002.001,PASS,
+"PCREXTEND And PCRRESET Functions (Ubuntu)",TPMCMD003.001,PASS,
+"PCREXTEND And PCRRESET Functions - locality protections (Ubuntu)",TPMCMD003.002,PASS,
+"PCREVENT Function (Ubuntu)",TPMCMD004.001,PASS,
+"CREATEPRIMARY Function Verification (Ubuntu)",TPMCMD005.001,PASS,
+"NVDEFINE and NVUNDEFINE Functions Verification (Ubuntu)",TPMCMD006.001,PASS,
+"CREATE Function (Ubuntu)",TPMCMD007.001,PASS,
+"CREATELOADED Function (Ubuntu)",TPMCMD007.002,PASS,
+"Signing the file (Ubuntu)",TPMCMD008.001,PASS,
+"Hashing the file (Ubuntu)",TPMCMD010.001,PASS,
+"Performing HMAC operation on the file (Ubuntu)",TPMCMD011.001,PASS,
+"USB detect and boot after coldboot",UBT001.001,PASS,"manual"
+"USB detect and boot after warmboot",UBT002.001,PASS,"manual"
+"USB detect and boot after system reboot",UBT003.001,PASS,"manual"
+"USB detection after coldboot",UDT001.001,PASS,
+"USB detection after warmboot",UDT001.002,PASS,
+"USB detection after system reboot",UDT001.003,PASS,
+"USB devices detected in FW",USB001.001,PASS,
+"USB devices detected by OS (Ubuntu)",USB001.201,PASS,
+"USB keyboard detected in FW",USB002.001,PASS,
+"USB keyboard in OS (Ubuntu)",USB002.201,PASS,
+"Enable USB stack (firmware)",USS001.001,PASS,
+"Disable USB stack (firmware)",USS002.001,PASS,"manual"
+"Enable USB Mass Storage (firmware)",USS003.001,PASS,"manual"
+"Disable USB Mass Storage (firmware)",USS004.001,PASS,"manual"
