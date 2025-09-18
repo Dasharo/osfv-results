@@ -9,6 +9,7 @@ SPDX-License-Identifier: CC-BY-SA-4.0
 This repository contains test results for Dasharo firmware for the following
 mainboards:
 
+- [ASRock SPC741D8-2L2T/BCM](./boards/ASRock/SPC741D8-2L2T-BCM/)
 - [MSI Z690-A PRO](./boards/msi/ms7d25) -- project [Alder Lake Desktop](https://nlnet.nl/project/AlderLake/)
 - [MSI Z790-P PRO](./boards/msi/ms7e06) -- project [Raptor Lake Desktop](https://nlnet.nl/project/RaptorLake/)
 - [NovaCustom NV41PZ](./boards/NovaCustom/ADL_12th_Gen/NV41PZ/)
