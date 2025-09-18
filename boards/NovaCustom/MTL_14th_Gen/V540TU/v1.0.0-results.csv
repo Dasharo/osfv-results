@@ -13,8 +13,8 @@ Test name,Test ID,Result,Comments
 "External headset audio playback (Windows)",AUD005.301,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1583"
 "External headset audio capture (Ubuntu)",AUD006.201,PASS,
 "External headset audio capture (Windows)",AUD006.301,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1583"
-"Audio subsystem detection (Qubes OS)",AUD001.003,PASS,
-"Audio subsystem detection (Fedora)",AUD001.202,PASS,
+"Audio subsystem detection (Qubes OS)",AUD001.003,PASS, 
+"Audio subsystem detection (Fedora)",AUD001.202,PASS, 
 "Audio playback (Qubes OS)",AUD002.003,PASS,
 "Audio capture (Qubes OS)",AUD003.003,PASS,
 "External headset recognition (Qubes OS)",AUD004.003,PASS,
@@ -462,10 +462,10 @@ https://github.com/Dasharo/dasharo-issues/issues/997"
 "USB keyboard in OS (Windows)",USB002.301,PASS,
 "USB devices detected by OS (Fedora)",USB001.202,PASS,
 "USB devices detected by OS (Qubes OS)",USB001.203,PASS,
-"USB keyboard in OS (Fedora)",USB002.202,PASS,
+"USB keyboard in OS (Fedora)",USB002.202,PASS, 
 "USB keyboard in OS (Qubes OS)",USB002.203,PASS,
 "Upload 1GB file on USB storage (Fedora)",USB003.202,PASS,
-""USB power and charging" option is present",USC001.001,PASS,
+"USB power and charging option is present",USC001.001,PASS,
 "Power IS delivered through always-on USB A ports",USC002.001,PASS,
 "Power IS delivered through always-on USB C ports",USC003.001,PASS,
 "Power IS NOT delivered through always-on USB A ports",USC004.001,PASS,
