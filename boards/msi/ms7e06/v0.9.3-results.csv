@@ -1,0 +1,13 @@
+Test name,Test ID,Result,Comments
+"F9 resets Auto Boot Time-out to default value",BMM002.001,PASS,
+"Verify the firmware version",DMI002.201,PASS,
+"Verify the firmware product name",DMI003.201,PASS,
+"DTS option is available and works correctly",PXE004.001,PASS,
+"Verify if no unexpected boot errors appear in Linux logs (Ubuntu)",STB002.201,PASS,
+"Verify if no unexpected boot errors appear in Linux logs (Fedora)",STB002.202,NOT TESTED,
+"Verify TPM Version (Ubuntu)",TPM002.201,PASS,
+"Verify TPM Version (Fedora)",TPM002.202,NOT TESTED,
+"Verify TPM version (XCP-NG)",TPM002.205,NOT TESTED,
+"USB keyboard detected in FW",USB002.001,PASS,
+"Wi-Fi scanning (Ubuntu)",WLE002.201,PASS,
+"Wi-Fi scanning (Fedora)",WLE002.202,NOT TESTED,
