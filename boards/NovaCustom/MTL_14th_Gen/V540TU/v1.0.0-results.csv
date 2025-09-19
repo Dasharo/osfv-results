@@ -255,6 +255,7 @@ Test name,Test ID,Result,Comments
 "Boot Fedora",FED001.002,PASS,
 "Fwupd Devices Detected (Ubuntu)",FWUPD001.201,PASS,
 "Fwupd Local Firmware Update (Ubuntu)",FWUPD002.201,PASS,
+"Fwupd LVFS Firmware Update (Ubuntu)",FWUPD003.201,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1113"
 "Fwupd Devices Detected (Fedora)",FWUPD001.202,PASS,
 "Fwupd Devices Detected (QubesOS)",FWUPD001.203,PASS,
 "Fwupd Local Firmware Update (Fedora)",FWUPD002.202,PASS,

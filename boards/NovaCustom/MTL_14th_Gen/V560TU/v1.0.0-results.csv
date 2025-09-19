@@ -451,7 +451,7 @@ Test name,Test ID,Result,Comments
 "Fast Boot Reduces Boot Time",FBT001.201,PASS,
 "Fwupd Devices Detected (Ubuntu)",FWUPD001.201,PASS,
 "Fwupd Local Firmware Update (Ubuntu)",FWUPD002.201,PASS,
-"Fwupd LVFS Firmware Update (Ubuntu)",FWUPD003.201,NOT TESTED,
+"Fwupd LVFS Firmware Update (Ubuntu)",FWUPD003.201,PASS,"https://github.com/Dasharo/open-source-firmware-validation/issues/1113"
 "Platform hibernation and resume (Ubuntu)",HBN001.001,PASS,
 "Platform hibernation and resume (Windows)",HBN001.002,PASS,"maybe needs post install steps"
 "Memory HCL - boot into OS (Ubuntu)",HCL001.001,PASS,
