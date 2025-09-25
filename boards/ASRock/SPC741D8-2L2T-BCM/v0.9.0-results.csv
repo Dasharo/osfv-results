@@ -20,7 +20,7 @@ Test name,Test ID,Result,Comments
 "Multiple-core support (Ubuntu)",CPU004.201,PASS,
 "Change the UUID",DCU001.201,PASS,
 "Change the serial number",DCU002.201,PASS,
-"Change the bootsplash logo",DCU003.201,FAIL,
+"Change the bootsplash logo",DCU003.201,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1629"
 "Verify the serial number",DMI001.201,PASS,
 "Verify the firmware version",DMI002.201,PASS,
 "Verify the firmware product name",DMI003.201,PASS,
