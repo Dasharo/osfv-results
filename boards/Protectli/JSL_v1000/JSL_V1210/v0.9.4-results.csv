@@ -15,6 +15,3 @@ Test name,Test ID,Result,Comments
 "Boot operating system from disk after warm-boot (pfSense)",PFS004.502,PASS,"serial: 01:06, vga: 01:10"
 "Boot operating system from disk after reboot (pfSense)",PFS005.502,PASS,"serial: 01:14, vga: 01:16"
 "Boot operating system installer into rescue shell (pfSense)",PFS007.502,PASS,
-"Platform suspend and resume (Ubuntu, wakeup flag)",SUSP001.201,NOT TESTED,
-"Platform suspend and resume (Ubuntu, press key)",SUSP002.201,NOT TESTED,
-"Platform suspend and resume (Ubuntu, power button)",SUSP003.201,NOT TESTED,
