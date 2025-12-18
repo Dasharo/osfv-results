@@ -1,0 +1,17 @@
+Test name,Test ID,Result,Comments
+"Install operating system on disk (OPNsense)",OPN001.503,PASS,"serial: 6:21 - 6:46, vga: 5:11"
+"OPNsense stable (VGA output) installation on Hard Disk",OPN002.001,PASS,"serial: 6:21 - 6:46, vga: 5:11"
+"Boot OPNsense stable (VGA output) from Hard Disk",OPN002.002,PASS,
+"Boot operating system from disk (OPNsense)",OPN002.503,PASS,
+"Boot operating system from disk after cold-boot (OPNsense)",OPN003.503,PASS,"vga: 00:55, serial: 01:00"
+"Boot operating system from disk after warm-boot (OPNsense)",OPN004.503,PASS,"vga: 00:53, serial: 01:02"
+"Boot operating system from disk after reboot (OPNsense)",OPN005.503,PASS,"vga: 01:10, serial: 01:18"
+"Install operating system on disk (pfSense)",PFS001.502,PASS,"serial: 08:55, vga: 07:36"
+"pfSense stable (VGA output) installation on Hard Disk",PFS002.001,PASS,"serial: 08:55, vga: 07:36"
+"Boot pfSense stable (VGA output) from Hard Disk",PFS002.002,PASS,
+"Boot operating system from disk (pfSense)",PFS002.502,PASS,
+"Boot operating system from disk after cold-boot (pfSense)",PFS003.502,PASS,"serial: 01:04, vga: 01:07
+"
+"Boot operating system from disk after warm-boot (pfSense)",PFS004.502,PASS,"serial: 01:06, vga: 01:10"
+"Boot operating system from disk after reboot (pfSense)",PFS005.502,PASS,"serial: 01:14, vga: 01:16"
+"Boot operating system installer into rescue shell (pfSense)",PFS007.502,PASS,
