@@ -1,0 +1,14 @@
+---
+default_stages: [pre-commit]
+
+default_install_hook_types: [pre-commit, commit-msg]
+
+repos:
+  - repo: local
+    hooks:
+      - id: only-issues-in-comments
+        name: Only dasharo/dasharo-issues URLs allowed in Comments column
+        entry: 'https?://(?!github\.com/)[^/]+/(?!dasharo/dasharo-issues/)'
+        args: [--ignore-case]
+        language: pygrep
+        files: \.csv$
