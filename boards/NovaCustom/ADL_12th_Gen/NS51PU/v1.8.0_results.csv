@@ -321,7 +321,7 @@ Test name,Test ID,Result,Comments
 "USB keyboard detected in FW",USB002.001,PASS,
 "USB keyboard in OS (Ubuntu)",USB002.201,PASS,
 "USB keyboard in OS (Windows)",USB002.301,PASS,
-""USB power and charging" option is present",USC001.001,PASS,
+"USB power and charging option is present",USC001.001,PASS,
 "Power IS delivered through always-on USB A ports",USC002.001,PASS,
 "Power IS delivered through always-on USB C ports",USC003.001,PASS,
 "Power IS NOT delivered through always-on USB A ports",USC004.001,PASS,
