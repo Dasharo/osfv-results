@@ -6,7 +6,7 @@
 "Deploy UEFI Shell","BPS010.001","PASS",""
 "Verify the firmware version","DMI002.201","PASS","Manual retest"
 "Verify the firmware product name","DMI003.201","PASS",""
-"Verify if no unexpected boot errors appear in Linux logs","STB002.201","FAIL","HARMLESS, https://github.com/Dasharo/dasharo-issues/issues/1531"
+"Verify if no unexpected boot errors appear in Linux logs","STB002.201","PASS","Manual retest"
 "Detect TPM after platform reboot (Ubuntu)","TPD003.201","PASS",""
 "Detect TPM after platform suspend (Ubuntu)","TPD004.201","PASS",""
 "TPM Support (firmware)","TPM001.001","PASS",""
