@@ -1,0 +1,59 @@
+Test name,Test ID,Result,Comments
+"Serial boot time measure: coreboot booting time after coldboot (Ubuntu)",CBMEM001.201,PASS,
+"Serial boot time measure: coreboot booting time after warmboot (Ubuntu)",CBMEM002.201,PASS,
+"Serial boot time measure: coreboot booting time after system reboot (Ubuntu)",CBMEM003.201,PASS,
+"CPU not stuck on initial frequency (Ubuntu)",CPF001.201,PASS,"Manual retest"
+"CPU runs on expected frequency (Ubuntu)",CPF005.201,PASS,"Manual retest"
+"CPU with load runs on expected frequency (Ubuntu)",CPF009.201,PASS,"Manual retest"
+"CPU temperature without load (Ubuntu)",CPT001.201,PASS,"Manual retest"
+"CPU temperature after stress test (Ubuntu)",CPT005.201,PASS,"Manual retest"
+"CPU works (Ubuntu)",CPU001.201,PASS,
+"CPU cache enabled (Ubuntu)",CPU002.201,PASS,
+"Multiple CPU support (Ubuntu)",CPU003.201,PASS,
+"Multiple-core support (Ubuntu)",CPU004.201,PASS,
+"Verify the serial number (Ubuntu)",DMI001.201,PASS,
+"Verify the firmware version (Ubuntu)",DMI002.201,PASS,
+"Verify the firmware product name (Ubuntu)",DMI003.201,PASS,
+"Verify the firmware release date (Ubuntu)",DMI004.201,PASS,
+"Verify the firmware manufacturer (Ubuntu)",DMI005.201,PASS,
+"Verify the firmware vendor (Ubuntu)",DMI006.201,PASS,
+"Verify the firmware family (Ubuntu)",DMI007.201,PASS,
+"Verify the firmware type (Ubuntu)",DMI008.201,PASS,
+"Measured Boot support (Ubuntu)",MBO001.201,NOT TESTED,"TPM not installed"
+"Check if event log PCRs match actual values (Ubuntu)",MBO002.201,NOT TESTED,"TPM not installed"
+"NVMe support in OS (Ubuntu)",NVM001.201,PASS,
+"NVMe detection after cold boot (Ubuntu)",SNV001.201,PASS,
+"NVMe detection after warm boot (Ubuntu)",SNV002.201,PASS,
+"NVMe detection after reboot (Ubuntu)",SNV003.201,PASS,
+"Verify if no unexpected boot errors appear in Linux logs (Ubuntu)",STB002.201,FAIL,"https://github.com/Dasharo/dasharo-issues/issues/1845"
+"USB devices detection after cold boot (Ubuntu)",SUD001.201,PASS,
+"USB devices detection after warm boot (Ubuntu)",SUD002.201,PASS,
+"USB devices detection after reboot (Ubuntu)",SUD003.201,PASS,
+"Detect TPM after platform reboot (Ubuntu)",TPD003.201,NOT TESTED,"No TPM installed"
+"TPM Support (Ubuntu)",TPM001.201,NOT TESTED,"No TPM installed"
+"Verify TPM Version (Ubuntu)",TPM002.201,NOT TESTED,"No TPM installed"
+"Check TPM Physical Presence Interface (Ubuntu)",TPM003.201,NOT TESTED,"No TPM installed"
+"Encrypt and Decrypt non-rootfs partition (Ubuntu)",TPM009.201,NOT TESTED,"No TPM installed"
+"Encrypt and Decrypt rootfs partition (Ubuntu)",TPM010.201,NOT TESTED,"No TPM installed"
+"Check if the ChangeEPS works (Ubuntu)",TPM012.201,NOT TESTED,"No TPM installed"
+"TPM PPI Prompt (Ubuntu)",TPM013.201,NOT TESTED,"No TPM installed"
+"Check if both SHA1 and SHA256 PCRs are enabled (Ubuntu)",TPMCMD001.201,NOT TESTED,"No TPM installed"
+"PCRREAD Function Verification (Ubuntu)",TPMCMD002.201,NOT TESTED,"No TPM installed"
+"PCREXTEND And PCRRESET Functions (Ubuntu)",TPMCMD003.201,NOT TESTED,"No TPM installed"
+"PCREXTEND And PCRRESET Functions - locality protections (Ubuntu)",TPMCMD004.201,NOT TESTED,"No TPM installed"
+"PCREVENT Function (Ubuntu)",TPMCMD005.201,NOT TESTED,"No TPM installed"
+"CREATEPRIMARY Function Verification (Ubuntu)",TPMCMD006.201,NOT TESTED,"No TPM installed"
+"NVDEFINE and NVUNDEFINE Functions Verification (Ubuntu)",TPMCMD007.201,NOT TESTED,"No TPM installed"
+"CREATE Function (Ubuntu)",TPMCMD008.201,NOT TESTED,"No TPM installed"
+"CREATELOADED Function (Ubuntu)",TPMCMD009.201,NOT TESTED,"No TPM installed"
+"Signing the file (Ubuntu)",TPMCMD010.201,NOT TESTED,"No TPM installed"
+"Encryption and Decryption of the file (Ubuntu)",TPMCMD011.201,NOT TESTED,"No TPM installed"
+"Hashing the file (Ubuntu)",TPMCMD012.201,NOT TESTED,"No TPM installed"
+"Performing HMAC operation on the file (Ubuntu)",TPMCMD013.201,NOT TESTED,"No TPM installed"
+"Sealing and Unsealing the file without Policy (Ubuntu)",TPMCMD014.201,NOT TESTED,"No TPM installed"
+"Sealing and Unsealing with Policy - Password Only (Ubuntu)",TPMCMD015.201,NOT TESTED,"No TPM installed"
+"Sealing and Unsealing with Policy - PCR Only (Ubuntu)",TPMCMD016.201,NOT TESTED,"No TPM installed"
+"Sealing and unsealing with Policy - Password and PCR (Ubuntu)",TPMCMD017.201,NOT TESTED,"No TPM installed"
+"USB devices detected by OS (Ubuntu)",USB001.201,PASS,
+"USB keyboard in OS (Ubuntu)",USB002.201,PASS,
+"Upload 1GB file on USB storage (Ubuntu)",USB003.201,PASS,
