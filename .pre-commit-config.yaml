@@ -12,3 +12,8 @@ repos:
         args: [--ignore-case]
         language: pygrep
         files: \.csv$
+      - id: missing-name-not-allowed
+        name: "'missing name' not allowed as a test name"
+        entry: '### missing'
+        language: pygrep
+        files: \.csv$
