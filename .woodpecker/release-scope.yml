@@ -17,7 +17,7 @@ steps:
     image: woodpeckerci/plugin-git
     settings:
       remote: https://git.3mdeb.com/dasharo/osfv-dashboard.git
-      ref: release-scope-ci  # TODO: switch back to main after testing
+      ref: main
       path: .osfv-dashboard
       depth: 1
 
