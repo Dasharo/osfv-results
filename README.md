@@ -63,8 +63,18 @@ its scope if a release with the same platform, version and DUT already exists.
 Commits that only change results do not touch the dashboard.
 
 Platform and DUT names in the dashboard are taken verbatim from the directory
-names, so renaming a directory creates a new release rather than renaming the
-existing one.
+names, unless a `dashboard.json` next to the CSV provides them:
+
+```json
+{
+  "platform": "VP32xx",
+  "dut": "VP3230 Protectli #2"
+}
+```
+
+Renaming a directory or changing these strings creates a new release rather
+than renaming the existing one. `scripts/export_release_scope.py` in
+osfv-dashboard writes the CSV and the sidecar for an existing release.
 
 The `archive` section contains archival test results retrieved from previous
 iterations of the test sheets and is preserved here for historical purposes.
