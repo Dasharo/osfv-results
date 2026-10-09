@@ -2,5 +2,4 @@ Test name,Test ID,Automation,Result,Comments
 Change Auto Boot Time-out and check after reboot (EDK2 UEFI),BMM001.101,automated,NOT TESTED,
 F9 resets Auto Boot Time-out to default value (EDK2 UEFI),BMM002.101,automated,NOT TESTED,
 Check Auto Boot Time-out option not accept non-numeric values (EDK2 UEFI),BMM003.101,automated,NOT TESTED,
-Custom boot menu key (EDK2 UEFI),CBK001.101,automated,NOT TESTED,
-Custom BIOS Menu Key (EDK2 UEFI),CBK002.101,automated,NOT TESTED,
+Custom boot menu key (EDK2 UEFI),CBK001.101,manual,NOT TESTED,
