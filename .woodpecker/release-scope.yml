@@ -1,0 +1,45 @@
+---
+# Creates or updates release scopes in the OSFV dashboard DB from the CSV
+# files in boards/. Pull requests only validate and print the scope diff;
+# pushes to main write to the DB. The logic lives in osfv-dashboard, this
+# pipeline only runs it on the files changed by the commit or PR.
+when:
+  - event: [push, pull_request]
+    branch: [main]
+    path: "boards/**/*_results.csv"
+
+labels:
+  # the DB is reachable only from the office network
+  network: office
+
+steps:
+  fetch-dashboard:
+    image: woodpeckerci/plugin-git
+    settings:
+      remote: https://git.3mdeb.com/dasharo/osfv-dashboard.git
+      ref: main
+      path: .osfv-dashboard
+      depth: 1
+
+  validate:
+    image: python:3.12
+    when:
+      - event: pull_request
+    commands:
+      - pip install --quiet requests
+      - python3 .osfv-dashboard/scripts/sync_release_scope.py
+        --files-json "$CI_PIPELINE_FILES"
+
+  sync:
+    image: python:3.12
+    when:
+      - event: push
+    environment:
+      DB_USER:
+        from_secret: osfv_db_release_user
+      DB_PASSWORD:
+        from_secret: osfv_db_release_password
+    commands:
+      - pip install --quiet requests
+      - python3 .osfv-dashboard/scripts/sync_release_scope.py --write
+        --files-json "$CI_PIPELINE_FILES"

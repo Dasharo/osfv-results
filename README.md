@@ -28,7 +28,43 @@ The `boards` directory contains the current test results retrieved from the
 sheet.
 
 Tests which were not performed (such as `NOT TESTED`, `SKIP`, `BLANK`) are
-not included in the repository.
+not included in older files. Files in the layout described below list the
+whole test scope of a release, so `NOT TESTED` rows are expected there.
+
+## Release scope files
+
+Files placed as
+
+```text
+boards/<vendor>/<platform>/<dut>/<version>_results.csv
+```
+
+are also the source of release scopes for the
+[OSFV dashboard](https://git.3mdeb.com/dasharo/osfv-dashboard). Columns:
+
+```text
+Test name,Test ID,Automation,Result,Comments
+```
+
+- `Test ID` must exist in the dashboard test case database (it is populated
+  from `test_cases.json` in OSFV).
+- `Automation` is one of `automated`, `semi-automated`, `manual`. It records
+  how the test is executed in the test plan. A manual result has the same
+  standing as an automated one; do not add "manual" remarks to `Comments`.
+- `Result` and `Comments` are ignored when creating the scope and come back
+  from the dashboard once testing is done.
+
+A new release starts as a pull request adding the file with every `Result` set
+to `NOT TESTED`. The easiest way to get one is to export the previous release
+from the dashboard viewer, rename it and edit the rows. CI validates the file
+and prints the tests added and dropped against the previous release of the
+same DUT. After the merge CI creates the release in the dashboard, or updates
+its scope if a release with the same platform, version and DUT already exists.
+Commits that only change results do not touch the dashboard.
+
+Platform and DUT names in the dashboard are taken verbatim from the directory
+names, so renaming a directory creates a new release rather than renaming the
+existing one.
 
 The `archive` section contains archival test results retrieved from previous
 iterations of the test sheets and is preserved here for historical purposes.
