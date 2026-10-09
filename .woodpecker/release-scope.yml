@@ -5,8 +5,7 @@
 # pipeline only runs it on the files changed by the commit or PR.
 when:
   - event: [push, pull_request]
-    # TODO: drop release-scope-ci after testing the write path
-    branch: [main, release-scope-ci]
+    branch: [main]
     path: "boards/**/*_results.csv"
 
 labels:
