@@ -18,7 +18,6 @@ CPU works (Ubuntu),CPU001.201,automated,PASS,
 CPU cache enabled (Ubuntu),CPU002.201,automated,PASS,
 Multiple CPU support (Ubuntu),CPU003.201,automated,PASS,
 Multiple-core support (Ubuntu),CPU004.201,automated,PASS,
-Verifying UUID (Ubuntu),CUP170.201,automated,NOT TESTED, capsule updates not supported
 Change the UUID (Ubuntu),DCU001.201,automated,PASS,
 Change the serial number (Ubuntu),DCU002.201,automated,PASS,
 Change the bootsplash logo (Ubuntu),DCU003.201,automated,PASS,
